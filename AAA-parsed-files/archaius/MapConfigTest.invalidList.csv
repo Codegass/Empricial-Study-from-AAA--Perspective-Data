@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,invalidList,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<ParseException>, Executable)",2
+MapConfigTest,invalidList,"com.netflix.archaius.config.AbstractConfig.getList(String, Class<Integer>)",1

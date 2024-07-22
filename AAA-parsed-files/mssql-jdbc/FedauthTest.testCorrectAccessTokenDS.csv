@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FedauthTest,testCorrectAccessTokenDS,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+FedauthTest,testCorrectAccessTokenDS,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setServerName(String),0
+FedauthTest,testCorrectAccessTokenDS,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setDatabaseName(String),0
+FedauthTest,testCorrectAccessTokenDS,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setAccessToken(String),0
+FedauthTest,testCorrectAccessTokenDS,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+FedauthTest,testCorrectAccessTokenDS,THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testCorrectAccessTokenDS,ASSERT org.junit.Assert.fail(String),2

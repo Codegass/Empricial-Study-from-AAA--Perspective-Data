@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigurationBridgeTest,verifyValueInterpollation,THIRD GET com.netflix.config.ConfigurationManager.getConfigInstance(),0
+AbstractConfigurationBridgeTest,verifyValueInterpollation,"THIRD SET org.apache.commons.configuration.AbstractConfiguration.setProperty(String, Object)",0
+AbstractConfigurationBridgeTest,verifyValueInterpollation,THIRD org.apache.commons.configuration.AbstractConfiguration.getBoolean(String),1
+AbstractConfigurationBridgeTest,verifyValueInterpollation,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

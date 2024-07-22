@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testRedirectedError,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLServerConnectionTest,testRedirectedError,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLServerConnectionTest,testRedirectedError,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLServerConnectionTest,testRedirectedError,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SQLServerConnectionTest,testRedirectedError,com.microsoft.sqlserver.jdbc.SQLServerConnection.getServerNameString(String),1
+SQLServerConnectionTest,testRedirectedError,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+SQLServerConnectionTest,testRedirectedError,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+SQLServerConnectionTest,testRedirectedError,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerConnectionTest,testRedirectedError,     THIRD java.util.ResourceBundle.getBundle(String),2
+SQLServerConnectionTest,testRedirectedError,     THIRD java.util.ResourceBundle.getString(String),2
+SQLServerConnectionTest,testRedirectedError,THIRD GET java.lang.Throwable.getMessage(),2

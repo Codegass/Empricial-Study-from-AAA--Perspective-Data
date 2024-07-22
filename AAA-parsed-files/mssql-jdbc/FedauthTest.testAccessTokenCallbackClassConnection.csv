@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FedauthTest,testAccessTokenCallbackClassConnection,THIRD GET java.lang.Class<com.microsoft.sqlserver.jdbc.fedauth.PooledConnectionTest.AccessTokenCallbackClass>.getName(),0
+FedauthTest,testAccessTokenCallbackClassConnection,"TEST com.microsoft.sqlserver.jdbc.TestUtils.addOrOverrideProperty(String, String, String)",1
+FedauthTest,testAccessTokenCallbackClassConnection,THIRD java.sql.DriverManager.getConnection(String),1

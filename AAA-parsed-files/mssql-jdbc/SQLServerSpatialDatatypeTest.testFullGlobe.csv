@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerSpatialDatatypeTest,testFullGlobe,TEST com.microsoft.sqlserver.jdbc.datatypes.SQLServerSpatialDatatypeTest.hexStringToByteArray(String),0
+SQLServerSpatialDatatypeTest,testFullGlobe,     THIRD java.lang.String.length(),0
+SQLServerSpatialDatatypeTest,testFullGlobe,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testFullGlobe,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testFullGlobe,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testFullGlobe,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testFullGlobe,TEST com.microsoft.sqlserver.jdbc.datatypes.SQLServerSpatialDatatypeTest.hexStringToByteArray(String),0
+SQLServerSpatialDatatypeTest,testFullGlobe,     THIRD java.lang.String.length(),0
+SQLServerSpatialDatatypeTest,testFullGlobe,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testFullGlobe,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testFullGlobe,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testFullGlobe,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testFullGlobe,com.microsoft.sqlserver.jdbc.Geography.deserialize(byte[]),1
+SQLServerSpatialDatatypeTest,testFullGlobe,com.microsoft.sqlserver.jdbc.Geography.asTextZM(),2
+SQLServerSpatialDatatypeTest,testFullGlobe,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SQLServerSpatialDatatypeTest,testFullGlobe,com.microsoft.sqlserver.jdbc.Geography.STAsBinary(),2
+SQLServerSpatialDatatypeTest,testFullGlobe,"ASSERT org.junit.Assert.assertArrayEquals(byte[], byte[])",2

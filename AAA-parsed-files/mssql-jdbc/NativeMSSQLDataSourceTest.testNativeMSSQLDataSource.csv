@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NativeMSSQLDataSourceTest,testNativeMSSQLDataSource,NEW com.microsoft.sqlserver.jdbc.SQLServerXADataSource(),0
+NativeMSSQLDataSourceTest,testNativeMSSQLDataSource,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setLastUpdateCount(boolean),1
+NativeMSSQLDataSourceTest,testNativeMSSQLDataSource,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getLastUpdateCount(),2
+NativeMSSQLDataSourceTest,testNativeMSSQLDataSource,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ClientCertificateAuthenticationTest,pfxTest,THIRD java.sql.DriverManager.getConnection(String),1
+ClientCertificateAuthenticationTest,pfxTest,THIRD java.sql.Connection.isValid(int),2
+ClientCertificateAuthenticationTest,pfxTest,ASSERT org.junit.Assert.assertTrue(boolean),2

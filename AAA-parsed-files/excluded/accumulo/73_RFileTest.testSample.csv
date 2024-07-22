@@ -1,0 +1,128 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RFileTest,testSample,org.apache.accumulo.core.file.rfile.RFile.setSampleBufferSize(int),0
+RFileTest,testSample,"NEW org.apache.accumulo.core.conf.ConfigurationCopy(Iterable<Entry<String,String>>)",0
+RFileTest,testSample,org.apache.accumulo.core.conf.DefaultConfiguration.getInstance(),0
+RFileTest,testSample,"org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+RFileTest,testSample,"org.apache.accumulo.core.conf.ConfigurationCopy.set(String, String)",0
+RFileTest,testSample,"org.apache.accumulo.core.conf.ConfigurationCopy.set(String, String)",0
+RFileTest,testSample,org.apache.accumulo.core.sample.impl.SamplerConfigurationImpl.newSamplerConfig(AccumuloConfiguration),0
+RFileTest,testSample,"org.apache.accumulo.core.sample.impl.SamplerFactory.newSampler(SamplerConfigurationImpl, AccumuloConfiguration)",0
+RFileTest,testSample,NEW org.apache.accumulo.core.file.rfile.RFileTest.TestRFile(AccumuloConfiguration),0
+RFileTest,testSample,               NEW org.apache.hadoop.fs.FileSystem.Statistics(String),0
+RFileTest,testSample,"               NEW org.apache.hadoop.fs.FSDataOutputStream(OutputStream, Statistics)",0
+RFileTest,testSample,"               org.apache.accumulo.core.crypto.CryptoServiceFactory.newInstance(AccumuloConfiguration, ClassloaderType)",0
+RFileTest,testSample,"               NEW org.apache.accumulo.core.file.rfile.bcfile.BCFile.Writer(FSDataOutputStream, RateLimiter, String, Configuration, CryptoService)",0
+RFileTest,testSample,               org.apache.accumulo.core.sample.impl.SamplerConfigurationImpl.newSamplerConfig(AccumuloConfiguration),0
+RFileTest,testSample,"               org.apache.accumulo.core.sample.impl.SamplerFactory.newSampler(SamplerConfigurationImpl, AccumuloConfiguration)",0
+RFileTest,testSample,"               NEW org.apache.accumulo.core.file.rfile.RFile.Writer(Writer, int, int, SamplerConfigurationImpl, Sampler)",0
+RFileTest,testSample,               org.apache.accumulo.core.file.rfile.RFile.Writer.startDefaultLocalityGroup(),0
+RFileTest,testSample,"     NEW org.apache.accumulo.core.data.Key(CharSequence, CharSequence, CharSequence)",0
+RFileTest,testSample,"     NEW org.apache.accumulo.core.data.Key(CharSequence, CharSequence, CharSequence)",0
+RFileTest,testSample,     NEW org.apache.accumulo.core.data.Value(byte[]),0
+RFileTest,testSample,     NEW org.apache.accumulo.core.data.Value(byte[]),0
+RFileTest,testSample,     org.apache.accumulo.core.client.sample.Sampler.accept(Key),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Key.getRowData(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.ByteSequence.toArray(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Key.getColumnFamilyData(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.ByteSequence.toArray(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Key.getColumnQualifierData(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.ByteSequence.toArray(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Key.getColumnVisibilityData(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.ByteSequence.toArray(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Key.getTimestamp(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Key.isDeleted(),0
+RFileTest,testSample,          org.apache.accumulo.core.data.Value.get(),0
+RFileTest,testSample,"     org.apache.accumulo.core.file.rfile.RFile.Writer.append(Key, Value)",0
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.newKey(int, int)",0
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.newValue(int, int)",0
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.add(TestRFile, Key, Value, Hasher, List<Entry<Key,Value>>, Sampler)",0
+RFileTest,testSample,     org.apache.accumulo.core.file.rfile.RFile.Writer.close(),0
+RFileTest,testSample,          NEW org.apache.accumulo.core.file.rfile.RFileTest.SeekableByteArrayInputStream(byte[]),0
+RFileTest,testSample,          NEW org.apache.hadoop.fs.FSDataInputStream(InputStream),0
+RFileTest,testSample,          org.apache.accumulo.core.conf.DefaultConfiguration.getInstance(),0
+RFileTest,testSample,"          NEW org.apache.accumulo.core.conf.ConfigurationCopy(Iterable<Entry<String,String>>)",0
+RFileTest,testSample,"          org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.cache.impl.BlockCacheManagerFactory.getInstance(AccumuloConfiguration),0
+RFileTest,testSample,"          org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+RFileTest,testSample,"          org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+RFileTest,testSample,"          org.apache.accumulo.core.conf.ConfigurationCopy.set(Property, String)",0
+RFileTest,testSample,          NEW org.apache.accumulo.core.file.blockfile.cache.impl.BlockCacheConfiguration(AccumuloConfiguration),0
+RFileTest,testSample,          org.apache.accumulo.core.spi.cache.BlockCacheManager.start(Configuration),0
+RFileTest,testSample,          org.apache.accumulo.core.spi.cache.BlockCacheManager.getBlockCache(CacheType),0
+RFileTest,testSample,          org.apache.accumulo.core.spi.cache.BlockCacheManager.getBlockCache(CacheType),0
+RFileTest,testSample,          NEW org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder(),0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.cacheId(String),0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.input(InputStream),0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.length(long),0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.conf(Configuration),0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.data(BlockCache),0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.index(BlockCache),0
+RFileTest,testSample,"          org.apache.accumulo.core.crypto.CryptoServiceFactory.newInstance(AccumuloConfiguration, ClassloaderType)",0
+RFileTest,testSample,          org.apache.accumulo.core.file.blockfile.impl.CachableBlockFile.CachableBuilder.cryptoService(CryptoService),0
+RFileTest,testSample,          NEW org.apache.accumulo.core.file.rfile.RFile.Reader(CachableBuilder),0
+RFileTest,testSample,"          NEW org.apache.accumulo.core.iterators.system.ColumnFamilySkippingIterator(SortedKeyValueIterator<Key,Value>)",0
+RFileTest,testSample,               org.apache.accumulo.core.file.rfile.RFile.Reader.getIndex(),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.hasTop(),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),0
+RFileTest,testSample,               NEW org.apache.accumulo.core.data.Key(Key),0
+RFileTest,testSample,               org.apache.accumulo.core.file.rfile.RFile.Reader.getFirstKey(),0
+RFileTest,testSample,               org.apache.accumulo.core.data.Key.compareTo(Key),0
+RFileTest,testSample,               org.apache.accumulo.core.file.rfile.RFile.Reader.getFirstKey(),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.next(),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.hasTop(),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),0
+RFileTest,testSample,               org.apache.accumulo.core.data.Key.compareTo(Key),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),0
+RFileTest,testSample,               NEW org.apache.accumulo.core.data.Key(Key),0
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.next(),0
+RFileTest,testSample,               org.apache.accumulo.core.file.rfile.RFile.Reader.getLastKey(),0
+RFileTest,testSample,               org.apache.accumulo.core.data.Key.equals(Object),0
+RFileTest,testSample,               org.apache.accumulo.core.file.rfile.RFile.Reader.getLastKey(),0
+RFileTest,testSample,org.apache.accumulo.core.sample.impl.SamplerConfigurationImpl.newSamplerConfig(AccumuloConfiguration),0
+RFileTest,testSample,org.apache.accumulo.core.file.rfile.RFile.Reader.getSample(SamplerConfigurationImpl),1
+RFileTest,testSample,          NEW org.apache.accumulo.core.data.Range(),2
+RFileTest,testSample,"          org.apache.accumulo.core.iterators.SortedKeyValueIterator.seek(Range, Collection<ByteSequence>, boolean)",2
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.hasTop(),2
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),2
+RFileTest,testSample,               NEW org.apache.accumulo.core.data.Key(Key),2
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopValue(),2
+RFileTest,testSample,               NEW org.apache.accumulo.core.data.Value(Value),2
+RFileTest,testSample,               org.apache.accumulo.core.iterators.SortedKeyValueIterator.next(),2
+RFileTest,testSample,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RFileTest,testSample,"          NEW org.apache.accumulo.core.data.Range(Key, boolean, Key, boolean)",2
+RFileTest,testSample,"          org.apache.accumulo.core.iterators.SortedKeyValueIterator.seek(Range, Collection<ByteSequence>, boolean)",2
+RFileTest,testSample,"          TEST org.apache.accumulo.core.file.rfile.RFileTest.toList(SortedKeyValueIterator<Key,Value>)",2
+RFileTest,testSample,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+RFileTest,testSample,     NEW org.apache.accumulo.core.data.Range(),2
+RFileTest,testSample,"     org.apache.accumulo.core.iterators.SortedKeyValueIterator.seek(Range, Collection<ByteSequence>, boolean)",2
+RFileTest,testSample,     org.apache.accumulo.core.iterators.SortedKeyValueIterator.hasTop(),2
+RFileTest,testSample,     org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopKey(),2
+RFileTest,testSample,     org.apache.accumulo.core.iterators.SortedKeyValueIterator.getTopValue(),2
+RFileTest,testSample,"     TEST org.apache.accumulo.core.file.rfile.RFileTest.hash(Hasher, Key, Value)",2
+RFileTest,testSample,     org.apache.accumulo.core.iterators.SortedKeyValueIterator.next(),2
+RFileTest,testSample,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RFileTest,testSample,org.apache.accumulo.core.sample.impl.SamplerConfigurationImpl.newSamplerConfig(AccumuloConfiguration),0
+RFileTest,testSample,org.apache.accumulo.core.sample.impl.SamplerConfigurationImpl.toSamplerConfiguration(),0
+RFileTest,testSample,NEW org.apache.accumulo.core.file.rfile.RFileTest.SampleIE(SamplerConfiguration),0
+RFileTest,testSample,org.apache.accumulo.core.file.rfile.RFile.Reader.closeDeepCopies(),0
+RFileTest,testSample,org.apache.accumulo.core.sample.impl.SamplerConfigurationImpl.newSamplerConfig(AccumuloConfiguration),0
+RFileTest,testSample,org.apache.accumulo.core.file.rfile.RFile.Reader.getSample(SamplerConfigurationImpl),1
+RFileTest,testSample,org.apache.accumulo.core.iterators.SortedKeyValueIterator.deepCopy(IteratorEnvironment),0
+RFileTest,testSample,org.apache.accumulo.core.iterators.SortedKeyValueIterator.deepCopy(IteratorEnvironment),0
+RFileTest,testSample,org.apache.accumulo.core.file.rfile.RFile.Reader.deepCopy(IteratorEnvironment),0
+RFileTest,testSample,NEW org.apache.accumulo.core.file.rfile.RFileTest.SampleIE(SamplerConfiguration),0
+RFileTest,testSample,org.apache.accumulo.core.iterators.SortedKeyValueIterator.deepCopy(IteratorEnvironment),0
+RFileTest,testSample,NEW org.apache.accumulo.core.file.rfile.RFileTest.SampleIE(SamplerConfiguration),0
+RFileTest,testSample,org.apache.accumulo.core.iterators.SortedKeyValueIterator.deepCopy(IteratorEnvironment),0
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.hash(SortedKeyValueIterator<Key,Value>)",2
+RFileTest,testSample,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.hash(SortedKeyValueIterator<Key,Value>)",2
+RFileTest,testSample,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.checkSample(SortedKeyValueIterator<Key,Value>, List<Entry<Key,Value>>)",2
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.checkSample(SortedKeyValueIterator<Key,Value>, List<Entry<Key,Value>>)",2
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.checkSample(SortedKeyValueIterator<Key,Value>, List<Entry<Key,Value>>)",2
+RFileTest,testSample,"TEST org.apache.accumulo.core.file.rfile.RFileTest.checkSample(SortedKeyValueIterator<Key,Value>, List<Entry<Key,Value>>)",2
+RFileTest,testSample,org.apache.accumulo.core.file.rfile.RFile.Reader.closeDeepCopies(),2
+RFileTest,testSample,     org.apache.accumulo.core.file.rfile.RFile.Reader.close(),2
+RFileTest,testSample,     org.apache.accumulo.core.spi.cache.BlockCacheManager.stop(),2

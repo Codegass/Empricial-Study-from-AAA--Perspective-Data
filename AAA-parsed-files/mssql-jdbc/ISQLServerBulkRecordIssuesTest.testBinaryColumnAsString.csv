@@ -1,0 +1,29 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,NEW com.microsoft.sqlserver.jdbc.bulkCopy.BulkData(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,THIRD java.sql.Connection.createStatement(),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,THIRD java.sql.Statement.executeUpdate(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,NEW com.microsoft.sqlserver.jdbc.SQLServerBulkCopy(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,SET com.microsoft.sqlserver.jdbc.SQLServerBulkCopy.setDestinationTableName(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,com.microsoft.sqlserver.jdbc.SQLServerBulkCopy.writeToServer(ISQLServerBulkData),1
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     THIRD java.util.ResourceBundle.getBundle(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     THIRD java.util.ResourceBundle.getString(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,THIRD GET java.lang.Throwable.getMessage(),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     THIRD java.util.ResourceBundle.getBundle(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     THIRD java.util.ResourceBundle.getString(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,THIRD java.lang.String.contains(CharSequence),2
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     THIRD java.util.ResourceBundle.getBundle(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,     THIRD java.util.ResourceBundle.getString(String),0
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,THIRD GET java.lang.Throwable.getMessage(),2
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,THIRD GET java.lang.Throwable.getMessage(),2
+ISQLServerBulkRecordIssuesTest,testBinaryColumnAsString,ASSERT org.junit.jupiter.api.Assertions.fail(String),2

@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonTreeWriterTest,testPrematureClose,NEW com.google.gson.internal.bind.JsonTreeWriter(),0
+JsonTreeWriterTest,testPrematureClose,SET com.google.gson.stream.JsonWriter.setStrictness(Strictness),0
+JsonTreeWriterTest,testPrematureClose,com.google.gson.internal.bind.JsonTreeWriter.beginArray(),1
+JsonTreeWriterTest,testPrematureClose,com.google.gson.internal.bind.JsonTreeWriter.close(),2
+JsonTreeWriterTest,testPrematureClose,ASSERT org.junit.Assert.fail(),2
+JsonTreeWriterTest,testPrematureClose,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+JsonTreeWriterTest,testPrematureClose,ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+JsonTreeWriterTest,testPrematureClose,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DataSchemaTest,testSerializeWithInvalidDataSourceName,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DataSchemaTest,testSerializeWithInvalidDataSourceName,ASSERT org.junit.Assert.fail(String),2

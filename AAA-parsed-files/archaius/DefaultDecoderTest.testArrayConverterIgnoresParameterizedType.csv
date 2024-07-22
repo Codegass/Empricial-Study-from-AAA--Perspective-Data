@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultDecoderTest,testArrayConverterIgnoresParameterizedType,"com.netflix.archaius.converters.ArrayTypeConverterFactory.get(Type, Registry)",0
+DefaultDecoderTest,testArrayConverterIgnoresParameterizedType,THIRD GET java.util.Optional<com.netflix.archaius.api.TypeConverter<?>>.isPresent(),1
+DefaultDecoderTest,testArrayConverterIgnoresParameterizedType,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

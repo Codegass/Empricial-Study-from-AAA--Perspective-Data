@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UtcDateTypeAdapterTest,testLocalTimeZone,com.google.gson.Gson.toJson(Object),0
+UtcDateTypeAdapterTest,testLocalTimeZone,"com.google.gson.Gson.fromJson(String, Class<Date>)",1
+UtcDateTypeAdapterTest,testLocalTimeZone,THIRD GET java.util.Date.getTime(),2
+UtcDateTypeAdapterTest,testLocalTimeZone,THIRD GET java.util.Date.getTime(),2
+UtcDateTypeAdapterTest,testLocalTimeZone,"ASSERT org.junit.Assert.assertEquals(long, long)",2

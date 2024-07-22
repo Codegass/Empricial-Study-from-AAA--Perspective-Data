@@ -1,0 +1,23 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,NEW com.netflix.archaius.config.DefaultLayeredConfig(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.config.MapConfig.builder(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,GET com.netflix.archaius.api.Layer.getName(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,GET com.netflix.archaius.api.Layer.getName(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.config.MapConfig.Builder.name(String),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.config.MapConfig.Builder.build(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.config.MapConfig.builder(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.config.MapConfig.Builder.name(String),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.config.MapConfig.Builder.build(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,GET com.netflix.archaius.api.Layer.getName(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,GET com.netflix.archaius.api.Layer.getName(),0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,"com.netflix.archaius.api.config.LayeredConfig.addConfig(Layer, Config)",0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,"com.netflix.archaius.api.config.LayeredConfig.addConfig(Layer, Config)",0
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.api.Config.keys(),1
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,THIRD java.lang.Iterable<java.lang.String>.iterator(),2
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,java.util.Iterator<java.lang.String>.remove(),2
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<UnsupportedOperationException>, Executable)",2
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,java.util.Collection<java.lang.String>.clear(),2
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<UnsupportedOperationException>, Executable)",2
+DefaultLayeredConfigTest,testKeysIterableModificationThrows,com.netflix.archaius.api.Config.keys(),2

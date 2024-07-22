@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testEncryptedStrictConnection,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+SQLServerConnectionTest,testEncryptedStrictConnection,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setURL(String),0
+SQLServerConnectionTest,testEncryptedStrictConnection,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setServerCertificate(String),0
+SQLServerConnectionTest,testEncryptedStrictConnection,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setEncrypt(String),0
+SQLServerConnectionTest,testEncryptedStrictConnection,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1

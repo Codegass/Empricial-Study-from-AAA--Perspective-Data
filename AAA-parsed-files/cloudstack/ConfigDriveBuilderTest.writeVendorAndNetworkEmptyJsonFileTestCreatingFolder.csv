@@ -1,0 +1,25 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"MOCK org.powermock.api.mockito.PowerMockito.mockStatic(Class<?>, Class<?>[])",0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Mockito.mock(Class<File>),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Mockito.doReturn(Object),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.stubbing.Stubber.when(File),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Mockito.doReturn(Object),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.stubbing.Stubber.when(File),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,TEST GET org.apache.cloudstack.storage.configdrive.ConfigDriveBuilderTest.getWriteVendorAndNetworkEmptyJsonFileMethod(),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,     THIRD org.reflections.ReflectionUtils.withName(String),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"     THIRD org.reflections.ReflectionUtils.getMethods(Class<?>, Predicate<? super Method>[])",0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"MOCK org.powermock.api.mockito.PowerMockito.when(Class<?>, Method)",0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"MOCK org.powermock.api.mockito.expectation.WithExpectedArguments<java.lang.Object>.withArguments(Object, Object[])",0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Object>.thenCallRealMethod(),0
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeVendorAndNetworkEmptyJsonFile(File),1
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,ASSERT org.mockito.Mockito.verify(File),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,ASSERT org.mockito.Mockito.verify(File),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.powermock.api.mockito.PowerMockito.verifyStatic(),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Matchers.any(Class<File>),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Matchers.eq(String),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Matchers.eq(String),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeFile(File, String, String)",2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Matchers.any(Class<File>),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Matchers.eq(String),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,MOCK org.mockito.Matchers.eq(String),2
+org.apache.cloudstack.storage.configdrive,ConfigDriveBuilderTest,writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,"org.apache.cloudstack.storage.configdrive.ConfigDriveBuilder.writeFile(File, String, String)",2

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigToCommonsTest,configIsImmutable,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<UnsupportedOperationException>, Executable)",2
+ConfigToCommonsTest,configIsImmutable,"THIRD SET org.apache.commons.configuration.AbstractConfiguration.setProperty(String, Object)",1

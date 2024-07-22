@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTest,testClassWithObjectFieldSerialization,NEW com.google.gson.functional.ObjectTest.ClassWithObjectField(),0
+ObjectTest,testClassWithObjectFieldSerialization,com.google.gson.Gson.toJson(Object),1
+ObjectTest,testClassWithObjectFieldSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ObjectTest,testClassWithObjectFieldSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2

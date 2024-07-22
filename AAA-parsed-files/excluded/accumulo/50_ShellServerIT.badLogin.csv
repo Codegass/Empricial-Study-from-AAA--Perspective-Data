@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ShellServerIT,badLogin,          TEST org.apache.accumulo.harness.SharedMiniClusterBase.getCluster(),0
+ShellServerIT,badLogin,          org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+ShellServerIT,badLogin,     org.apache.accumulo.core.conf.ClientProperty.getAuthenticationToken(Properties),0
+ShellServerIT,badLogin,TEST org.apache.accumulo.test.ShellServerIT.StringInputStream.set(String),0
+ShellServerIT,badLogin,TEST org.apache.accumulo.harness.SharedMiniClusterBase.getRootPassword(),0
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.clear(),0
+ShellServerIT,badLogin,"               org.apache.accumulo.shell.Shell.execCommand(String, boolean, boolean)",1
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.ErrorMessageCallback.getErrorMessage(),2
+ShellServerIT,badLogin,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,badLogin,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.ErrorMessageCallback.getErrorMessage(),2
+ShellServerIT,badLogin,"               ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ShellServerIT,badLogin,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellServerIT,badLogin,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,badLogin,               org.apache.accumulo.shell.Shell.resetExitCode(),2
+ShellServerIT,badLogin,ASSERT org.junit.Assert.assertTrue(boolean),2

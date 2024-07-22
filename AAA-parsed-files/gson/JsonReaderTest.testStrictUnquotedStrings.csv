@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonReaderTest,testStrictUnquotedStrings,TEST com.google.gson.stream.JsonReaderTest.reader(String),0
+JsonReaderTest,testStrictUnquotedStrings,NEW com.google.gson.stream.JsonReader(Reader),0
+JsonReaderTest,testStrictUnquotedStrings,com.google.gson.stream.JsonReader.beginArray(),1
+JsonReaderTest,testStrictUnquotedStrings,com.google.gson.stream.JsonReader.nextString(),2
+JsonReaderTest,testStrictUnquotedStrings,ASSERT org.junit.Assert.fail(),2
+JsonReaderTest,testStrictUnquotedStrings,"TEST com.google.gson.stream.JsonReaderTest.assertStrictError(MalformedJsonException, String)",2
+JsonReaderTest,testStrictUnquotedStrings,     ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+JsonReaderTest,testStrictUnquotedStrings,     ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+JsonReaderTest,testStrictUnquotedStrings,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonElementReaderTest,testEmptyObject,com.google.gson.JsonParser.parseString(String),0
+JsonElementReaderTest,testEmptyObject,NEW com.google.gson.internal.bind.JsonTreeReader(JsonElement),1
+JsonElementReaderTest,testEmptyObject,com.google.gson.internal.bind.JsonTreeReader.beginObject(),2
+JsonElementReaderTest,testEmptyObject,com.google.gson.internal.bind.JsonTreeReader.endObject(),2

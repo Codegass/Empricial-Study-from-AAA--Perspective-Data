@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,NEW com.google.gson.GsonBuilder(),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,NEW anonymous(),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,"com.google.gson.GsonBuilder.registerTypeAdapter(Type, Object)",0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,GET com.google.gson.JsonElement.getAsString(),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,THIRD java.lang.String.length(),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,THIRD java.lang.Byte.parseByte(String),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,THIRD java.lang.String.charAt(int),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,com.google.gson.GsonBuilder.create(),0
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,"com.google.gson.Gson.fromJson(String, Class<byte[]>)",1
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,ASSERT com.google.common.truth.Truth.assertThat(Byte),2
+CustomTypeAdaptersTest,testCustomByteArrayDeserializerAndInstanceCreator,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

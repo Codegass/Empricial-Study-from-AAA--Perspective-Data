@@ -1,0 +1,50 @@
+Test_case,Multiple AAA,Missing Assert,Assert Pre,Suppressed Exception,Obscure Assert,Multiple Act,Arrange&Quit,testSmellName
+NamespacesIT.renameTable,1.0,,,,,,,[]
+ServerContextTest.testSasl,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+PairTest.testHashMethod,1.0,,,,,,,['Assertion Roulette']
+StatusCombinerTest.commutativeWithMultipleUpdates,1.0,,,,,,,[]
+MutationTest.testMultipleReadFieldsCalls,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+AccumuloInputFormatTest.testGetIteratorSettings,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+BaseRelativeTimeTest.testPastTime,1.0,,,,,,,[]
+AccumuloConfigurationTest.testGetByPrefix,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+AuthenticationTokenSecretManagerTest.testVerifyPassword,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+AgeOffStoreTest.testNonEmpty,1.0,,,,,,,[]
+NamespacesIT.loadClass,1.0,,,,,,,[]
+LargestFirstMemoryManagerTest.test,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+MiniAccumuloConfigImplTest.testZookeeperPort,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+SummaryIT.compactionTest,1.0,,,,,,,[]
+CombinerTest.test3,1.0,,,,,,,[]
+BaseRelativeTimeTest.testFutureTime,1.0,,,,,,,[]
+VfsClassLoaderTest.testFileMonitor,1.0,,,,,,,[]
+AccumuloMultiTableInputFormatTest.testInputTableConfigSerialization,1.0,,,,,,,"['Assertion Roulette', 'Eager Test']"
+IterConfigUtilTest.test5,,,,,,,,[]
+SortedLogRecoveryTest.testSkipSuccessfulCompaction,,,,,,,,[]
+AccumuloClientIT.testClose,,,,,,,,[]
+ReplicationSchemaTest.separatorDoesntInterferWithSplit,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Conditional Test Logic']"
+EntryLengthSummarizersTest.testCombine3,,,,,,,,[]
+RemoveCompleteReplicationRecordsIT.replicatedClosedRowsAreRemoved,,,,,,,,[]
+BulkImportFilterInvalidTest.testFilterInvalidwithWorkingFile,,,,,,,,[]
+CertUtilsTest.createSigned,,,,,,,,"['Exception Catching Throwing', 'Eager Test', 'Resource Optimism', 'Mystery Guest']"
+AccumuloInputFormatTest.testJobStoreException,,,,,,,,"['Exception Catching Throwing', 'Eager Test']"
+TestLruBlockCache.testCacheSimple,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+RangeInputSplitTest.testAllFieldsWritable,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+MultiIteratorTest.test2,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+PairTest.testGetFirst,,,,,,,,['Assertion Roulette']
+SortedLogRecoveryTest.testLeaveAndComeBack,,,,,,,,[]
+RangeTest.testReadFields_Check,,,,,,,,"['Exception Catching Throwing', 'Eager Test']"
+ZooAuthenticationKeyDistributorTest.testAlreadyAdvertisedKey,,,,,,,,['Eager Test']
+AccumuloInputFormatTest.testSetIterator,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+TTimeoutTransportTest.testFailedOutputStreamClosesSocket,,,,,,,,"['Exception Catching Throwing', 'Eager Test', 'Verbose Test']"
+HostRegexTableLoadBalancerTest.testOutOfBoundsTablets,,,,,,,,"['Assertion Roulette', 'Magic Number Test']"
+CombinerTest.test5,,,,,,,,[]
+BulkImportFilterInvalidTest.testFilterInvalidwithDir,,,,,,,,[]
+AccumuloOutputFormatTest.testBWSettings,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+FileUtilTest.testCleanupIndexOpWithDfsDir,,,,,,,,"['Assertion Roulette', 'Mystery Guest']"
+SortedLogRecoveryTest.testConsecutiveCompactionFinishEvents,,,,,,,,[]
+OpTimerTest.verifyExceptionCallingStartWhenRunning,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing', 'Sleepy Test']"
+ServerUtilTest.testCanRun,,,,,,,,[]
+ZooKeeperPropertiesIT.testNoFiles,,,,,,,,[]
+ThriftMessageUtilTest.testSerializationAsByteArrayWithLimits,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+BatchWriterReplicationReplayerTest.systemTimestampsAreSetOnUpdates,,,,,,,,"['Unknown Test', 'Verbose Test']"
+PairTest.testEqualsObject,,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Redundant Assertion']"
+AccumuloVFSClassLoaderTest.testDefaultContextConfigured,,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Magic Number Test', 'Verbose Test', 'Mystery Guest', 'Eager Test', 'Resource Optimism']"

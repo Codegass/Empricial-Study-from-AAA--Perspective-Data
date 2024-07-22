@@ -1,0 +1,79 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.data.TableId.of(String),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.newBuilder(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setBegin(long),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setEnd(long),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setInfiniteEnd(boolean),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setClosed(boolean),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.build(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.replication.ReplicationTable.getBatchWriter(AccumuloClient),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.replication.ReplicationSchema.StatusSection.add(Mutation, TableId, Value)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.close(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"NEW org.apache.accumulo.core.dataImpl.KeyExtent(TableId, Text, Text)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"NEW org.apache.accumulo.core.tabletserver.log.LogEntry(KeyExtent, long, String, String)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.client.BatchWriterConfig(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String, BatchWriterConfig)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.metadata.schema.MetadataSchema.ReplicationSection.getRowPrefix(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.data.AbstractId.canonical(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.hadoop.io.Text(String),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.tabletserver.log.LogEntry.getRow(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.data.Mutation(Text),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.tabletserver.log.LogEntry.getColumnFamily(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.tabletserver.log.LogEntry.getColumnQualifier(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.tabletserver.log.LogEntry.getValue(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.close(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     MOCK org.easymock.EasyMock.createMock(Class<?>),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     org.apache.accumulo.server.AbstractServer.getContext(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     MOCK org.easymock.EasyMock.expect(ServerContext),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     MOCK org.easymock.IExpectationSetters<org.apache.accumulo.server.ServerContext>.andReturn(ServerContext),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     MOCK org.easymock.IExpectationSetters<org.apache.accumulo.server.ServerContext>.anyTimes(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     MOCK org.easymock.EasyMock.replay(Object[]),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     NEW anonymous(Master),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     org.apache.accumulo.core.data.TableId.of(String),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,     NEW anonymous(ClientContext),0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"     org.apache.accumulo.master.MasterClientServiceHandler.drainReplicationTable(TInfo, TCredentials, String, Set<String>)",0
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.clientImpl.ReplicationOperationsImpl.drain(String),1
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,ASSERT org.junit.Assert.assertFalse(boolean),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.newBuilder(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setBegin(long),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setEnd(long),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setInfiniteEnd(boolean),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.setClosed(boolean),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.server.replication.proto.Replication.Status.Builder.build(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.client.BatchWriterConfig(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String, BatchWriterConfig)",2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.data.Mutation(CharSequence),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.metadata.schema.MetadataSchema.ReplicationSection.getRowPrefix(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.data.AbstractId.canonical(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.hadoop.io.Text(String),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.flush(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,ASSERT org.junit.Assert.assertFalse(boolean),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.replication.ReplicationTable.getBatchWriter(AccumuloClient),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.accumulo.core.data.Mutation(CharSequence),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.data.AbstractId.canonical(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,NEW org.apache.hadoop.io.Text(String),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.protobuf.ProtobufUtil.toValue(GeneratedMessage),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,org.apache.accumulo.core.client.BatchWriter.flush(),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,ASSERT org.junit.Assert.fail(String),2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+ReplicationOperationsImplIT,inprogressReplicationRecordsBlockExecution,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2

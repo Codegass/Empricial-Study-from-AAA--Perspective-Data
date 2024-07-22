@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTypeAdapterTest,testSerialize,NEW com.google.gson.ObjectTypeAdapterTest.RuntimeType(),0
+ObjectTypeAdapterTest,testSerialize,com.google.gson.TypeAdapter.toJson(Object),1
+ObjectTypeAdapterTest,testSerialize,"THIRD java.lang.String.replace(CharSequence, CharSequence)",2
+ObjectTypeAdapterTest,testSerialize,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ObjectTypeAdapterTest,testSerialize,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

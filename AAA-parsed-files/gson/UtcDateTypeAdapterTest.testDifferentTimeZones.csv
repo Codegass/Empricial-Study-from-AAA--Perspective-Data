@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UtcDateTypeAdapterTest,testDifferentTimeZones,THIRD GET java.util.TimeZone.getAvailableIDs(),0
+UtcDateTypeAdapterTest,testDifferentTimeZones,THIRD java.util.TimeZone.getTimeZone(String),0
+UtcDateTypeAdapterTest,testDifferentTimeZones,THIRD java.util.Calendar.getInstance(TimeZone),0
+UtcDateTypeAdapterTest,testDifferentTimeZones,THIRD GET java.util.Calendar.getTime(),0
+UtcDateTypeAdapterTest,testDifferentTimeZones,com.google.gson.Gson.toJson(Object),1
+UtcDateTypeAdapterTest,testDifferentTimeZones,"com.google.gson.Gson.fromJson(String, Class<Date>)",2
+UtcDateTypeAdapterTest,testDifferentTimeZones,THIRD GET java.util.Date.getTime(),2
+UtcDateTypeAdapterTest,testDifferentTimeZones,THIRD GET java.util.Date.getTime(),2
+UtcDateTypeAdapterTest,testDifferentTimeZones,"ASSERT org.junit.Assert.assertEquals(long, long)",2

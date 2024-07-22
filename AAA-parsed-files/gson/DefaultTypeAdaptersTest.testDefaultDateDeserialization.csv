@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,"com.google.gson.Gson.fromJson(String, Class<Date>)",1
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,"TEST com.google.gson.functional.DefaultTypeAdaptersTest.assertEqualsDate(Date, int, int, int)",2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     THIRD GET java.util.Date.getYear(),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     THIRD GET java.util.Date.getMonth(),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     THIRD GET java.util.Date.getDate(),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,"TEST com.google.gson.functional.DefaultTypeAdaptersTest.assertEqualsTime(Date, int, int, int)",2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     THIRD GET java.util.Date.getHours(),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     THIRD GET java.util.Date.getMinutes(),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     THIRD GET java.util.Date.getSeconds(),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultDateDeserialization,     ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

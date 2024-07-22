@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BatchExecutionWithBulkCopyTest,testBrackets,TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+BatchExecutionWithBulkCopyTest,testBrackets,"     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+BatchExecutionWithBulkCopyTest,testBrackets,"          THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+BatchExecutionWithBulkCopyTest,testBrackets,THIRD java.sql.Connection.prepareStatement(String),0
+BatchExecutionWithBulkCopyTest,testBrackets,THIRD GET java.lang.Object.getClass(),0
+BatchExecutionWithBulkCopyTest,testBrackets,THIRD java.lang.Class<>.getDeclaredField(String),0
+BatchExecutionWithBulkCopyTest,testBrackets,THIRD SET java.lang.reflect.Field.setAccessible(boolean),0
+BatchExecutionWithBulkCopyTest,testBrackets,"THIRD SET java.lang.reflect.Field.set(Object, Object)",0
+BatchExecutionWithBulkCopyTest,testBrackets,THIRD GET java.lang.Object.getClass(),0
+BatchExecutionWithBulkCopyTest,testBrackets,"THIRD java.lang.Class<>.getDeclaredMethod(String, Class<?>[])",0
+BatchExecutionWithBulkCopyTest,testBrackets,THIRD SET java.lang.reflect.Method.setAccessible(boolean),0
+BatchExecutionWithBulkCopyTest,testBrackets,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+BatchExecutionWithBulkCopyTest,testBrackets,"THIRD java.lang.reflect.Method.invoke(Object, Object[])",1

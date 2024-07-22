@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KerberosIT,testDelegationTokenWithInvalidLifetime,@EXPECTED java.lang.Class<org.apache.accumulo.core.client.AccumuloException>,0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.cluster.ClusterUser.getPrincipal(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.cluster.ClusterUser.getKeytab(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.cluster.ClusterUser.getPrincipal(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.cluster.ClusterUser.getPrincipal(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,NEW org.apache.accumulo.core.client.security.tokens.KerberosToken(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.createAccumuloClient(String, AuthenticationToken)",0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.cluster.ClusterUser.getPrincipal(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.cluster.ClusterUser.getPrincipal(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.core.client.AccumuloClient.whoami(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,"ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,NEW org.apache.accumulo.core.client.admin.DelegationTokenConfig(),0
+KerberosIT,testDelegationTokenWithInvalidLifetime,"org.apache.accumulo.core.client.admin.DelegationTokenConfig.setTokenLifetime(long, TimeUnit)",0
+KerberosIT,testDelegationTokenWithInvalidLifetime,org.apache.accumulo.core.client.admin.SecurityOperations.getDelegationToken(DelegationTokenConfig),1

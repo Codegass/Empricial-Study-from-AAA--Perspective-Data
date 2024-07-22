@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigTest,getNonExistentProperty,com.netflix.archaius.api.Config.getProperty(String),1
+AbstractConfigTest,getNonExistentProperty,THIRD GET java.util.Optional<java.lang.Object>.isPresent(),2
+AbstractConfigTest,getNonExistentProperty,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

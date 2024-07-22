@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StringTest,testAssignmentCharDeserialization,"com.google.gson.Gson.fromJson(String, Class<String>)",1
+StringTest,testAssignmentCharDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+StringTest,testAssignmentCharDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+StringTest,testAssignmentCharDeserialization,"com.google.gson.Gson.fromJson(String, Class<String>)",1
+StringTest,testAssignmentCharDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+StringTest,testAssignmentCharDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

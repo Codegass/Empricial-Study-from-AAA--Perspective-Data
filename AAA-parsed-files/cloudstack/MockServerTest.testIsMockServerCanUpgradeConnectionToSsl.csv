@@ -1,0 +1,18 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW streamer.debug.MockServer(Packet[]),0
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,NEW anonymous(String),0
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,streamer.debug.MockServer.start(),1
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,GET streamer.debug.MockServer.getAddress(),2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,"ASSERT junit.framework.TestCase.assertEquals(String, int, int)",2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,"ASSERT junit.framework.TestCase.assertEquals(String, byte, byte)",2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,"ASSERT junit.framework.TestCase.assertEquals(String, int, int)",2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,"ASSERT junit.framework.TestCase.assertEquals(String, byte, byte)",2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,streamer.debug.MockServer.waitUntilShutdowned(long),2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,GET streamer.debug.MockServer.getException(),2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,"ASSERT junit.framework.TestCase.assertNull(String, Object)",2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,GET streamer.debug.MockServer.isShutdowned(),2
+rdpclient,MockServerTest,testIsMockServerCanUpgradeConnectionToSsl,"ASSERT junit.framework.TestCase.assertTrue(String, boolean)",2

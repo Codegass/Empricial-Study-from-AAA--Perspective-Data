@@ -1,0 +1,23 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,TEST com.microsoft.sqlserver.jdbc.TimeoutTest.assertSharedTimerNotRunning(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,     TEST GET com.microsoft.sqlserver.jdbc.TimeoutTest.isSharedTimerThreadRunning(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,          THIRD GET java.lang.Thread.getAllStackTraces(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"          THIRD java.util.Map<java.lang.Thread,java.lang.StackTraceElement[]>.keySet()",2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,          THIRD GET java.lang.Thread.getName(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,          THIRD java.lang.String.startsWith(String),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"     ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"TEST com.microsoft.sqlserver.jdbc.TimeoutTest.runQuery(Connection, String, int)",2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,     THIRD java.sql.Connection.prepareStatement(String),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,     THIRD SET java.sql.Statement.setQueryTimeout(int),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,     THIRD java.sql.PreparedStatement.executeQuery(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,TEST com.microsoft.sqlserver.jdbc.TimeoutTest.assertSharedTimerIsRunning(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,     TEST GET com.microsoft.sqlserver.jdbc.TimeoutTest.isSharedTimerThreadRunning(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,          THIRD GET java.lang.Thread.getAllStackTraces(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"          THIRD java.util.Map<java.lang.Thread,java.lang.StackTraceElement[]>.keySet()",2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,          THIRD GET java.lang.Thread.getName(),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,          THIRD java.lang.String.startsWith(String),2
+TimeoutTest,testPositiveTimeoutShouldStartTimerThread,"     ASSERT org.junit.Assert.assertTrue(String, boolean)",2

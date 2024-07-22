@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GraphAdapterBuilderTest,testDeserialization,NEW com.google.gson.GsonBuilder(),0
+GraphAdapterBuilderTest,testDeserialization,NEW com.google.gson.graph.GraphAdapterBuilder(),0
+GraphAdapterBuilderTest,testDeserialization,com.google.gson.graph.GraphAdapterBuilder.addType(Type),0
+GraphAdapterBuilderTest,testDeserialization,com.google.gson.graph.GraphAdapterBuilder.registerOn(GsonBuilder),0
+GraphAdapterBuilderTest,testDeserialization,com.google.gson.GsonBuilder.create(),0
+GraphAdapterBuilderTest,testDeserialization,"com.google.gson.Gson.fromJson(String, Class<Roshambo>)",1
+GraphAdapterBuilderTest,testDeserialization,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GraphAdapterBuilderTest,testDeserialization,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GraphAdapterBuilderTest,testDeserialization,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GraphAdapterBuilderTest,testDeserialization,"ASSERT org.junit.Assert.assertSame(Object, Object)",2

@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.Accumulo.newClient(),0
+KeyValueEqualityIT,testEquality,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+KeyValueEqualityIT,testEquality,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+KeyValueEqualityIT,testEquality,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+KeyValueEqualityIT,testEquality,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+KeyValueEqualityIT,testEquality,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, long, CharSequence)",0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+KeyValueEqualityIT,testEquality,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.ScannerBase.iterator(),0
+KeyValueEqualityIT,testEquality,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+KeyValueEqualityIT,testEquality,org.apache.accumulo.core.client.ScannerBase.iterator(),0
+KeyValueEqualityIT,testEquality,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+KeyValueEqualityIT,testEquality,"ASSERT org.junit.Assert.assertEquals(long, long)",2
+KeyValueEqualityIT,testEquality,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+KeyValueEqualityIT,testEquality,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2

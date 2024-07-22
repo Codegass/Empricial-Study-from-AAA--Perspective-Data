@@ -1,0 +1,107 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VolumeIT,testAddVolumes,org.apache.accumulo.core.client.Accumulo.newClient(),0
+VolumeIT,testAddVolumes,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+VolumeIT,testAddVolumes,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+VolumeIT,testAddVolumes,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+VolumeIT,testAddVolumes,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+VolumeIT,testAddVolumes,          ASSERT org.junit.Assert.assertFalse(boolean),0
+VolumeIT,testAddVolumes,               NEW org.apache.hadoop.io.Text(String),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+VolumeIT,testAddVolumes,"               org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+VolumeIT,testAddVolumes,               NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+VolumeIT,testAddVolumes,"               org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+VolumeIT,testAddVolumes,"          org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.data.Key.getRow(),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.data.Key.getColumnFamily(),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.data.Key.getColumnQualifier(),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.core.client.ScannerBase.close(),0
+VolumeIT,testAddVolumes,"               ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+VolumeIT,testAddVolumes,"          org.apache.accumulo.core.client.admin.TableOperations.flush(String, Text, Text, boolean)",0
+VolumeIT,testAddVolumes,"          org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+VolumeIT,testAddVolumes,"          TEST org.apache.accumulo.test.VolumeIT.verifyData(List<String>, Scanner)",0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.TableId.of(String),0
+VolumeIT,testAddVolumes,"          org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.util.ColumnFQ.fetch(ScannerBase),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.ScannerBase.fetchColumnFamily(Text),0
+VolumeIT,testAddVolumes,"          NEW org.apache.accumulo.core.dataImpl.KeyExtent(TableId, Text, Text)",0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.dataImpl.KeyExtent.toMetadataRange(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.Scanner.setRange(Range),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.Key.getColumnFamily(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.Key.getColumnQualifier(),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.Value.toString(),0
+VolumeIT,testAddVolumes,          ASSERT org.junit.Assert.fail(String),0
+VolumeIT,testAddVolumes,               TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+VolumeIT,testAddVolumes,               org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getServerContext(),0
+VolumeIT,testAddVolumes,          NEW org.apache.accumulo.server.log.WalStateManager(ServerContext),0
+VolumeIT,testAddVolumes,          org.apache.accumulo.server.log.WalStateManager.getAllState(),0
+VolumeIT,testAddVolumes,          ASSERT org.junit.Assert.assertTrue(boolean),0
+VolumeIT,testAddVolumes,"          ASSERT org.junit.Assert.assertEquals(long, long)",0
+VolumeIT,testAddVolumes,"     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.exec(Class<?>, String[])",0
+VolumeIT,testAddVolumes,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.ProcessInfo.getProcess(),0
+VolumeIT,testAddVolumes,"     ASSERT org.junit.Assert.assertEquals(long, long)",0
+VolumeIT,testAddVolumes,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.stop(),0
+VolumeIT,testAddVolumes,NEW org.apache.commons.configuration2.builder.FileBasedConfigurationBuilder<org.apache.commons.configuration2.PropertiesConfiguration>(Class<? extends PropertiesConfiguration>),0
+VolumeIT,testAddVolumes,NEW org.apache.commons.configuration2.builder.fluent.Parameters(),0
+VolumeIT,testAddVolumes,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getAccumuloPropertiesPath(),0
+VolumeIT,testAddVolumes,org.apache.accumulo.core.conf.Property.getKey(),0
+VolumeIT,testAddVolumes,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.exec(Class<?>, String[])",0
+VolumeIT,testAddVolumes,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.ProcessInfo.getProcess(),0
+VolumeIT,testAddVolumes,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+VolumeIT,testAddVolumes,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getServerContext(),0
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.clientImpl.ClientContext.getHadoopConf(),0
+VolumeIT,testAddVolumes,"     NEW org.apache.hadoop.fs.Path(Path, String)",0
+VolumeIT,testAddVolumes,"     ASSERT org.junit.Assert.assertEquals(long, long)",0
+VolumeIT,testAddVolumes,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",0
+VolumeIT,testAddVolumes,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.start(),1
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.admin.TableOperations.exists(String),2
+VolumeIT,testAddVolumes,     ASSERT org.junit.Assert.assertFalse(boolean),2
+VolumeIT,testAddVolumes,          NEW org.apache.hadoop.io.Text(String),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.admin.TableOperations.create(String),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+VolumeIT,testAddVolumes,"          org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),2
+VolumeIT,testAddVolumes,          NEW org.apache.accumulo.core.data.Mutation(CharSequence),2
+VolumeIT,testAddVolumes,"          org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),2
+VolumeIT,testAddVolumes,"     org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.Key.getRow(),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.Key.getColumnFamily(),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.data.Key.getColumnQualifier(),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.core.client.ScannerBase.close(),2
+VolumeIT,testAddVolumes,"          ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+VolumeIT,testAddVolumes,"     org.apache.accumulo.core.client.admin.TableOperations.flush(String, Text, Text, boolean)",2
+VolumeIT,testAddVolumes,"     org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+VolumeIT,testAddVolumes,"     TEST org.apache.accumulo.test.VolumeIT.verifyData(List<String>, Scanner)",2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.data.TableId.of(String),2
+VolumeIT,testAddVolumes,"     org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.util.ColumnFQ.fetch(ScannerBase),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.ScannerBase.fetchColumnFamily(Text),2
+VolumeIT,testAddVolumes,"     NEW org.apache.accumulo.core.dataImpl.KeyExtent(TableId, Text, Text)",2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.dataImpl.KeyExtent.toMetadataRange(),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.client.Scanner.setRange(Range),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.data.Key.getColumnFamily(),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.data.Key.getColumnQualifier(),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.core.data.Value.toString(),2
+VolumeIT,testAddVolumes,     ASSERT org.junit.Assert.fail(String),2
+VolumeIT,testAddVolumes,          TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),2
+VolumeIT,testAddVolumes,          org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getServerContext(),2
+VolumeIT,testAddVolumes,     NEW org.apache.accumulo.server.log.WalStateManager(ServerContext),2
+VolumeIT,testAddVolumes,     org.apache.accumulo.server.log.WalStateManager.getAllState(),2
+VolumeIT,testAddVolumes,     ASSERT org.junit.Assert.assertTrue(boolean),2
+VolumeIT,testAddVolumes,"     ASSERT org.junit.Assert.assertEquals(long, long)",2

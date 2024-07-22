@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigurationBridgeTest,testBasicWiring,THIRD com.google.inject.Injector.getInstance(Class<SomeClient>),0
+AbstractConfigurationBridgeTest,testBasicWiring,THIRD GET com.netflix.config.ConfigurationManager.getConfigInstance(),1
+AbstractConfigurationBridgeTest,testBasicWiring,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+AbstractConfigurationBridgeTest,testBasicWiring,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

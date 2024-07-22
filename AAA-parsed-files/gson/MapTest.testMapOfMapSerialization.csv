@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapTest,testMapOfMapSerialization,"THIRD java.util.Map<java.lang.String,java.lang.String>.put(String, String)",0
+MapTest,testMapOfMapSerialization,"THIRD java.util.Map<java.lang.String,java.lang.String>.put(String, String)",0
+MapTest,testMapOfMapSerialization,"THIRD java.util.Map<java.lang.String,java.util.Map<java.lang.String,java.lang.String>>.put(String, Map<String,String>)",0
+MapTest,testMapOfMapSerialization,com.google.gson.Gson.toJson(Object),1
+MapTest,testMapOfMapSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+MapTest,testMapOfMapSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2
+MapTest,testMapOfMapSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+MapTest,testMapOfMapSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2
+MapTest,testMapOfMapSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+MapTest,testMapOfMapSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2

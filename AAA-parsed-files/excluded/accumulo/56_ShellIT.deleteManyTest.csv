@@ -1,0 +1,46 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.clear(),0
+ShellIT,deleteManyTest,"               org.apache.accumulo.shell.Shell.execCommand(String, boolean, boolean)",1
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellIT,deleteManyTest,"               ASSERT org.junit.Assert.assertEquals(long, long)",2
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,               ASSERT org.junit.Assert.assertTrue(boolean),2
+ShellIT,deleteManyTest,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellIT,deleteManyTest,               TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,               org.apache.accumulo.shell.Shell.resetExitCode(),2
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.clear(),0
+ShellIT,deleteManyTest,"          org.apache.accumulo.shell.Shell.execCommand(String, boolean, boolean)",1
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,          org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellIT,deleteManyTest,"          ASSERT org.junit.Assert.assertEquals(long, long)",2
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,          ASSERT org.junit.Assert.assertTrue(boolean),2
+ShellIT,deleteManyTest,          org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,"          ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellIT,deleteManyTest,          TEST org.apache.accumulo.test.ShellIT.TestOutputStream.get(),2
+ShellIT,deleteManyTest,          org.apache.accumulo.shell.Shell.resetExitCode(),2
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",2
+ShellIT,deleteManyTest,     TEST org.apache.accumulo.test.ShellIT.TestOutputStream.clear(),0
+ShellIT,deleteManyTest,"     org.apache.accumulo.shell.Shell.execCommand(String, boolean, boolean)",1
+ShellIT,deleteManyTest,TEST org.apache.accumulo.test.ShellIT.exec(String),1
+ShellIT,deleteManyTest,TEST org.apache.accumulo.test.ShellIT.exec(String),1
+ShellIT,deleteManyTest,TEST org.apache.accumulo.test.ShellIT.exec(String),1
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",2
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",2
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",2
+ShellIT,deleteManyTest,TEST org.apache.accumulo.test.ShellIT.exec(String),1
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",1
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",1
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",1
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean)",1
+ShellIT,deleteManyTest,"TEST org.apache.accumulo.test.ShellIT.exec(String, boolean, String)",2

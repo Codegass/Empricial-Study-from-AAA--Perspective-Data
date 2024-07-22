@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InterpolationTest,nestedInterpolations,com.netflix.archaius.config.MapConfig.builder(),0
+InterpolationTest,nestedInterpolations,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+InterpolationTest,nestedInterpolations,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+InterpolationTest,nestedInterpolations,com.netflix.archaius.config.MapConfig.Builder.build(),0
+InterpolationTest,nestedInterpolations,com.netflix.archaius.api.Config.getString(String),1
+InterpolationTest,nestedInterpolations,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

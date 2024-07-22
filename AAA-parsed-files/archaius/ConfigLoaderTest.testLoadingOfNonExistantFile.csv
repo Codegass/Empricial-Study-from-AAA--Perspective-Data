@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigLoaderTest,testLoadingOfNonExistantFile,com.netflix.archaius.DefaultConfigLoader.builder(),0
+ConfigLoaderTest,testLoadingOfNonExistantFile,com.netflix.archaius.DefaultConfigLoader.Builder.build(),0
+ConfigLoaderTest,testLoadingOfNonExistantFile,com.netflix.archaius.DefaultConfigLoader.newLoader(),0
+ConfigLoaderTest,testLoadingOfNonExistantFile,com.netflix.archaius.api.ConfigLoader.Loader.load(String),1
+ConfigLoaderTest,testLoadingOfNonExistantFile,GET com.netflix.archaius.api.PropertySource.isEmpty(),2
+ConfigLoaderTest,testLoadingOfNonExistantFile,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

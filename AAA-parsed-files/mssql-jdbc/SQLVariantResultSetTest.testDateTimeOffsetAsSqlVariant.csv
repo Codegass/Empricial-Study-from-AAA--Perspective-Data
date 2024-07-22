@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,THIRD java.sql.Connection.createStatement(),0
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,THIRD java.sql.Statement.executeQuery(String),0
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,com.microsoft.sqlserver.jdbc.SQLServerResultSet.next(),1
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getObject(int),1
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,THIRD GET java.lang.Object.getClass(),2
+SQLVariantResultSetTest,testDateTimeOffsetAsSqlVariant,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

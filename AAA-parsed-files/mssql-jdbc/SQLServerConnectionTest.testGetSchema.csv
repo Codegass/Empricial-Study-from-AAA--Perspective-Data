@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testGetSchema,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLServerConnectionTest,testGetSchema,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLServerConnectionTest,testGetSchema,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLServerConnectionTest,testGetSchema,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+SQLServerConnectionTest,testGetSchema,THIRD GET java.sql.Connection.getSchema(),2

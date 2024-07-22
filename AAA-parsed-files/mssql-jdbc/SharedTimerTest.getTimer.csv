@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SharedTimerTest,getTimer,THIRD java.util.concurrent.Executors.newFixedThreadPool(int),0
+SharedTimerTest,getTimer,"THIRD java.util.concurrent.CompletableFuture.runAsync(Runnable, Executor)",0
+SharedTimerTest,getTimer,THIRD java.util.ArrayList<java.util.concurrent.CompletableFuture<?>>.add(CompletableFuture<?>),0
+SharedTimerTest,getTimer,GET com.microsoft.sqlserver.jdbc.SharedTimer.getTimer(),0
+SharedTimerTest,getTimer,com.microsoft.sqlserver.jdbc.SharedTimer.removeRef(),0
+SharedTimerTest,getTimer,THIRD java.util.ArrayList<java.util.concurrent.CompletableFuture<?>>.toArray(CompletableFuture[]),0
+SharedTimerTest,getTimer,THIRD java.util.concurrent.CompletableFuture.allOf(CompletableFuture<?>[]),0
+SharedTimerTest,getTimer,"THIRD java.util.concurrent.CompletableFuture<java.lang.Void>.get(long, TimeUnit)",0
+SharedTimerTest,getTimer,THIRD java.util.concurrent.ExecutorService.shutdown(),0

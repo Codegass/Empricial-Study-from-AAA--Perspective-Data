@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PropertyTest,testDefault,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+PropertyTest,testDefault,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+PropertyTest,testDefault,com.netflix.archaius.DefaultPropertyFactory.getProperty(String),0
+PropertyTest,testDefault,com.netflix.archaius.api.PropertyContainer.asInteger(Integer),1
+PropertyTest,testDefault,GET com.netflix.archaius.api.Property.get(),2
+PropertyTest,testDefault,THIRD java.lang.Integer.intValue(),2
+PropertyTest,testDefault,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

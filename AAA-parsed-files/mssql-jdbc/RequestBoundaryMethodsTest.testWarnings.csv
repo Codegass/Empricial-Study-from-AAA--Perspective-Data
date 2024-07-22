@@ -1,0 +1,33 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RequestBoundaryMethodsTest,testWarnings,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+RequestBoundaryMethodsTest,testWarnings,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+RequestBoundaryMethodsTest,testWarnings,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+RequestBoundaryMethodsTest,testWarnings,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+RequestBoundaryMethodsTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.TestUtils.isJDBC43OrGreater(Connection),0
+RequestBoundaryMethodsTest,testWarnings,     TEST com.microsoft.sqlserver.jdbc.TestUtils.getJDBCVersion(Connection),0
+RequestBoundaryMethodsTest,testWarnings,          THIRD java.lang.Float.valueOf(String),0
+RequestBoundaryMethodsTest,testWarnings,          THIRD GET java.sql.Connection.getMetaData(),0
+RequestBoundaryMethodsTest,testWarnings,          THIRD GET java.sql.DatabaseMetaData.getJDBCMajorVersion(),0
+RequestBoundaryMethodsTest,testWarnings,          THIRD GET java.sql.Connection.getMetaData(),0
+RequestBoundaryMethodsTest,testWarnings,          THIRD GET java.sql.DatabaseMetaData.getJDBCMinorVersion(),0
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.beginRequest(),0
+RequestBoundaryMethodsTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.connection.RequestBoundaryMethodsTest.generateWarning(Connection),0
+RequestBoundaryMethodsTest,testWarnings,"     THIRD SET java.sql.Connection.setClientInfo(String, String)",0
+RequestBoundaryMethodsTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+RequestBoundaryMethodsTest,testWarnings,ASSERT org.junit.Assert.assertNotNull(Object),2
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.endRequest(),0
+RequestBoundaryMethodsTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+RequestBoundaryMethodsTest,testWarnings,ASSERT org.junit.Assert.assertNull(Object),2
+RequestBoundaryMethodsTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.connection.RequestBoundaryMethodsTest.generateWarning(Connection),0
+RequestBoundaryMethodsTest,testWarnings,"     THIRD SET java.sql.Connection.setClientInfo(String, String)",0
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.endRequest(),0
+RequestBoundaryMethodsTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+RequestBoundaryMethodsTest,testWarnings,ASSERT org.junit.Assert.assertNotNull(Object),2
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.clearWarnings(),0
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.beginRequest(),0
+RequestBoundaryMethodsTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.connection.RequestBoundaryMethodsTest.generateWarning(Connection),0
+RequestBoundaryMethodsTest,testWarnings,"     THIRD SET java.sql.Connection.setClientInfo(String, String)",0
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.beginRequest(),0
+RequestBoundaryMethodsTest,testWarnings,THIRD java.sql.Connection.endRequest(),0
+RequestBoundaryMethodsTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+RequestBoundaryMethodsTest,testWarnings,ASSERT org.junit.Assert.assertNull(Object),2

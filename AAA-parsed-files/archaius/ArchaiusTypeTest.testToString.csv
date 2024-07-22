@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArchaiusTypeTest,testToString,com.netflix.archaius.api.ArchaiusType.forListOf(Class<?>),0
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,com.netflix.archaius.api.ArchaiusType.forListOf(Class<?>),0
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,com.netflix.archaius.api.ArchaiusType.forSetOf(Class<?>),0
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,"com.netflix.archaius.api.ArchaiusType.forMapOf(Class<?>, Class<?>)",0
+ArchaiusTypeTest,testToString,THIRD java.lang.Object.toString(),1
+ArchaiusTypeTest,testToString,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

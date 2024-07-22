@@ -1,0 +1,29 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+UtilTest,testLongConversions,TEST com.microsoft.sqlserver.jdbc.UtilTest.writeAndReadLong(long),1
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.writeLong(long, byte[], int)",0
+UtilTest,testLongConversions,"     com.microsoft.sqlserver.jdbc.Util.readLong(byte[], int)",0
+UtilTest,testLongConversions,"     ASSERT org.junit.Assert.assertEquals(long, long)",2

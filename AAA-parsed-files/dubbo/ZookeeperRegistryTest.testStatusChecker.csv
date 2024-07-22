@@ -1,0 +1,19 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,NEW org.apache.dubbo.registry.status.RegistryStatusChecker(),0
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.status.RegistryStatusChecker.check(),1
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,GET org.apache.dubbo.common.status.Status.getLevel(),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,ASSERT org.hamcrest.CoreMatchers.is(Level),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,"ASSERT org.hamcrest.MatcherAssert.assertThat(Level, Matcher<? super Level>)",2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.support.AbstractRegistryFactory.getRegistry(URL),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,ASSERT org.hamcrest.CoreMatchers.nullValue(),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,ASSERT org.hamcrest.CoreMatchers.not(Matcher<Object>),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,"ASSERT org.hamcrest.MatcherAssert.assertThat(Registry, Matcher<? super Registry>)",2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.status.RegistryStatusChecker.check(),1
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,GET org.apache.dubbo.common.status.Status.getLevel(),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,ASSERT org.hamcrest.CoreMatchers.is(Level),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,"ASSERT org.hamcrest.MatcherAssert.assertThat(Level, Matcher<? super Level>)",2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.RegistryService.register(URL),0
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,org.apache.dubbo.registry.status.RegistryStatusChecker.check(),1
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,GET org.apache.dubbo.common.status.Status.getLevel(),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,ASSERT org.hamcrest.CoreMatchers.is(Level),2
+org.apache.dubbo.registry.zookeeper,ZookeeperRegistryTest,testStatusChecker,"ASSERT org.hamcrest.MatcherAssert.assertThat(Level, Matcher<? super Level>)",2

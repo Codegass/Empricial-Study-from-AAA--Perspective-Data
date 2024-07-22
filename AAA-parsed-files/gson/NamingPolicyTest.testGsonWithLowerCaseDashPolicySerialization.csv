@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NamingPolicyTest,testGsonWithLowerCaseDashPolicySerialization,com.google.gson.GsonBuilder.setFieldNamingPolicy(FieldNamingPolicy),0
+NamingPolicyTest,testGsonWithLowerCaseDashPolicySerialization,com.google.gson.GsonBuilder.create(),0
+NamingPolicyTest,testGsonWithLowerCaseDashPolicySerialization,NEW com.google.gson.common.TestTypes.StringWrapper(String),0
+NamingPolicyTest,testGsonWithLowerCaseDashPolicySerialization,com.google.gson.Gson.toJson(Object),1
+NamingPolicyTest,testGsonWithLowerCaseDashPolicySerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+NamingPolicyTest,testGsonWithLowerCaseDashPolicySerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

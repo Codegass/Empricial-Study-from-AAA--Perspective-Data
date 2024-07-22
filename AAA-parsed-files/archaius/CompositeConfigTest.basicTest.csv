@@ -1,0 +1,48 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CompositeConfigTest,basicTest,"THIRD java.util.Properties.setProperty(String, String)",0
+CompositeConfigTest,basicTest,NEW com.netflix.archaius.config.DefaultCompositeConfig(),0
+CompositeConfigTest,basicTest,NEW com.netflix.archaius.config.DefaultCompositeConfig(),0
+CompositeConfigTest,basicTest,com.netflix.archaius.config.DefaultCompositeConfig.builder(),0
+CompositeConfigTest,basicTest,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+CompositeConfigTest,basicTest,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+CompositeConfigTest,basicTest,com.netflix.archaius.config.MapConfig.from(Properties),0
+CompositeConfigTest,basicTest,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+CompositeConfigTest,basicTest,com.netflix.archaius.config.DefaultCompositeConfig.Builder.build(),1
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.builder(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.Builder.withStrLookup(Config),2
+CompositeConfigTest,basicTest,com.netflix.archaius.cascade.ConcatCascadeStrategy.from(String[]),2
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.Builder.withDefaultCascadingStrategy(CascadeStrategy),2
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.Builder.build(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.newLoader(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.ConfigLoader.Loader.load(String),2
+CompositeConfigTest,basicTest,"com.netflix.archaius.api.config.CompositeConfig.replaceConfig(String, Config)",2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.getBoolean(String),2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+CompositeConfigTest,basicTest,"com.netflix.archaius.api.Config.getBoolean(String, Boolean)",2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+CompositeConfigTest,basicTest,"com.netflix.archaius.api.Config.getBoolean(String, Boolean)",2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.newLoader(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.ConfigLoader.Loader.load(String),2
+CompositeConfigTest,basicTest,"com.netflix.archaius.api.config.CompositeConfig.replaceConfig(String, Config)",2
+CompositeConfigTest,basicTest,NEW com.netflix.archaius.visitor.PrintStreamVisitor(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.accept(Visitor<Void>),2
+CompositeConfigTest,basicTest,NEW com.netflix.archaius.visitor.PrintStreamVisitor(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.accept(Visitor<Void>),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.getBoolean(String),2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+CompositeConfigTest,basicTest,"com.netflix.archaius.api.Config.getBoolean(String, Boolean)",2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.getString(String),2
+CompositeConfigTest,basicTest,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+CompositeConfigTest,basicTest,com.netflix.archaius.DefaultConfigLoader.newLoader(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.ConfigLoader.Loader.load(String),2
+CompositeConfigTest,basicTest,"com.netflix.archaius.api.config.CompositeConfig.replaceConfig(String, Config)",2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.getBoolean(String),2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.getBoolean(String),2
+CompositeConfigTest,basicTest,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.getString(String),2
+CompositeConfigTest,basicTest,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+CompositeConfigTest,basicTest,NEW com.netflix.archaius.visitor.PrintStreamVisitor(),2
+CompositeConfigTest,basicTest,com.netflix.archaius.api.Config.accept(Visitor<Void>),2

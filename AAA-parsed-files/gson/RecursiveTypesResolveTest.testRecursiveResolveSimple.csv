@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RecursiveTypesResolveTest,testRecursiveResolveSimple,NEW com.google.gson.Gson(),0
+RecursiveTypesResolveTest,testRecursiveResolveSimple,com.google.gson.Gson.getAdapter(Class<Foo1>),1
+RecursiveTypesResolveTest,testRecursiveResolveSimple,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+RecursiveTypesResolveTest,testRecursiveResolveSimple,ASSERT com.google.common.truth.Subject.isNotNull(),2

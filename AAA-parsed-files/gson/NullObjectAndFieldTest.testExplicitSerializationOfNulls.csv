@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NullObjectAndFieldTest,testExplicitSerializationOfNulls,com.google.gson.GsonBuilder.create(),0
+NullObjectAndFieldTest,testExplicitSerializationOfNulls,NEW com.google.gson.common.TestTypes.ClassWithObjects(BagOfPrimitives),0
+NullObjectAndFieldTest,testExplicitSerializationOfNulls,com.google.gson.Gson.toJson(Object),1
+NullObjectAndFieldTest,testExplicitSerializationOfNulls,ASSERT com.google.common.truth.Truth.assertThat(String),2
+NullObjectAndFieldTest,testExplicitSerializationOfNulls,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

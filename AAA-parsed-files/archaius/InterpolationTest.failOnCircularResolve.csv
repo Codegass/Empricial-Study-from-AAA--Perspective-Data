@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InterpolationTest,failOnCircularResolve,com.netflix.archaius.config.MapConfig.builder(),0
+InterpolationTest,failOnCircularResolve,com.netflix.archaius.config.MapConfig.Builder.build(),0
+InterpolationTest,failOnCircularResolve,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<IllegalStateException>, Executable)",1
+InterpolationTest,failOnCircularResolve,com.netflix.archaius.api.Config.resolve(String),2

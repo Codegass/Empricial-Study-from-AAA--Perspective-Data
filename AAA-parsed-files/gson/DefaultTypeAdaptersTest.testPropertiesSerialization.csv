@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultTypeAdaptersTest,testPropertiesSerialization,"THIRD java.util.Properties.setProperty(String, String)",0
+DefaultTypeAdaptersTest,testPropertiesSerialization,com.google.gson.Gson.toJson(Object),1
+DefaultTypeAdaptersTest,testPropertiesSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+DefaultTypeAdaptersTest,testPropertiesSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

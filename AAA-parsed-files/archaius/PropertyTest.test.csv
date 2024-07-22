@@ -1,0 +1,15 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PropertyTest,test,NEW com.netflix.archaius.config.DefaultSettableConfig(),1
+PropertyTest,test,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+PropertyTest,test,NEW com.netflix.archaius.property.PropertyTest.MyService(PropertyFactory),0
+PropertyTest,test,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,test,GET com.netflix.archaius.api.Property.get(),2
+PropertyTest,test,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,test,GET com.netflix.archaius.api.Property.get(),2
+PropertyTest,test,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",1
+PropertyTest,test,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,test,GET com.netflix.archaius.api.Property.get(),2
+PropertyTest,test,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,test,GET com.netflix.archaius.api.Property.get(),2
+PropertyTest,test,THIRD GET java.util.concurrent.atomic.AtomicInteger.get(),2
+PropertyTest,test,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

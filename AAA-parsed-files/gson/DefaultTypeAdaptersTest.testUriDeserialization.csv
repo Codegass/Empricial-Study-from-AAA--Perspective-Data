@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultTypeAdaptersTest,testUriDeserialization,"com.google.gson.Gson.fromJson(String, Class<URI>)",1
+DefaultTypeAdaptersTest,testUriDeserialization,THIRD java.net.URI.toASCIIString(),1
+DefaultTypeAdaptersTest,testUriDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+DefaultTypeAdaptersTest,testUriDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

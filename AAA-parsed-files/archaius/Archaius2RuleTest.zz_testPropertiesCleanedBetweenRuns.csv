@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,TEST com.netflix.archaius.test.Archaius2TestConfig.getRawProperty(String),1
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,     com.netflix.archaius.config.AbstractDependentConfig.getRawProperty(String),0
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,ASSERT org.junit.Assert.assertNull(Object),2
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,TEST com.netflix.archaius.test.Archaius2TestConfig.getRawProperty(String),1
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,     com.netflix.archaius.config.AbstractDependentConfig.getRawProperty(String),0
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,ASSERT org.junit.Assert.assertNull(Object),2
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,TEST com.netflix.archaius.test.Archaius2TestConfig.getRawProperty(String),1
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,     com.netflix.archaius.config.AbstractDependentConfig.getRawProperty(String),0
+Archaius2RuleTest,zz_testPropertiesCleanedBetweenRuns,ASSERT org.junit.Assert.assertNull(Object),2

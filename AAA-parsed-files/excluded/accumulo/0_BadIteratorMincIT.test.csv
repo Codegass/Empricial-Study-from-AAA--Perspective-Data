@@ -1,0 +1,58 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BadIteratorMincIT,test,org.apache.accumulo.core.client.Accumulo.newClient(),0
+BadIteratorMincIT,test,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+BadIteratorMincIT,test,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+BadIteratorMincIT,test,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+BadIteratorMincIT,test,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.client.admin.TableOperations.attachIterator(String, IteratorSetting, EnumSet<IteratorScope>)",1
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+BadIteratorMincIT,test,NEW org.apache.hadoop.io.Text(String),0
+BadIteratorMincIT,test,NEW org.apache.accumulo.core.data.Mutation(Text),0
+BadIteratorMincIT,test,NEW org.apache.hadoop.io.Text(String),0
+BadIteratorMincIT,test,NEW org.apache.hadoop.io.Text(String),0
+BadIteratorMincIT,test,NEW org.apache.accumulo.core.data.Value(byte[]),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.client.admin.TableOperations.flush(String, Text, Text, boolean)",0
+BadIteratorMincIT,test,"org.apache.accumulo.fate.util.UtilWaitThread.sleepUninterruptibly(long, TimeUnit)",0
+BadIteratorMincIT,test,"     org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+BadIteratorMincIT,test,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+BadIteratorMincIT,test,     org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),2
+BadIteratorMincIT,test,     NEW org.apache.hadoop.io.Text(String),2
+BadIteratorMincIT,test,     NEW org.apache.hadoop.io.Text(String),2
+BadIteratorMincIT,test,"     NEW org.apache.accumulo.core.data.Range(Text, boolean, Text, boolean)",2
+BadIteratorMincIT,test,     org.apache.accumulo.core.client.Scanner.setRange(Range),2
+BadIteratorMincIT,test,     org.apache.accumulo.core.client.ScannerBase.fetchColumnFamily(Text),2
+BadIteratorMincIT,test,     org.apache.accumulo.core.util.ColumnFQ.fetch(ScannerBase),2
+BadIteratorMincIT,test,     org.apache.accumulo.core.data.Key.getRow(),2
+BadIteratorMincIT,test,     org.apache.accumulo.core.data.Key.getColumnFamily(),2
+BadIteratorMincIT,test,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.ScannerBase.iterator(),0
+BadIteratorMincIT,test,"ASSERT org.junit.Assert.assertEquals(String, long, long)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.client.admin.TableOperations.removeIterator(String, String, EnumSet<IteratorScope>)",1
+BadIteratorMincIT,test,"org.apache.accumulo.fate.util.UtilWaitThread.sleepUninterruptibly(long, TimeUnit)",0
+BadIteratorMincIT,test,"TEST org.apache.accumulo.test.functional.FunctionalTestUtils.checkRFiles(AccumuloClient, String, int, int, int, int)",2
+BadIteratorMincIT,test,org.apache.accumulo.core.client.ScannerBase.iterator(),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.client.admin.TableOperations.attachIterator(String, IteratorSetting, EnumSet<IteratorScope>)",1
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+BadIteratorMincIT,test,NEW org.apache.hadoop.io.Text(String),0
+BadIteratorMincIT,test,NEW org.apache.accumulo.core.data.Mutation(Text),0
+BadIteratorMincIT,test,NEW org.apache.hadoop.io.Text(String),0
+BadIteratorMincIT,test,NEW org.apache.hadoop.io.Text(String),0
+BadIteratorMincIT,test,NEW org.apache.accumulo.core.data.Value(byte[]),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+BadIteratorMincIT,test,"org.apache.accumulo.fate.util.UtilWaitThread.sleepUninterruptibly(long, TimeUnit)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,"org.apache.accumulo.core.client.admin.TableOperations.flush(String, Text, Text, boolean)",0
+BadIteratorMincIT,test,"org.apache.accumulo.fate.util.UtilWaitThread.sleepUninterruptibly(long, TimeUnit)",0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BadIteratorMincIT,test,org.apache.accumulo.core.client.admin.TableOperations.delete(String),0

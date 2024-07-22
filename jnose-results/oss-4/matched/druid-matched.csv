@@ -1,0 +1,226 @@
+Test_case,Multiple AAA,Missing Assert,Assert Pre,Suppressed Exception,Obscure Assert,Multiple Act,Arrange&Quit,testSmellName
+UserCompactionTaskQueryTuningConfigTest.testSerdeNulls,,,1.0,,,,,['Assertion Roulette']
+SegmentMetadataQueryTest.testSerde,,,1.0,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+SqlSegmentsMetadataManagerTest.testPollOnDemand,,,1.0,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert', 'Verbose Test']"
+KinesisSupervisorTest.testQueueNextTasksOnSuccess,,,1.0,,,,,"['Assertion Roulette', 'Conditional Test Logic', 'Verbose Test']"
+IndexerSQLMetadataStorageCoordinatorTest.testTransactionalAnnounceRetryAndSuccess,,,1.0,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+SqlSegmentsMetadataManagerTest.testMarkAsUnusedSegmentsInIntervalWithInvalidInterval,,,1.0,,,,,"['Assertion Roulette', 'Eager Test']"
+QuerySchedulerTest.testHiLoFailsWhenOutOfLaneCapacity,,,1.0,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+MergeIntIteratorTest.testOverflow,1.0,,,,,,,[]
+DruidAvaticaHandlerTest.testSqlRequestLog,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Exception Catching Throwing', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test']"
+SubstringDimExtractionFnTest.testNoLength,1.0,,,,,,,"['Assertion Roulette', 'Eager Test']"
+OvershadowableManagerTest.testFindOvershadowedBy,1.0,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+ResourcePoolTest.testTimedOutResource,1.0,,,,,,,"['Assertion Roulette', 'Sleepy Test', 'Verbose Test']"
+AvroFlattenerMakerTest.makeJsonPathExtractor,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+DataSourcesResourceTest.testGetServedSegmentsInIntervalInDataSource,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+BytesBoundedLinkedQueueTest.testOfferAndPut,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Exception Catching Throwing', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+HashPartitionMultiPhaseParallelIndexingTest.testAppendLinearlyPartitionedSegmensToHashPartitionedDatasourceSuccessfullyAppend,1.0,,,,,,,[]
+CompressionUtilsTest.testZeroRemainingInputStream,1.0,,,,,,,[]
+GranularityTest.testBucket,1.0,,,,,,,['Assertion Roulette']
+TaskLockBoxConcurrencyTest.testDoInCriticalSectionWithDifferentTasks,1.0,,,,,,,[]
+DictionaryMergeIteratorTest.basicTest,1.0,,,,,,,[]
+LookupExtractionFnTest.testEqualsAndHash,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Conditional Test Logic', 'Verbose Test']"
+ApproximateHistogramTest.testFold,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+ParserTest.testLiteralArraysExplicitLongParseException,1.0,,,,,,,['Unknown Test']
+ExpressionVirtualColumnTest.testFloatSelector,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Conditional Test Logic']"
+AppenderatorTest.testMaxBytesInMemoryInMultipleSinks,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Exception Catching Throwing', 'Magic Number Test', 'Verbose Test']"
+BloomKFilterTest.testBloomKFilterFloat,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+FunctionTest.testRoundWithNonNumericValuesShouldReturn0,1.0,,,,,,,['Magic Number Test']
+HashBasedNumberedShardSpecTest.testGetGroupKey,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Sensitive Equality']"
+BloomKFilterTest.testBloomKFilterBytes,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+KinesisSupervisorTest.testIsTaskCurrent,1.0,,,,,,,"['Assertion Roulette', 'Resource Optimism', 'Magic Number Test', 'Verbose Test']"
+TimeseriesQueryQueryToolChestTest.testCacheKey,1.0,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+PendingTaskBasedProvisioningStrategyTest.testSomethingProvisioning,1.0,,,,,,,[]
+IndexerSQLMetadataStorageCoordinatorTest.testTransactionalAnnounceSuccess,1.0,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+PerSegmentQueryOptimizeTest.testFilteredAggregatorDontOptimizeOnNonTimeColumn,1.0,,,,,,,[]
+SinkTest.testDedup,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+OvershadowableManagerTest.testAddCompleteOvershadowedToCompletePartition2,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Conditional Test Logic', 'Verbose Test']"
+OvershadowableManagerTest.testAddStandbyChunksToIncompletePartition,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert']"
+ThriftInputRowParserTest.testParse,1.0,,,,,,,['Unknown Test']
+SegmentManagerTest.testNonExistingSegmentsSequentially,1.0,,,,,,,[]
+GranularityTest.testSecondToDate,1.0,,,,,,,"['Unknown Test', 'Verbose Test']"
+GranularityTest.testFifteenMinuteToDate,1.0,,,,,,,"['Unknown Test', 'Verbose Test']"
+ParallelMergeCombiningSequenceTest.testMixedSingleAndMultiYield,1.0,,,,,,,"['Duplicate Assert', 'Magic Number Test']"
+CoordinatorResourceTest.testIsLeader,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+BaseAveragerTest.testSkip,1.0,,,,,,,[]
+ExtractionDimensionSpecTest.testSerdeBackwardsCompatibility,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+KinesisIndexTaskTest.testIncrementalHandOffReadsThroughEndOffsets,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test', 'Sleepy Test']"
+SupervisorResourceTest.testSpecGetHistoryWithAuthFailure,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test']"
+DruidSchemaTest.testAvailableSegmentMetadataIsRealtime,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Verbose Test']"
+TimeFilteringTest.testTimeFilterWithExtractionFn,1.0,,,,,,,[]
+DruidSchemaTest.testLocalSegmentCacheSetsDataSourceAsBroadcastButNotJoinable,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Verbose Test']"
+CompactionTaskRunTest.testWithSegmentGranularity,1.0,,,,,,,[]
+KinesisRecordSupplierTest.testPollAfterSeek,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Eager Test', 'Sleepy Test']"
+GranularityTest.testSixHourToDate,1.0,,,,,,,"['Unknown Test', 'Verbose Test']"
+DataGeneratorTest.testSequential,,1.0,,,,,,"['Eager Test', 'Unknown Test', 'Conditional Test Logic', 'Verbose Test']"
+TransformerTest.testTransformWithTransformAndFilterTransformFirst,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+QueryResourceTest.testTruncatedResponseContextShouldFail,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Sensitive Equality', 'Magic Number Test']"
+KinesisIndexTaskTest.testIncrementalHandOffMaxTotalRows,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Sleepy Test']"
+BasicHTTPAuthenticatorTest.testBadPasswordWithSkipOnFailureValidator,,,,,,,,"['Eager Test', 'Unknown Test', 'Verbose Test']"
+SmooshedFileMapperTest.testBehaviorWhenReportedSizesLargeAndExceptionIgnored,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Exception Catching Throwing', 'Magic Number Test', 'Verbose Test', 'Mystery Guest', 'Eager Test', 'Resource Optimism']"
+OvershadowableManagerTest.testRemoveStandbyChunk,,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Conditional Test Logic']"
+CalciteQueryTest.testPrimitiveAnyInSubquery,,,,,,,,[]
+GroupByLimitPushDownInsufficientBufferTest.testPartialLimitPushDownMerge,,,,,,,,[]
+DoublesSketchSqlAggregatorTest.testQuantileOnInnerQuery,,,,,,,,[]
+CalciteQueryTest.testGroupingSetsWithOrderByAggregator,,,,,,,,[]
+CalciteQueryTest.testAnyAggregatorsOffHeapNumericNulls,,,,,,,,[]
+MemoryOpenHashTableTest.testInsertRepeatedKeys,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Conditional Test Logic', 'Verbose Test']"
+CalciteQueryTest.testOrderByAnyLong,,,,,,,,[]
+SystemSchemaTest.testSupervisorTable,,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Verbose Test']"
+CalciteQueryTest.testUsingSubqueryWithLimit,,,,,,,,[]
+QueryResourceTest.testGoodQueryWithNullAcceptHeader,,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Verbose Test']"
+GoogleCloudStorageInputSourceTest.testWithPrefixesSplit,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+StringLastBufferAggregatorTest.testBufferAggregateWithFoldCheck,,,,,,,,"['Eager Test', 'Conditional Test Logic', 'Verbose Test']"
+CalciteQueryTest.testTopNFilterJoin,,,,,,,,[]
+RendezvousHasherTest.testBasic,,,,,,,,"['Assertion Roulette', 'Conditional Test Logic']"
+GranularityTest.testIncrementOverSpringForward,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+ImmutableConciseSetTest.testComplement10,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+BalanceSegmentsTest.testMoveToDecommissioningServer,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+ReferenceCountingResourceHolderTest.testResourceHandlerWithReleaserClearedByJVM,,,,,,,,[]
+RunRulesTest.testRunThreeTiersOneReplicant,,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+CalciteQueryTest.testGroupByExpressionFromLookup,,,,,,,,[]
+GceAutoScalerTest.testIdToIp,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+IndexerSQLMetadataStorageCoordinatorTest.testUsedOverlapLow,,,,,,,,['Assertion Roulette']
+LimitedBufferHashGrouperTest.testLimitAndBufferSwapping,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+TaskMonitorTest.testRetry,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Conditional Test Logic', 'Verbose Test']"
+QuantileSqlAggregatorTest.testQuantileOnFloatAndLongs,,,,,,,,"['Assertion Roulette', 'Conditional Test Logic', 'Verbose Test']"
+FinalizingFieldAccessPostAggregatorTest.testComparatorsWithFinalizingAndComparatorNull,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+ReferenceCountingResourceHolderTest.testResourceHandlerClearedByJVM,,,,,,,,[]
+IndexMergerTestBase.testDisjointDimMerge,,,,,,,,[]
+SqlSegmentsMetadataManagerTest.testMarkAsUsedNonOvershadowedSegments,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+KinesisSupervisorTest.testCheckpointForUnknownTaskGroup,,,,,,,,"['Assertion Roulette', 'Sleepy Test', 'Conditional Test Logic', 'Verbose Test']"
+WorkerTaskManagerTest.testTaskRun,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Eager Test', 'Resource Optimism', 'Sleepy Test']"
+SketchToStringPostAggregatorTest.test,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+ScanQueryRunnerTest.testSelectWithUnderscoreUnderscoreTime,,,,,,,,[]
+FinalizingFieldAccessPostAggregatorTest.testComputedWithFinalizing,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+DecimalParquetInputTest.testReadParquetDecimali64,,,,,,,,[]
+ImmutableConciseSetTest.testComplement5,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+CalciteQueryTest.testPruneDeadAggregatorsThroughHaving,,,,,,,,[]
+RowBasedStorageAdapterTest.test_getAvailableDimensions,,,,,,,,['Assertion Roulette']
+QueryableIndexIndexableAdapterTest.testGetBitmapIndex,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Exception Catching Throwing', 'Magic Number Test', 'Mystery Guest', 'Eager Test', 'Resource Optimism']"
+RealtimeIndexTaskTest.testHandoffTimeout,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Eager Test', 'Sleepy Test']"
+IndexerZkConfigTest.testIndexerBaseOverride,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Conditional Test Logic', 'Verbose Test']"
+VectorValueMatcherColumnProcessorFactoryTest.testSingleValueString,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+OrcHadoopInputRowParserTest.testDate1900,,,,,,,,"['Assertion Roulette', 'Magic Number Test']"
+CalciteQueryTest.testUsingSubqueryAsPartOfOrFilter,,,,,,,,[]
+CalciteQueryTest.testCountDistinctArithmetic,,,,,,,,[]
+MarkAsUnusedOvershadowedSegmentsTest.testRun,,,,,,,,"['Eager Test', 'Unknown Test', 'Verbose Test']"
+BloomFilterSqlAggregatorTest.testBloomFilterAggExtractionFn,,,,,,,,"['Assertion Roulette', 'Conditional Test Logic', 'Verbose Test']"
+CalciteQueryTest.testFilterAndGroupByLookupUsingJoinOperatorAllowNulls,,,,,,,,[]
+QueryResourceTest.testSecuredCancelQuery,,,,,,,,['Verbose Test']
+CalciteQueryTest.testNullStringEquality,,,,,,,,[]
+ExprsTest.test_decomposeAnd_basic,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Conditional Test Logic']"
+BloomDimFilterSqlTest.testBloomFilterVirtualColumn,,,,,,,,[]
+GroupByQueryRunnerTest.testGroupByNumericStringsAsNumericWithDecoration,,,,,,,,[]
+RemoteTaskActionClientTest.testSubmitSimple,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Mystery Guest', 'Verbose Test']"
+KinesisSupervisorTest.testDatasourceMetadata,,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+TaskLifecycleTest.testKillUnusedSegmentsTask,,,,,,,,[]
+KinesisIndexTaskTest.testReportParseExceptions,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+CalciteQueryTest.testFilterOnTimeExtractWithMultipleDays,,,,,,,,[]
+CuratorModuleTest.exhibitorEnsembleProvider,,,,,,,,[]
+CalciteQueryTest.testFilterAndGroupByLookupUsingJoinOperatorWithNotFilter,,,,,,,,[]
+SegmentLoaderLocalCacheManagerTest.testRetrySuccessAtFirstLocation,,,,,,,,"['Assertion Roulette', 'Resource Optimism', 'Verbose Test', 'Eager Test', 'Mystery Guest']"
+TopNMetricSpecOptimizationsTest.testShouldOptimizeLexicographic,,,,,,,,[]
+ImmutableConciseSetTest.testUnion5,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+TopNQueryRunnerTest.testFullOnTopNBoundFilterAndLongSumMetric,,,,,,,,[]
+CalciteQueryTest.testExactCountDistinctUsingSubqueryWithWhereToOuterFilter,,,,,,,,[]
+GroupByQueryRunnerTest.testGroupByWithNoResult,,,,,,,,[]
+OvershadowableManagerTest.testAddCompleteOvershadowedToInCompletePartition,,,,,,,,"['Assertion Roulette', 'Duplicate Assert']"
+CalciteQueryTest.testGroupByExtractFloorTime,,,,,,,,[]
+SqlSegmentsMetadataManagerTest.testPollPeriodically,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+InitializationTest.testGetExtensionFilesToLoad_with_load_list,,,,,,,,"['Assertion Roulette', 'Resource Optimism', 'Mystery Guest']"
+ImmutableConciseSetTest.testWordIteratorAdvanceTo2,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Conditional Test Logic']"
+TimeseriesQueryQueryToolChestTest.testCacheKey,,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+DefaultTopNQueryMetricsTest.testDefaultTopNQueryMetricsQuery,,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+ImmutableConciseSetTest.testUnion16,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+KinesisSupervisorTest.testDiscoverExistingPublishingTask,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+TimeBoundaryQueryRunnerTest.testFilteredTimeBoundaryQueryNoMatches,,,,,,,,[]
+GroupByQueryRunnerTest.testSubqueryWithExtractionFnInOuterQuery,,,,,,,,[]
+CalciteQueryTest.testNvlColumns,,,,,,,,[]
+DoublesSketchSqlAggregatorTest.testDoublesSketchPostAggs,,,,,,,,[]
+KinesisIndexTaskTest.testRunOneTaskTwoPartitions,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Sleepy Test']"
+InfluxdbEmitterTest.testMetricIsInDefaultDimensionWhitelist,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+SearchQueryRunnerTest.testSearchWithCardinality,,,,,,,,"['Unknown Test', 'Verbose Test']"
+ScanQueryRunnerTest.testFullOnSelectWithFilterAndLimit,,,,,,,,[]
+InputRowSerdeTest.testThrowParseExceptions,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+AndDimFilterTest.testToFilterWithDuplicateFilters,,,,,,,,['Assertion Roulette']
+CalciteQueryTest.testEarliestAggregators,,,,,,,,[]
+CalciteQueryTest.testCountStarWithTimeFilterUsingStringLiterals,,,,,,,,[]
+CalciteQueryTest.testInnerJoinMismatchedTypes,,,,,,,,[]
+GroupByQueryRunnerTest.testSubqueryWithHyperUniquesPostAggregator,,,,,,,,[]
+IncrementalIndexTest.testSingleThreadedIndexingAndQuery,,,,,,,,[]
+CalciteQueryTest.testFilterOnTimeExtract,,,,,,,,[]
+StreamChunkParserTest.testWithParserAndNullInputformatParseProperly,,,,,,,,['Unknown Test']
+ReferenceCountingResourceHolderTest.testIdiomaticUsage,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+KafkaSupervisorTest.testDiscoverExistingPublishingTask,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+RowBasedStorageAdapterTest.test_getColumnCapabilities_complex,,,,,,,,['Assertion Roulette']
+KinesisIndexTaskTest.testSequencesFromContext,,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+SegmentLoaderLocalCacheManagerTest.testRetrySuccessAtSecondLocation,,,,,,,,"['Assertion Roulette', 'Resource Optimism', 'Verbose Test', 'Eager Test', 'Mystery Guest']"
+IncrementalIndexStorageAdapterTest.testResetSanity,,,,,,,,[]
+StringAnyBufferAggregatorTest.testBufferAggregate,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Conditional Test Logic']"
+MultiValuedDimensionTest.testGroupByExpressionAuto,,,,,,,,[]
+CalciteQueryTest.testGroupByWithFilterMatchingNothing,,,,,,,,[]
+CalciteQueryTest.testAnyAggregatorsOnHeapNumericNulls,,,,,,,,[]
+ResourcePoolTest.testCloseUnblocks,,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+KafkaSupervisorTest.testBadMetadataOffsets,,,,,,,,['Assertion Roulette']
+CloudObjectLocationTest.testBucketName,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+RunRulesTest.testOneNodesOneTierOneReplicantCostBalancerStrategyNotEnoughSpace,,,,,,,,"['Assertion Roulette', 'Verbose Test']"
+DefaultQueryMetricsTest.testDefaultQueryMetricsQuery,,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+SqlResourceTest.testUnauthorized,,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing', 'Magic Number Test']"
+ExpressionsTest.testOtherTimeCeil,,,,,,,,['Unknown Test']
+CalciteQueryTest.testOrderByLatestLong,,,,,,,,[]
+LoadQueuePeonTest.testFailAssign,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+VarianceGroupByQueryTest.testGroupByZtestPostAgg,,,,,,,,[]
+TimeseriesQueryRunnerTest.testTimeseriesGrandTotal,,,,,,,,[]
+DoublesSketchToQuantilesPostAggregatorTest.normalCase,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Conditional Test Logic']"
+OverlordResourceTest.testGetTasksFilterPendingState,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+CalciteQueryTest.testMultiValueStringToStringToMultiValueString,,,,,,,,[]
+CuratorModuleTest.emptyExhibitorHosts,,,,,,,,[]
+CalciteQueryTest.testMultiValueStringOffsetOf,,,,,,,,[]
+HashJoinSegmentStorageAdapterTest.test_makeCursors_factToRegionTheWrongWay,,,,,,,,"['Eager Test', 'Unknown Test', 'Verbose Test']"
+AppenderatorDriverRealtimeIndexTaskTest.testReportParseExceptionsOnBadMetric,,,,,,,,[]
+SQLMetadataRuleManagerTest.testAuditEntryCreated,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+CalciteQueryTest.testGroupByStringLength,,,,,,,,[]
+CalciteQueryTest.testMultiValueStringWorksLikeStringGroupBy,,,,,,,,[]
+DefaultGroupByQueryMetricsTest.testDefaultGroupByQueryMetricsQuery,,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+CalciteQueryTest.testRegexpLikeFilter,,,,,,,,[]
+CalciteQueryTest.testLatestAggregators,,,,,,,,[]
+CalciteQueryTest.testProjectAfterSort3WithoutAmbiguity,,,,,,,,[]
+AvroOCFReaderTest.testParseWithReaderSchemaAlias,,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing', 'Verbose Test']"
+FixedBucketsHistogramBufferAggregatorTest.testBufferAggregate,,,,,,,,"['Eager Test', 'Magic Number Test', 'Conditional Test Logic', 'Verbose Test']"
+RemoteTaskRunnerTest.testBlacklistZKWorkers25Percent,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+OvershadowableManagerTest.testFallBackToStandbyOnRemove,,,,,,,,"['Assertion Roulette', 'Duplicate Assert']"
+VersionedIntervalTimelineTest.testOvershadowedByReferenceAndThenVersion,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+OvershadowableManagerTest.testCopyVisible,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+ProtobufInputRowParserTest.testParseFlatData,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Print Statement', 'Redundant Assertion', 'Eager Test']"
+CalciteQueryTest.testNullEmptyStringEquality,,,,,,,,[]
+ImmutableConciseSetIntersectionTest.testIntersection2,,,,,,,,[]
+CalciteQueryTest.testMultiValueStringAppend,,,,,,,,[]
+ImmutableConciseSetTest.testUnion17,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+HashJoinSegmentStorageAdapterTest.test_makeCursors_factToCountryInnerUsingCountryNumberUsingLookup,,,,,,,,"['Eager Test', 'Unknown Test', 'Conditional Test Logic', 'Verbose Test']"
+UnionDataSourceTest.test_withChildren_sameNumber,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+FileWriteOutBytesTest.writeBufferLargerThanCapacityThrowsIOEInTheMiddleShouldIncrementSizeCorrectly,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing', 'Magic Number Test']"
+TDigestSketchSqlAggregatorTest.testQuantileOnNumericValues,,,,,,,,[]
+GroupByQueryRunnerTest.testGroupByWithFirstLast,,,,,,,,[]
+KafkaIndexTaskTest.testRunBeforeDataInserted,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Sleepy Test']"
+KafkaSupervisorTest.testDiscoverExistingPublishingAndReadingTask,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+IndexedTableJoinableTest.makeJoinMatcherWithDimensionSelectorOnString,,,,,,1.0,,"['Assertion Roulette', 'Magic Number Test']"
+TaskSerdeTest.testIndexTaskwithResourceSerde,,,,,,1.0,,[]
+DecimalParquetInputTest.testReadParquetDecimali32,,,,,,,1.0,[]
+CalciteQueryTest.testCountStarWithTimeFilterUsingStringLiteralsInvalid,,,,1.0,,,,[]
+SegmentIdTest.testInvalidFormat0,,,,,,,,['Assertion Roulette']
+InlineFirehoseTest.testMultiline,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+PullDependenciesTest.testPullDependencies_root_hadoop_dependencies_dir_bad_state,,,,,,,,['Assertion Roulette']
+ParseSpecTest.testDimensionSpecRequired,,,,,,,,[]
+MakeDimensionProcessorTest.testMatchMultiValuedRowCardinalityKnownShouldThrowException,,,,,,,,[]
+DimensionSelectorHavingSpecTest.testNullDimension,,,,,,,,[]
+CSVParseSpecTest.testComma,,,,,,,,[]
+HdfsDataSegmentKillerTest.testNoStorageDirectory,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert', 'Verbose Test']"
+DelimitedParseSpecTest.testDefaultColumnList,,,,,,,,[]
+ParserTest.testLiteralArrayImplicitStringParseException,,,,,,,,['Unknown Test']
+InitializationTest.testGetExtensionFilesToLoad_with_non_exist_item_in_load_list,,,,,,,,"['Resource Optimism', 'Mystery Guest']"
+RootSchemaProviderTest.testGetShouldReturnRootSchemaWithProvidedSchemasRegistered,,,,,,,,['Assertion Roulette']
+LookupJoinableTest.getCorrelatedColumnValuesForSearchValueAndRetrieveKeyColumnWithMaxLimitSetShouldHonorMaxLimit,,,,,,,,['IgnoredTest']
+ArrayOfDoublesSketchToEstimateAndBoundsPostAggregatorTest.equalsAndHashCode,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Redundant Assertion', 'Verbose Test']"
+SubclassesMustOverrideEqualsAndHashCodeTest.testEqualsAndHashCode,,,,,,,,[]
+ArrayOfDoublesSketchToMeansPostAggregatorTest.equalsAndHashCode,,,,,,,,"['Assertion Roulette', 'Redundant Assertion', 'Verbose Test']"

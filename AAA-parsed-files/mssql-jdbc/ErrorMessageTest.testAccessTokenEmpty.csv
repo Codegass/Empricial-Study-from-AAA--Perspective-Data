@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorMessageTest,testAccessTokenEmpty,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+ErrorMessageTest,testAccessTokenEmpty,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setServerName(String),0
+ErrorMessageTest,testAccessTokenEmpty,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setDatabaseName(String),0
+ErrorMessageTest,testAccessTokenEmpty,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setAccessToken(String),0
+ErrorMessageTest,testAccessTokenEmpty,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ErrorMessageTest,testAccessTokenEmpty,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testAccessTokenEmpty,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testAccessTokenEmpty,THIRD GET java.lang.Throwable.getMessage(),0
+ErrorMessageTest,testAccessTokenEmpty,THIRD java.lang.String.contains(CharSequence),0
+ErrorMessageTest,testAccessTokenEmpty,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ErrorMessageTest,testAccessTokenEmpty,THIRD GET java.lang.Throwable.getMessage(),2

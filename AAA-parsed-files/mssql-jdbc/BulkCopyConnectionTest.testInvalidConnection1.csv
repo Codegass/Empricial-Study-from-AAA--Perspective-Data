@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BulkCopyConnectionTest,testInvalidConnection1,NEW anonymous(),0
+BulkCopyConnectionTest,testInvalidConnection1,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<SQLException>, Executable)",2
+BulkCopyConnectionTest,testInvalidConnection1,NEW com.microsoft.sqlserver.jdbc.SQLServerBulkCopy(Connection),1

@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ThriftBehaviorIT,echoFail,          NEW org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoFail_args(),0
+ThriftBehaviorIT,echoFail,          TEST org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoFail_args.setValue(String),0
+ThriftBehaviorIT,echoFail,          NEW org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoFail_result(),0
+ThriftBehaviorITIT,echoFail,          TEST org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoFail_result.isSetSuccess(),0
+ThriftBehaviorIT,echoFail,"          NEW org.apache.thrift.TApplicationException(int, String)",0
+ThriftBehaviorIT,echoFail,ASSERT org.junit.Assert.fail(String),2
+ThriftBehaviorIT,echoFail,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ThriftBehaviorIT,echoFail,               NEW org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoPass_args(),2
+ThriftBehaviorIT,echoFail,               TEST org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoPass_args.setValue(String),2
+ThriftBehaviorIT,echoFail,               NEW org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoPass_result(),2
+ThriftBehaviorIT,echoFail,               TEST org.apache.accumulo.test.rpc.thrift.SimpleThriftService.echoPass_result.isSetSuccess(),2
+ThriftBehaviorIT,echoFail,"               NEW org.apache.thrift.TApplicationException(int, String)",2
+ThriftBehaviorIT,echoFail,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2

@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTypeAdapterTest,testDeserializeNullValue,"THIRD java.util.Map<java.lang.String,java.lang.Object>.put(String, Object)",0
+ObjectTypeAdapterTest,testDeserializeNullValue,com.google.gson.TypeAdapter.fromJson(String),1
+ObjectTypeAdapterTest,testDeserializeNullValue,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+ObjectTypeAdapterTest,testDeserializeNullValue,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

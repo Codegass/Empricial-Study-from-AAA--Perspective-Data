@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapTest,testNumberKeyDeserialization,"THIRD java.util.Map<java.lang.Double,java.lang.String>.put(Double, String)",0
+MapTest,testNumberKeyDeserialization,"THIRD java.util.Map<java.lang.Double,java.lang.String>.put(Double, String)",0
+MapTest,testNumberKeyDeserialization,NEW anonymous(),0
+MapTest,testNumberKeyDeserialization,"com.google.gson.Gson.fromJson(String, TypeToken<Map<Double,String>>)",1
+MapTest,testNumberKeyDeserialization,"ASSERT com.google.common.truth.Truth.assertThat(Map<?,?>)",2
+MapTest,testNumberKeyDeserialization,ASSERT com.google.common.truth.MapSubject.isEqualTo(Object),2

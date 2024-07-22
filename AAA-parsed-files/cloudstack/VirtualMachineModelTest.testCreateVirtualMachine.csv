@@ -1,0 +1,71 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.mock(Class<ContrailManagerImpl>),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.mock(Class<ModelController>),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,"NEW net.juniper.contrail.api.ApiConnectorMock(String, int)",0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET org.apache.cloudstack.network.contrail.model.ModelController.getManager(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(ContrailManager),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<org.apache.cloudstack.network.contrail.management.ContrailManager>.thenReturn(ContrailManager),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET org.apache.cloudstack.network.contrail.model.ModelController.getApiAccessor(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(ApiConnector),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<net.juniper.contrail.api.ApiConnector>.thenReturn(ApiConnector),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.mock(Class<NetworkVO>),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getName(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.String>.thenReturn(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getState(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(State),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<com.cloud.network.Network.State>.thenReturn(State),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getGateway(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.String>.thenReturn(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getCidr(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.String>.thenReturn(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getPhysicalNetworkId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Long>.thenReturn(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getDomainId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Long>.thenReturn(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getAccountId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Long>.thenReturn(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getCanonicalName(Network),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.String>.thenReturn(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getDomainId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.network.dao.NetworkVO.getAccountId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,"org.apache.cloudstack.network.contrail.management.ContrailManagerImpl.getProjectId(long, long)",0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.String>.thenReturn(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.mock(Class<VMInstanceVO>),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.vm.VMInstanceVO.getInstanceName(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.String>.thenReturn(String),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.vm.VMInstanceVO.getState(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(State),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<com.cloud.vm.VirtualMachine.State>.thenReturn(State),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.vm.VMInstanceVO.getDomainId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Long>.thenReturn(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET com.cloud.vm.VMInstanceVO.getAccountId(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Long>.thenReturn(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.mock(Class<UserVmDao>),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Matchers.anyLong(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,com.cloud.utils.db.GenericDao.findById(Long),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(UserVmVO),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<com.cloud.vm.UserVmVO>.thenReturn(UserVmVO),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET org.apache.cloudstack.network.contrail.model.ModelController.getVmDao(),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.Mockito.when(UserVmDao),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,MOCK org.mockito.stubbing.OngoingStubbing<com.cloud.vm.dao.UserVmDao>.thenReturn(UserVmDao),0
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,"NEW org.apache.cloudstack.network.contrail.model.VirtualMachineModel(VMInstanceVO, String)",1
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET org.apache.cloudstack.network.contrail.model.VirtualMachineModel.getInstanceName(),2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,"ASSERT junit.framework.TestCase.assertEquals(String, String)",2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,GET org.apache.cloudstack.network.contrail.model.VirtualMachineModel.getUuid(),2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,"ASSERT junit.framework.TestCase.assertEquals(String, String)",2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,"org.apache.cloudstack.network.contrail.model.VirtualMachineModel.build(ModelController, VMInstanceVO)",2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.update(ModelController),2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,ASSERT junit.framework.TestCase.fail(String),2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,org.apache.cloudstack.network.contrail.model.VirtualMachineModel.verify(ModelController),2
+org.apache.cloudstack.network.contrail.model,VirtualMachineModelTest,testCreateVirtualMachine,ASSERT junit.framework.TestCase.assertTrue(boolean),2

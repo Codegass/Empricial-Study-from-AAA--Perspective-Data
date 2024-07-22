@@ -1,0 +1,15 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DynamicPropertyTest,testNonStringDynamicProperty,THIRD com.google.inject.Injector.getInstance(Class<Config>),0
+DynamicPropertyTest,testNonStringDynamicProperty,NEW com.netflix.archaius.visitor.PrintStreamVisitor(),0
+DynamicPropertyTest,testNonStringDynamicProperty,com.netflix.archaius.api.Config.accept(Visitor<Void>),0
+DynamicPropertyTest,testNonStringDynamicProperty,THIRD GET com.netflix.config.ConfigurationManager.getConfigInstance(),0
+DynamicPropertyTest,testNonStringDynamicProperty,"THIRD SET org.apache.commons.configuration.AbstractConfiguration.setProperty(String, Object)",0
+DynamicPropertyTest,testNonStringDynamicProperty,THIRD com.google.inject.Injector.getInstance(Class<PropertyFactory>),0
+DynamicPropertyTest,testNonStringDynamicProperty,com.netflix.archaius.api.PropertyFactory.getProperty(String),0
+DynamicPropertyTest,testNonStringDynamicProperty,com.netflix.archaius.api.PropertyContainer.asInteger(Integer),0
+DynamicPropertyTest,testNonStringDynamicProperty,THIRD GET com.netflix.config.DynamicPropertyFactory.getInstance(),0
+DynamicPropertyTest,testNonStringDynamicProperty,"THIRD com.netflix.config.DynamicPropertyFactory.getIntProperty(String, int)",1
+DynamicPropertyTest,testNonStringDynamicProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+DynamicPropertyTest,testNonStringDynamicProperty,GET com.netflix.archaius.api.Property.get(),2
+DynamicPropertyTest,testNonStringDynamicProperty,THIRD GET com.netflix.config.DynamicIntProperty.get(),2
+DynamicPropertyTest,testNonStringDynamicProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

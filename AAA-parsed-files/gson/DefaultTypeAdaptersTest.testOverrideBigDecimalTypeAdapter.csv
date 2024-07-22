@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,NEW com.google.gson.GsonBuilder(),0
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,NEW com.google.gson.functional.DefaultTypeAdaptersTest.NumberAsStringAdapter(Class<? extends Number>),0
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,"com.google.gson.GsonBuilder.registerTypeAdapter(Type, Object)",0
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,com.google.gson.GsonBuilder.create(),0
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,"com.google.gson.Gson.toJson(Object, Type)",1
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,ASSERT com.google.common.truth.Truth.assertThat(String),2
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,"com.google.gson.Gson.fromJson(String, Class<BigDecimal>)",2
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,ASSERT com.google.common.truth.Truth.assertThat(BigDecimal),2
+DefaultTypeAdaptersTest,testOverrideBigDecimalTypeAdapter,ASSERT com.google.common.truth.BigDecimalSubject.isEqualTo(Object),2

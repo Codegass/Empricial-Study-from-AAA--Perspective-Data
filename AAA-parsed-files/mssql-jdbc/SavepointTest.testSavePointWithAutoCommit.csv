@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SavepointTest,testSavePointWithAutoCommit,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SavepointTest,testSavePointWithAutoCommit,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SavepointTest,testSavePointWithAutoCommit,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SavepointTest,testSavePointWithAutoCommit,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SavepointTest,testSavePointWithAutoCommit,THIRD SET java.sql.Connection.setAutoCommit(boolean),0
+SavepointTest,testSavePointWithAutoCommit,THIRD java.sql.Connection.setSavepoint(String),1
+SavepointTest,testSavePointWithAutoCommit,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SavepointTest,testSavePointWithAutoCommit,     THIRD java.util.ResourceBundle.getBundle(String),0
+SavepointTest,testSavePointWithAutoCommit,     THIRD java.util.ResourceBundle.getString(String),0
+SavepointTest,testSavePointWithAutoCommit,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

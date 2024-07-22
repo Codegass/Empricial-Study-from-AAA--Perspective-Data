@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ProxyFactoryTest,testCollectionsWithDefaultValueAnnotation,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+ProxyFactoryTest,testCollectionsWithDefaultValueAnnotation,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+ProxyFactoryTest,testCollectionsWithDefaultValueAnnotation,GET com.netflix.archaius.api.Config.getDecoder(),0
+ProxyFactoryTest,testCollectionsWithDefaultValueAnnotation,"NEW com.netflix.archaius.ConfigProxyFactory(Config, Decoder, PropertyFactory)",0
+ProxyFactoryTest,testCollectionsWithDefaultValueAnnotation,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<RuntimeException>, Executable)",1
+ProxyFactoryTest,testCollectionsWithDefaultValueAnnotation,com.netflix.archaius.ConfigProxyFactory.newProxy(Class<ConfigWithCollectionsWithDefaultValueAnnotation>),2

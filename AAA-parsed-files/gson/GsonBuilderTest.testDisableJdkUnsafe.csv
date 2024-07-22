@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GsonBuilderTest,testDisableJdkUnsafe,NEW com.google.gson.GsonBuilder(),0
+GsonBuilderTest,testDisableJdkUnsafe,GET com.google.gson.GsonBuilder.disableJdkUnsafe(),0
+GsonBuilderTest,testDisableJdkUnsafe,com.google.gson.GsonBuilder.create(),0
+GsonBuilderTest,testDisableJdkUnsafe,"com.google.gson.Gson.fromJson(String, Class<ClassWithoutNoArgsConstructor>)",1
+GsonBuilderTest,testDisableJdkUnsafe,ASSERT org.junit.Assert.fail(String),2
+GsonBuilderTest,testDisableJdkUnsafe,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+GsonBuilderTest,testDisableJdkUnsafe,ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+GsonBuilderTest,testDisableJdkUnsafe,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

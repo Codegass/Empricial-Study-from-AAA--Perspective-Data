@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SecurityTest,testJsonWithNonExectuableTokenSerialization,com.google.gson.GsonBuilder.generateNonExecutableJson(),0
+SecurityTest,testJsonWithNonExectuableTokenSerialization,com.google.gson.GsonBuilder.create(),0
+SecurityTest,testJsonWithNonExectuableTokenSerialization,com.google.gson.Gson.toJson(Object),1
+SecurityTest,testJsonWithNonExectuableTokenSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+SecurityTest,testJsonWithNonExectuableTokenSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2

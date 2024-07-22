@@ -1,0 +1,71 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FedauthTest,testAADServicePrincipalCertAuthWrong,"TEST com.microsoft.sqlserver.jdbc.fedauth.FedauthTest.validateException(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.sql.DriverManager.getConnection(String),1
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getBundle(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     ASSERT org.junit.Assert.fail(String),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,"          THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.lang.String.matches(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"TEST com.microsoft.sqlserver.jdbc.fedauth.FedauthTest.validateException(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.sql.DriverManager.getConnection(String),1
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getBundle(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     ASSERT org.junit.Assert.fail(String),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,"          THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.lang.String.matches(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"TEST com.microsoft.sqlserver.jdbc.fedauth.FedauthTest.validateException(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.sql.DriverManager.getConnection(String),1
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getBundle(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     ASSERT org.junit.Assert.fail(String),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,"          THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.lang.String.matches(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"TEST com.microsoft.sqlserver.jdbc.fedauth.FedauthTest.validateException(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.sql.DriverManager.getConnection(String),1
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getBundle(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     ASSERT org.junit.Assert.fail(String),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,"          THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.lang.String.matches(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"TEST com.microsoft.sqlserver.jdbc.fedauth.FedauthTest.validateException(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.sql.DriverManager.getConnection(String),1
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getBundle(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     ASSERT org.junit.Assert.fail(String),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,"          THIRD java.lang.String.replaceAll(String, String)",0
+FedauthTest,testAADServicePrincipalCertAuthWrong,          THIRD java.util.ResourceBundle.getString(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD java.lang.String.matches(String),0
+FedauthTest,testAADServicePrincipalCertAuthWrong,     THIRD GET java.lang.Throwable.getMessage(),2
+FedauthTest,testAADServicePrincipalCertAuthWrong,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

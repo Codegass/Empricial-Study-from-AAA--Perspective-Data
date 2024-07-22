@@ -1,0 +1,101 @@
+file_name,Multiple AAA,Missing Assert,Assert Pre,Suppressed Exception,Obscure Assert,Multiple Act,Arrange&Quit,NOTE,testSmellName
+ArrayTest.testArrayElementsAreArrays.csv,,,,,,,,,[]
+ArrayTest.testArrayOfStringsSerialization.csv,,,,,,,,,[]
+ArrayTest.testMixingTypesInObjectArraySerialization.csv,,,,,,,,,[]
+ArrayTest.testMultidimensionalArraysDeserialization.csv,,,,,,,,,[]
+ArrayTest.testMultidimensionalArraysSerialization.csv,,,,,,,,,[]
+ArrayTest.testNullsInArrayWithSerializeNullPropertySetSerialization.csv,,,,,,,,,[]
+ArrayTest.testTopLevelArrayOfIntsDeserialization.csv,,,,,,,,,[]
+CollectionTest.testCollectionOfBagOfPrimitivesSerialization.csv,,,,,,,,,[]
+CollectionTest.testLinkedListDeserialization.csv,,,,,,,,,[]
+CollectionTest.testSetDeserialization.csv,,,,,,,,,[]
+CustomDeserializerTest.testCustomDeserializerReturnsNullForArrayElements.csv,,,,,,,,,[]
+CustomTypeAdaptersTest.testCustomByteArrayDeserializerAndInstanceCreator.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testDefaultCalendarDeserialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testDefaultDateDeserialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testJsonPrimitiveDeserialization.csv,1.0,,,,,,,Simple MA,[]
+DefaultTypeAdaptersTest.testLocaleSerializationWithLanguage.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testOverrideBigDecimalTypeAdapter.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testPropertiesSerialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testStringBufferSerialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testStringBuilderSerialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testUriDeserialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testUrlNullSerialization.csv,,,,,,,,,[]
+DefaultTypeAdaptersTest.testUuidSerialization.csv,,,,,,,,,[]
+ExclusionStrategyFunctionalTest.testExclusionStrategySerializationDoesNotImpactDeserialization.csv,,,,,,,,,[]
+ExposeFieldsTest.testExposeAnnotationDeserialization.csv,,,,,,,,,[]
+FieldAttributesTest.testModifiers.csv,1.0,,,,,,,Simple MA,"['Assertion Roulette', 'Lazy Test']"
+FieldNamingTest.testUpperCaseWithUnderscores.csv,,,,,,,,,[]
+GraphAdapterBuilderTest.testDeserialization.csv,,,,,,,,,"['Eager Test', 'Verbose Test', 'Assertion Roulette']"
+GraphAdapterBuilderTest.testSerialization.csv,,,,,,,,,"['Eager Test', 'Verbose Test', 'Assertion Roulette', 'Lazy Test']"
+GsonBuilderTest.testDisableJdkUnsafe.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Lazy Test', 'Exception Catching Throwing']"
+GsonBuilderTest.testRegisterTypeAdapterForCoreType.csv,,,,,,,,,"['Unknown Test', 'Conditional Test Logic']"
+GsonBuilderTest.testTransientFieldExclusion.csv,,,,,,,,,['Assertion Roulette']
+GsonTest.testNewJsonReader_Custom.csv,,,,,,,,,['Assertion Roulette']
+GsonTypeAdapterTest.testTypeAdapterDoesNotAffectNonAdaptedTypes.csv,1.0,,,,,,,"Simple MA, but can RF",[]
+InternationalizationTest.testStringsWithUnicodeChineseCharactersEscapedDeserialization.csv,,,,,,,,,[]
+JavaVersionTest.testGetMajorJavaVersion.csv,,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Lazy Test']"
+JsonAdapterSerializerDeserializerTest.testDifferentJsonAdaptersForGenericFieldsOfSameRawType.csv,,,,,,,,,[]
+JsonArrayTest.testNullJsonElementAddition.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Magic Number Test']"
+JsonElementReaderTest.testEmptyObject.csv,,1.0,,,,,,,[]
+JsonParserTest.testParseUnquotedSingleWordStringFails.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette']"
+JsonPrimitiveTest.testByteEqualsShort.csv,,,,,,,,Equal is anction,"['Assertion Roulette', 'Lazy Test']"
+JsonPrimitiveTest.testShortEqualsLong.csv,,,,,,,,Equal is anction,['Assertion Roulette']
+JsonReaderTest.testDoubles.csv,1.0,,,,,,,,"['Eager Test', 'Verbose Test', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test']"
+JsonReaderTest.testLenientSingleQuotedNames.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette']"
+JsonReaderTest.testSkipTopLevelObject.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette']"
+JsonReaderTest.testStrictQuotedNonFiniteDoubles.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonReaderTest.testStrictSemicolonDelimitedArrayWithSkipValue.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonReaderTest.testStrictSemicolonDelimitedNameValuePair.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonReaderTest.testStrictUnquotedStrings.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonReaderTest.testStrictUnquotedStringsWithSkipValue.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonReaderTest.testTopLevelValueTypeWithSkipValue.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette']"
+JsonReaderTest.testVeryLongUnterminatedString.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonStreamParserTest.testEmptyInput.csv,1.0,,,,,,,Can be RF,"['Eager Test', 'Duplicate Assert', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonTreeWriterTest.testPrematureClose.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette', 'Exception Catching Throwing']"
+JsonWriterTest.testMalformedNumbers.csv,,,,,,,,,"['Exception Catching Throwing', 'Assertion Roulette', 'Conditional Test Logic']"
+JsonWriterTest.testWriterCloseIsIdempotent.csv,,1.0,,,,,,,"['Eager Test', 'Unknown Test']"
+MapTest.testMapDeserializationWithDuplicateKeys.csv,,,,,,,,,[]
+MapTest.testMapOfMapSerialization.csv,,,,,,,,,[]
+MapTest.testMapSerializationWithIntegerKeys.csv,,,,,,,,,[]
+MapTest.testNumberKeyDeserialization.csv,,,,,,,,,[]
+MixedStreamTest.testWriteHtmlSafe.csv,1.0,,,,,,,Cna be RF,[]
+NamingPolicyTest.testGsonWithLowerCaseDashPolicySerialization.csv,,,,,,,,,[]
+NamingPolicyTest.testGsonWithLowerCaseDotPolicyDeserialiation.csv,,,,,,,,,[]
+NullObjectAndFieldTest.testExplicitSerializationOfNulls.csv,,,,,,,,,[]
+NullObjectAndFieldTest.testNullWrappedPrimitiveMemberSerialization.csv,,,,,,,,,[]
+ObjectTest.testArrayOfArraysDeserialization.csv,,,,,,,,,[]
+ObjectTest.testClassWithObjectFieldSerialization.csv,,,,,,,,,[]
+ObjectTest.testJsonInSingleQuotesDeserialization.csv,,,,,,,,,[]
+ObjectTest.testNullObjectFieldsDeserialization.csv,,,,,,,,,[]
+ObjectTest.testPrimitiveArrayInAnObjectDeserialization.csv,,,,,,,,,[]
+ObjectTypeAdapterTest.testDeserialize.csv,,,,,,,,,"['Assertion Roulette', 'Magic Number Test']"
+ObjectTypeAdapterTest.testDeserializeNullValue.csv,,,,,,,,,['Assertion Roulette']
+ObjectTypeAdapterTest.testSerialize.csv,,,,,,,,,['Assertion Roulette']
+ParameterizedTypesTest.testParameterizedTypeGenericArraysSerialization.csv,,,,,,,,,[]
+ParameterizedTypesTest.testVariableTypeDeserialization.csv,,,,,,,,,[]
+PrettyPrintingTest.testPrettyPrintArrayOfObjects.csv,,,,,,,,,[]
+PrimitiveCharacterTest.testPrimitiveCharacterAutoboxedSerialization.csv,1.0,,,,,,,Simple MA,[]
+PrimitiveTest.testDeserializeJsonArrayAsBigInteger.csv,,,,,,,,,[]
+PrimitiveTest.testDeserializeJsonObjectAsFloatPrimitive.csv,,,,,,,,,[]
+PrimitiveTest.testDeserializeJsonObjectAsInteger.csv,,,,,,,,,[]
+PrimitiveTest.testDeserializingBigDecimalAsBigIntegerFails.csv,,,,,,,,,[]
+PrimitiveTest.testShortDeserializationLossy.csv,1.0,,,,,,,"Simple MA, but can RF",[]
+PrimitiveTest.testShortSerialization.csv,1.0,,,,,,,"Simple MA, but can RF",[]
+ReadersWritersTest.testWriterForSerialization.csv,,,,,,,,,[]
+RecursiveTypesResolveTest.testRecursiveResolveSimple.csv,,,,,,,,,[]
+ReflectionAccessFilterTest.testBlockAllJava.csv,,,,,,,,,[]
+ReflectionAccessFilterTest.testBlockAllJavaExtendingJdkClass.csv,,,,,,,,,[]
+RuntimeTypeAdapterFactoryTest.testRuntimeTypeIsBaseType.csv,,,,,,,,,"['Eager Test', 'Assertion Roulette']"
+SecurityTest.testJsonWithNonExectuableTokenSerialization.csv,,,,,,,,,[]
+StreamingTypeAdaptersTest.testSerialize2dArray.csv,,,,,,,,,[]
+StreamingTypeAdaptersTest.testSerializeMap.csv,,,,,,,,,[]
+StringTest.testAssignmentCharDeserialization.csv,1.0,,,,,,,Simple Mul AAA,[]
+StringTest.testEscapedBackslashInStringDeserialization.csv,,,,,,,,,[]
+StringTest.testEscapingQuotesInStringDeserialization.csv,,,,,,,,,[]
+StringTest.testStringWithEscapedSlashDeserialization.csv,,,,,,,,,[]
+TypeAdapterRuntimeTypeWrapperTest.testJsonDeserializer_ReflectiveTreeSerializerDelegate.csv,,,,,,,,,[]
+UtcDateTypeAdapterTest.testDifferentTimeZones.csv,,,,,,,,,"['Assertion Roulette', 'Conditional Test Logic']"
+UtcDateTypeAdapterTest.testLocalTimeZone.csv,,,,,,,,,['Assertion Roulette']
+UtcDateTypeAdapterTest.testWellFormedParseException.csv,,,,,,,,,"['Exception Catching Throwing', 'Assertion Roulette']"
+VersioningTest.testIgnoreLaterVersionClassDeserialization.csv,,,,,,,,,[]

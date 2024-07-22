@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorStateTest,testSQLStateLength1,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+ErrorStateTest,testSQLStateLength1,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+ErrorStateTest,testSQLStateLength1,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+ErrorStateTest,testSQLStateLength1,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+ErrorStateTest,testSQLStateLength1,THIRD java.sql.Connection.createStatement(),0
+ErrorStateTest,testSQLStateLength1,THIRD java.sql.Statement.execute(String),1
+ErrorStateTest,testSQLStateLength1,THIRD GET java.sql.SQLException.getSQLState(),2
+ErrorStateTest,testSQLStateLength1,THIRD java.lang.String.length(),2
+ErrorStateTest,testSQLStateLength1,ASSERT assert,2
+ErrorStateTest,testSQLStateLength1,THIRD GET java.sql.SQLException.getSQLState(),2
+ErrorStateTest,testSQLStateLength1,THIRD java.lang.String.equalsIgnoreCase(String),2
+ErrorStateTest,testSQLStateLength1,ASSERT assert,2

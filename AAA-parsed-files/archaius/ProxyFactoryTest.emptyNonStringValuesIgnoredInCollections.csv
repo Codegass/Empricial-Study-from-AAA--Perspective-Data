@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,GET com.netflix.archaius.api.Config.getDecoder(),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"NEW com.netflix.archaius.ConfigProxyFactory(Config, Decoder, PropertyFactory)",0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,com.netflix.archaius.ConfigProxyFactory.newProxy(Class<ConfigWithCollections>),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,THIRD java.util.Arrays.asList(Integer[]),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,TEST GET com.netflix.archaius.ProxyFactoryTest.ConfigWithCollections.getLinkedList(),1
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,THIRD java.util.Arrays.asList(Integer[]),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,TEST GET com.netflix.archaius.ProxyFactoryTest.ConfigWithCollections.getList(),1
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,THIRD java.util.Arrays.asList(Integer[]),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,TEST GET com.netflix.archaius.ProxyFactoryTest.ConfigWithCollections.getSet(),1
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,THIRD java.util.Arrays.asList(Integer[]),0
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,TEST GET com.netflix.archaius.ProxyFactoryTest.ConfigWithCollections.getSortedSet(),1
+ProxyFactoryTest,emptyNonStringValuesIgnoredInCollections,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

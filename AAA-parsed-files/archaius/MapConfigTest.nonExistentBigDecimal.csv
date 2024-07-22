@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,nonExistentBigDecimal,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<NoSuchElementException>, Executable)",2
+MapConfigTest,nonExistentBigDecimal,com.netflix.archaius.config.AbstractConfig.getBigDecimal(String),1

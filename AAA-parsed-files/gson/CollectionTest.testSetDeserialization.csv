@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CollectionTest,testSetDeserialization,NEW anonymous(),0
+CollectionTest,testSetDeserialization,GET com.google.gson.reflect.TypeToken.getType(),0
+CollectionTest,testSetDeserialization,"com.google.gson.Gson.fromJson(String, Type)",1
+CollectionTest,testSetDeserialization,THIRD java.util.Set<com.google.gson.functional.CollectionTest.Entry>.size(),2
+CollectionTest,testSetDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+CollectionTest,testSetDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+CollectionTest,testSetDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+CollectionTest,testSetDeserialization,"ASSERT com.google.common.truth.Subject.isAnyOf(Object, Object, Object[])",2

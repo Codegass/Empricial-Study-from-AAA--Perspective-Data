@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InternalArchaiusModuleTest,succeedOnDuplicateInstall,NEW com.netflix.archaius.guice.InternalArchaiusModule(),0
+InternalArchaiusModuleTest,succeedOnDuplicateInstall,NEW com.netflix.archaius.guice.InternalArchaiusModule(),0
+InternalArchaiusModuleTest,succeedOnDuplicateInstall,THIRD com.google.inject.Guice.createInjector(Module[]),1

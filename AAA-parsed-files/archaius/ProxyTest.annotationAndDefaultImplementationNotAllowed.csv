@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ProxyTest,annotationAndDefaultImplementationNotAllowed,NEW anonymous(),0
+ProxyTest,annotationAndDefaultImplementationNotAllowed,THIRD com.google.inject.Guice.createInjector(Module[]),0
+ProxyTest,annotationAndDefaultImplementationNotAllowed,com.netflix.archaius.ConfigProxyFactory.newProxy(Class<DefaultMethodWithAnnotation>),1
+ProxyTest,annotationAndDefaultImplementationNotAllowed,THIRD com.google.inject.Injector.getInstance(Class<DefaultMethodWithAnnotation>),2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,THIRD java.lang.Throwable.printStackTrace(),2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,THIRD GET java.lang.Throwable.getCause(),2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,THIRD GET java.lang.Throwable.getCause(),2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,THIRD GET java.lang.Object.getClass(),2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ProxyTest,annotationAndDefaultImplementationNotAllowed,ASSERT org.junit.jupiter.api.Assertions.fail(String),2

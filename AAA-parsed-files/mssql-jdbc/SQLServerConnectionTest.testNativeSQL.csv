@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testNativeSQL,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLServerConnectionTest,testNativeSQL,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLServerConnectionTest,testNativeSQL,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLServerConnectionTest,testNativeSQL,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SQLServerConnectionTest,testNativeSQL,THIRD java.sql.Connection.nativeSQL(String),1
+SQLServerConnectionTest,testNativeSQL,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+SQLServerConnectionTest,testNativeSQL,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+SQLServerConnectionTest,testNativeSQL,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testNativeSQL,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testNativeSQL,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testNativeSQL,THIRD GET java.lang.Throwable.getMessage(),2

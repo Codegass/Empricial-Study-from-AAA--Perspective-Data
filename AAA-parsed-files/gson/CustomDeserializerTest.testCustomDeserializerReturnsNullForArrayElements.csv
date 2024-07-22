@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,NEW com.google.gson.GsonBuilder(),0
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,NEW anonymous(),0
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,"com.google.gson.GsonBuilder.registerTypeAdapter(Type, Object)",0
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,com.google.gson.GsonBuilder.create(),0
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,"com.google.gson.Gson.fromJson(String, Class<Base[]>)",1
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,ASSERT com.google.common.truth.Subject.isNull(),2
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+CustomDeserializerTest,testCustomDeserializerReturnsNullForArrayElements,ASSERT com.google.common.truth.Subject.isNull(),2

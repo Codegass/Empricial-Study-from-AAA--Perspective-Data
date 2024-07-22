@@ -1,0 +1,608 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BvtTest,testStmtForwardOnlyUpdateable,NEW com.microsoft.sqlserver.testframework.DBConnection(String),0
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBConnection.createStatement(DBResultSetTypes),0
+BvtTest,testStmtForwardOnlyUpdateable,     NEW com.microsoft.sqlserver.testframework.DBStatement(DBConnection),0
+BvtTest,testStmtForwardOnlyUpdateable,"     TEST com.microsoft.sqlserver.testframework.DBStatement.createStatement(int, int)",0
+BvtTest,testStmtForwardOnlyUpdateable,"          com.microsoft.sqlserver.jdbc.SQLServerConnection.createStatement(int, int)",0
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.parent(),0
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),0
+BvtTest,testStmtForwardOnlyUpdateable,          TEST SET com.microsoft.sqlserver.testframework.DBStatement.setInternal(Object),0
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBStatement.selectAll(DBTable),0
+BvtTest,testStmtForwardOnlyUpdateable,     TEST GET com.microsoft.sqlserver.testframework.DBTable.getEscapedTableName(),0
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.DBTable.getEscapedColumnName(int),0
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBTable.getColumn(int),0
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.List<com.microsoft.sqlserver.testframework.DBColumn>.get(int),0
+BvtTest,testStmtForwardOnlyUpdateable,          TEST GET com.microsoft.sqlserver.testframework.DBColumn.getEscapedColumnName(),0
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.sql.Statement.executeQuery(String),0
+BvtTest,testStmtForwardOnlyUpdateable,"     NEW com.microsoft.sqlserver.testframework.DBResultSet(DBStatement, ResultSet, DBTable)",0
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.next(),0
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.sql.ResultSet.next(),0
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.next(),0
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.sql.ResultSet.next(),1
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.verifyCurrentRow(DBTable),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD GET java.sql.ResultSetMetaData.getColumnCount(),2
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,"     TEST com.microsoft.sqlserver.testframework.DBResultSet.verifydata(int, Class<?>)",2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD java.util.List<com.microsoft.sqlserver.testframework.DBColumn>.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBColumn.getRowValue(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.List<java.lang.Object>.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"          TEST com.microsoft.sqlserver.testframework.DBResultSet.getXXX(Object, Class<?>)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.lang.Object.getClass(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getObject(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getObject(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getBinaryStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getBinaryStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getBinaryStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getBinaryStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getCharacterStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getCharacterStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getCharacterStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getCharacterStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.logging.Logger.isLoggable(Level),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.logging.Logger.fine(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.logging.Logger.fine(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Class<>.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,"          TEST com.microsoft.sqlserver.testframework.DBResultSet.verifydata(int, Class<?>, Object, Object)",2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST GET com.microsoft.sqlserver.testframework.DBResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    NEW com.microsoft.sqlserver.testframework.DBResultSetMetaData(DBResultSet),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST GET com.microsoft.sqlserver.testframework.DBResultSetMetaData.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.parent(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST SET com.microsoft.sqlserver.testframework.AbstractParentWrapper.setInternal(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Long.longValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Long.longValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Integer.intValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Integer.intValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Short.shortValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Short.shortValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.equals(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Boolean.booleanValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Boolean.booleanValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.math.BigDecimal.compareTo(BigDecimal),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Double.doubleValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Double.doubleValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Double.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Float.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Float.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundDatetimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundDatetimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundSmallDateTimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.Timestamp.valueOf(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getInstance(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundSmallDateTimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.Timestamp.valueOf(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getInstance(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.length(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               THIRD java.lang.String.substring(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equals(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               TEST com.microsoft.sqlserver.jdbc.TestUtils.parseByte(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD java.util.Arrays.copyOf(byte[], int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD java.util.Arrays.equals(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               THIRD java.util.Arrays.equals(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.sql.JDBCType.valueOf(int),2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD java.io.PrintStream.println(String),2
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.next(),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.sql.ResultSet.next(),1
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.verifyCurrentRow(DBTable),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD GET java.sql.ResultSetMetaData.getColumnCount(),2
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,"     TEST com.microsoft.sqlserver.testframework.DBResultSet.verifydata(int, Class<?>)",2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD java.util.List<com.microsoft.sqlserver.testframework.DBColumn>.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBColumn.getRowValue(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.List<java.lang.Object>.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"          TEST com.microsoft.sqlserver.testframework.DBResultSet.getXXX(Object, Class<?>)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.lang.Object.getClass(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getObject(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getObject(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getBinaryStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getBinaryStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getBinaryStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getBinaryStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getCharacterStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getCharacterStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.getCharacterStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.ResultSet.getCharacterStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.logging.Logger.isLoggable(Level),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.logging.Logger.fine(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.logging.Logger.fine(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Class<>.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,"          TEST com.microsoft.sqlserver.testframework.DBResultSet.verifydata(int, Class<?>, Object, Object)",2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST GET com.microsoft.sqlserver.testframework.DBResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    NEW com.microsoft.sqlserver.testframework.DBResultSetMetaData(DBResultSet),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST GET com.microsoft.sqlserver.testframework.DBResultSetMetaData.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.parent(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST SET com.microsoft.sqlserver.testframework.AbstractParentWrapper.setInternal(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Long.longValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Long.longValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Integer.intValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Integer.intValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Short.shortValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Short.shortValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.equals(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Boolean.booleanValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Boolean.booleanValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.math.BigDecimal.compareTo(BigDecimal),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Double.doubleValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Double.doubleValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Double.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Float.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Float.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundDatetimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundDatetimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundSmallDateTimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.Timestamp.valueOf(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getInstance(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSet.roundSmallDateTimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.Timestamp.valueOf(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getInstance(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.length(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               THIRD java.lang.String.substring(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.lang.String.equals(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               TEST com.microsoft.sqlserver.jdbc.TestUtils.parseByte(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD java.util.Arrays.copyOf(byte[], int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD java.util.Arrays.equals(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"               THIRD java.util.Arrays.equals(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"               ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,               ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.sql.JDBCType.valueOf(int),2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD java.io.PrintStream.println(String),2
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.previous(),0
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.sql.ResultSet.previous(),1
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),1
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.util.ResourceBundle.getBundle(String),2
+BvtTest,testStmtForwardOnlyUpdateable,     THIRD java.util.ResourceBundle.getString(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,TEST com.microsoft.sqlserver.testframework.DBResultSet.verify(DBTable),2
+BvtTest,testStmtForwardOnlyUpdateable,     TEST GET com.microsoft.sqlserver.testframework.DBResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,          NEW com.microsoft.sqlserver.testframework.DBResultSetMetaData(DBResultSet),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST GET com.microsoft.sqlserver.testframework.DBResultSetMetaData.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.parent(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST SET com.microsoft.sqlserver.testframework.AbstractParentWrapper.setInternal(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.verify(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST GET com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnCount(),2
+BvtTest,testStmtForwardOnlyUpdateable,               GET com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnCount(),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getScale(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getScale(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.isCaseSensitive(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.isCaseSensitive(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.isAutoIncrement(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.isAutoIncrement(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.isCurrency(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.isCurrency(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.isNullable(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.isNullable(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.isSigned(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.isSigned(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.DBResultSet.next(),2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD java.sql.ResultSet.next(),2
+BvtTest,testStmtForwardOnlyUpdateable,     TEST com.microsoft.sqlserver.testframework.DBResultSet.verifyCurrentRow(DBTable),2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,          THIRD GET java.sql.ResultSetMetaData.getColumnCount(),2
+BvtTest,testStmtForwardOnlyUpdateable,          TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,"          TEST com.microsoft.sqlserver.testframework.DBResultSet.verifydata(int, Class<?>)",2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.util.List<com.microsoft.sqlserver.testframework.DBColumn>.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               TEST com.microsoft.sqlserver.testframework.DBColumn.getRowValue(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.List<java.lang.Object>.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"               TEST com.microsoft.sqlserver.testframework.DBResultSet.getXXX(Object, Class<?>)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.lang.Object.getClass(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.getObject(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.ResultSet.getObject(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.getBinaryStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.ResultSet.getBinaryStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.getBinaryStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.ResultSet.getBinaryStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.getCharacterStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.ResultSet.getCharacterStream(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.getCharacterStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.ResultSet.getCharacterStream(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.logging.Logger.isLoggable(Level),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.logging.Logger.fine(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.util.logging.Logger.fine(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Class<>.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,"               TEST com.microsoft.sqlserver.testframework.DBResultSet.verifydata(int, Class<?>, Object, Object)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST GET com.microsoft.sqlserver.testframework.DBResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         NEW com.microsoft.sqlserver.testframework.DBResultSetMetaData(DBResultSet),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST GET com.microsoft.sqlserver.testframework.DBResultSetMetaData.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                              THIRD GET java.sql.ResultSet.getMetaData(),2
+BvtTest,testStmtForwardOnlyUpdateable,                              TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.parent(),2
+BvtTest,testStmtForwardOnlyUpdateable,                              TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,                              TEST SET com.microsoft.sqlserver.testframework.AbstractParentWrapper.setInternal(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Long.longValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Long.longValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Integer.intValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Integer.intValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Short.shortValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Short.shortValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Object.equals(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Boolean.booleanValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Boolean.booleanValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.math.BigDecimal.compareTo(BigDecimal),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Double.doubleValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Double.doubleValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Double.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Float.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Float.floatValue(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.trim(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.roundDatetimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.roundDatetimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnTypeName(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.roundSmallDateTimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.Timestamp.valueOf(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getInstance(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSet.roundSmallDateTimeValue(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.sql.Timestamp.valueOf(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getInstance(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.util.Calendar.setTimeInMillis(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.sql.Timestamp.getNanos(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD java.util.Calendar.get(int),2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD SET java.util.Calendar.set(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD GET java.util.Calendar.getTimeInMillis(),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setTime(long),2
+BvtTest,testStmtForwardOnlyUpdateable,                         THIRD SET java.sql.Timestamp.setNanos(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD GET java.sql.Timestamp.getTime(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.length(),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD java.lang.String.substring(int, int)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.Object.toString(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equalsIgnoreCase(String),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.lang.String.equals(Object),2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    TEST com.microsoft.sqlserver.jdbc.TestUtils.parseByte(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD java.util.Arrays.copyOf(byte[], int)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                         THIRD java.util.Arrays.equals(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                         ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                         ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    THIRD java.util.Arrays.equals(byte[], byte[])",2
+BvtTest,testStmtForwardOnlyUpdateable,"                    ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+BvtTest,testStmtForwardOnlyUpdateable,                    ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+BvtTest,testStmtForwardOnlyUpdateable,                    TEST com.microsoft.sqlserver.testframework.DBResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         com.microsoft.sqlserver.jdbc.SQLServerResultSetMetaData.getColumnType(int),2
+BvtTest,testStmtForwardOnlyUpdateable,                         TEST com.microsoft.sqlserver.testframework.AbstractParentWrapper.product(),2
+BvtTest,testStmtForwardOnlyUpdateable,                    THIRD java.sql.JDBCType.valueOf(int),2
+BvtTest,testStmtForwardOnlyUpdateable,               THIRD java.io.PrintStream.println(String),2

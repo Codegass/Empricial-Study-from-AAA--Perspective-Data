@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GsonTypeAdapterTest,testTypeAdapterDoesNotAffectNonAdaptedTypes,com.google.gson.Gson.toJson(Object),1
+GsonTypeAdapterTest,testTypeAdapterDoesNotAffectNonAdaptedTypes,ASSERT com.google.common.truth.Truth.assertThat(String),2
+GsonTypeAdapterTest,testTypeAdapterDoesNotAffectNonAdaptedTypes,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+GsonTypeAdapterTest,testTypeAdapterDoesNotAffectNonAdaptedTypes,"com.google.gson.Gson.fromJson(String, Class<String>)",1
+GsonTypeAdapterTest,testTypeAdapterDoesNotAffectNonAdaptedTypes,ASSERT com.google.common.truth.Truth.assertThat(String),2
+GsonTypeAdapterTest,testTypeAdapterDoesNotAffectNonAdaptedTypes,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

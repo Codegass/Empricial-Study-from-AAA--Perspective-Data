@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArchaiusModuleTest,testPrefixReplacements,com.netflix.archaius.config.MapConfig.builder(),0
+ArchaiusModuleTest,testPrefixReplacements,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+ArchaiusModuleTest,testPrefixReplacements,com.netflix.archaius.config.MapConfig.Builder.build(),0
+ArchaiusModuleTest,testPrefixReplacements,NEW com.netflix.archaius.ConfigMapper(),0
+ArchaiusModuleTest,testPrefixReplacements,"NEW com.netflix.archaius.guice.ArchaiusModuleTest.ChildService(String, Long)",0
+ArchaiusModuleTest,testPrefixReplacements,"com.netflix.archaius.ConfigMapper.mapConfig(ChildService, Config)",1
+ArchaiusModuleTest,testPrefixReplacements,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

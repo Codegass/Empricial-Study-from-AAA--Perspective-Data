@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultDecoderTest,testEnumConverterIgnoresParameterizedType,"com.netflix.archaius.converters.EnumTypeConverterFactory.get(Type, Registry)",0
+DefaultDecoderTest,testEnumConverterIgnoresParameterizedType,THIRD GET java.util.Optional<com.netflix.archaius.api.TypeConverter<?>>.isPresent(),1
+DefaultDecoderTest,testEnumConverterIgnoresParameterizedType,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

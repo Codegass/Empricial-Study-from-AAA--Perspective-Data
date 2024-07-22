@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+Archaius2RuleTest,testEmptyKey,TEST com.netflix.archaius.test.Archaius2TestConfig.getString(String),1
+Archaius2RuleTest,testEmptyKey,     com.netflix.archaius.config.AbstractConfig.getString(String),0
+Archaius2RuleTest,testEmptyKey,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

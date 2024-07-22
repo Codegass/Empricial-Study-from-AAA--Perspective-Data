@@ -1,0 +1,38 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testIncorrectUserName,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+SQLServerConnectionTest,testIncorrectUserName,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setURL(String),0
+SQLServerConnectionTest,testIncorrectUserName,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setLoginTimeout(int),0
+SQLServerConnectionTest,testIncorrectUserName,TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String),0
+SQLServerConnectionTest,testIncorrectUserName,"     TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String, int, boolean, boolean)",0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.System.getProperty(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.util.UUID.randomUUID(),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.util.UUID.toString(),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.StringBuilder.toString(),0
+SQLServerConnectionTest,testIncorrectUserName,          THIRD java.lang.String.length(),0
+SQLServerConnectionTest,testIncorrectUserName,"          THIRD java.lang.String.substring(int, int)",0
+SQLServerConnectionTest,testIncorrectUserName,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setUser(String),0
+SQLServerConnectionTest,testIncorrectUserName,THIRD GET java.lang.System.currentTimeMillis(),0
+SQLServerConnectionTest,testIncorrectUserName,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+SQLServerConnectionTest,testIncorrectUserName,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testIncorrectUserName,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testIncorrectUserName,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testIncorrectUserName,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerConnectionTest,testIncorrectUserName,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testIncorrectUserName,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testIncorrectUserName,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testIncorrectUserName,THIRD java.text.Format.format(Object),0
+SQLServerConnectionTest,testIncorrectUserName,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerConnectionTest,testIncorrectUserName,THIRD GET java.lang.Throwable.getMessage(),0
+SQLServerConnectionTest,testIncorrectUserName,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testIncorrectUserName,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testIncorrectUserName,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testIncorrectUserName,THIRD java.lang.String.contains(CharSequence),2
+SQLServerConnectionTest,testIncorrectUserName,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),0
+SQLServerConnectionTest,testIncorrectUserName,THIRD GET java.lang.System.currentTimeMillis(),0

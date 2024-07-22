@@ -1,0 +1,35 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.data.TableId.of(String),0
+WorkMakerIT,singleUnitSingleTarget,NEW org.apache.hadoop.fs.Path(String),0
+WorkMakerIT,singleUnitSingleTarget,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.data.AbstractId.canonical(),0
+WorkMakerIT,singleUnitSingleTarget,NEW org.apache.hadoop.io.Text(String),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.server.replication.StatusUtil.fileCreatedValue(long),0
+WorkMakerIT,singleUnitSingleTarget,"org.apache.accumulo.core.data.Mutation.put(Text, Text, Value)",0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.replication.ReplicationTable.getBatchWriter(AccumuloClient),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.client.BatchWriter.flush(),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.replication.ReplicationTable.getScanner(AccumuloClient),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.replication.ReplicationSchema.StatusSection.limit(ScannerBase),0
+WorkMakerIT,singleUnitSingleTarget,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+WorkMakerIT,singleUnitSingleTarget,NEW org.apache.accumulo.test.replication.WorkMakerIT.MockWorkMaker(AccumuloClient),0
+WorkMakerIT,singleUnitSingleTarget,"NEW org.apache.accumulo.core.replication.ReplicationTarget(String, String, TableId)",0
+WorkMakerIT,singleUnitSingleTarget,TEST org.apache.accumulo.test.replication.WorkMakerIT.MockWorkMaker.setBatchWriter(BatchWriter),0
+WorkMakerIT,singleUnitSingleTarget,NEW org.apache.hadoop.io.Text(String),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.server.replication.StatusUtil.fileCreatedValue(long),0
+WorkMakerIT,singleUnitSingleTarget,"TEST org.apache.accumulo.test.replication.WorkMakerIT.MockWorkMaker.addWorkRecord(Text, Value, Map<String,String>, TableId)",0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.replication.ReplicationTable.getScanner(AccumuloClient),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.replication.ReplicationSchema.WorkSection.limit(ScannerBase),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.data.Key.getColumnQualifier(),0
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.replication.ReplicationTarget.from(Text),1
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.data.Key.getRow(),2
+WorkMakerIT,singleUnitSingleTarget,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.core.data.Key.getColumnFamily(),2
+WorkMakerIT,singleUnitSingleTarget,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkMakerIT,singleUnitSingleTarget,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+WorkMakerIT,singleUnitSingleTarget,org.apache.accumulo.server.replication.StatusUtil.fileCreatedValue(long),2
+WorkMakerIT,singleUnitSingleTarget,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

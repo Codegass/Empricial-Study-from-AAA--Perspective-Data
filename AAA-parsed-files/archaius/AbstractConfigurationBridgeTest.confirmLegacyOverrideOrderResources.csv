@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigurationBridgeTest,confirmLegacyOverrideOrderResources,com.netflix.archaius.api.Config.getString(String),0
+AbstractConfigurationBridgeTest,confirmLegacyOverrideOrderResources,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",1
+AbstractConfigurationBridgeTest,confirmLegacyOverrideOrderResources,com.netflix.archaius.api.Config.getBoolean(String),2
+AbstractConfigurationBridgeTest,confirmLegacyOverrideOrderResources,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+AbstractConfigurationBridgeTest,confirmLegacyOverrideOrderResources,com.netflix.archaius.api.Config.getBoolean(String),2
+AbstractConfigurationBridgeTest,confirmLegacyOverrideOrderResources,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

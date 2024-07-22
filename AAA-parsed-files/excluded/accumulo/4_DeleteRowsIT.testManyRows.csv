@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DeleteRowsIT,testManyRows,org.apache.accumulo.core.client.Accumulo.newClient(),0
+DeleteRowsIT,testManyRows,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+DeleteRowsIT,testManyRows,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+DeleteRowsIT,testManyRows,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+DeleteRowsIT,testManyRows,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+DeleteRowsIT,testManyRows,     NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+DeleteRowsIT,testManyRows,"     org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.BatchWriter.flush(),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+DeleteRowsIT,testManyRows,"     org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",0
+DeleteRowsIT,testManyRows,     NEW org.apache.hadoop.io.Text(String),0
+DeleteRowsIT,testManyRows,     NEW org.apache.hadoop.io.Text(String),0
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+DeleteRowsIT,testManyRows,"     org.apache.accumulo.core.client.admin.TableOperations.deleteRows(String, Text, Text)",1
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.AccumuloClient.tableOperations(),2
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.client.admin.TableOperations.listSplits(String),2
+DeleteRowsIT,testManyRows,"     ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+DeleteRowsIT,testManyRows,"     org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+DeleteRowsIT,testManyRows,     org.apache.accumulo.core.data.Key.getRow(),2
+DeleteRowsIT,testManyRows,     ASSERT org.junit.Assert.assertTrue(boolean),2
+DeleteRowsIT,testManyRows,     ASSERT org.junit.Assert.assertTrue(boolean),2
+DeleteRowsIT,testManyRows,"     ASSERT org.junit.Assert.assertEquals(long, long)",2
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1
+DeleteRowsIT,testManyRows,"TEST org.apache.accumulo.test.functional.DeleteRowsIT.testSplit(AccumuloClient, String, String, String, String, int)",1

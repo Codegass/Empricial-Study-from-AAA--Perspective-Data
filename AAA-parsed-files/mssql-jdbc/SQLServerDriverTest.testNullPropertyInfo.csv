@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerDriverTest,testNullPropertyInfo,NEW com.microsoft.sqlserver.jdbc.SQLServerDriver(),0
+SQLServerDriverTest,testNullPropertyInfo,"com.microsoft.sqlserver.jdbc.SQLServerDriver.getPropertyInfo(String, Properties)",1
+SQLServerDriverTest,testNullPropertyInfo,ASSERT org.junit.Assert.fail(),2
+SQLServerDriverTest,testNullPropertyInfo,THIRD GET java.lang.Throwable.getMessage(),2
+SQLServerDriverTest,testNullPropertyInfo,THIRD GET java.lang.Throwable.getMessage(),2
+SQLServerDriverTest,testNullPropertyInfo,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testNullPropertyInfo,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerDriverTest,testNullPropertyInfo,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerDriverTest,testNullPropertyInfo,THIRD java.lang.String.contains(CharSequence),2

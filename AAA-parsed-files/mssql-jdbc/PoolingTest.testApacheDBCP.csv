@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PoolingTest,testApacheDBCP,NEW org.apache.commons.dbcp2.BasicDataSource(),0
+PoolingTest,testApacheDBCP,THIRD SET org.apache.commons.dbcp2.BasicDataSource.setUrl(String),0
+PoolingTest,testApacheDBCP,TEST com.microsoft.sqlserver.jdbc.connection.PoolingTest.connect(DataSource),0
+PoolingTest,testApacheDBCP,     THIRD GET javax.sql.DataSource.getConnection(),1
+PoolingTest,testApacheDBCP,     THIRD java.sql.Connection.prepareStatement(String),1
+PoolingTest,testApacheDBCP,     THIRD java.sql.PreparedStatement.executeQuery(),1
+PoolingTest,testApacheDBCP,     THIRD java.sql.ResultSet.next(),0
+PoolingTest,testApacheDBCP,     THIRD java.sql.ResultSet.getString(int),0
+PoolingTest,testApacheDBCP,THIRD org.apache.commons.dbcp2.BasicDataSource.close(),0

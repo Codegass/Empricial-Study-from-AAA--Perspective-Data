@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArchaiusModuleTest,testBasicLibraryOverride,"THIRD java.util.Properties.setProperty(String, String)",0
+ArchaiusModuleTest,testBasicLibraryOverride,NEW com.netflix.archaius.guice.ArchaiusModule(),0
+ArchaiusModuleTest,testBasicLibraryOverride,THIRD com.google.inject.Guice.createInjector(Module[]),0
+ArchaiusModuleTest,testBasicLibraryOverride,THIRD com.google.inject.Injector.getInstance(Class<MyServiceConfig>),1
+ArchaiusModuleTest,testBasicLibraryOverride,THIRD com.google.inject.Injector.getInstance(Class<Config>),2
+ArchaiusModuleTest,testBasicLibraryOverride,com.netflix.archaius.api.Config.getString(String),2
+ArchaiusModuleTest,testBasicLibraryOverride,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

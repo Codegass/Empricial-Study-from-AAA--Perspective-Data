@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorMessageTest,testNotProvideWithDatasource,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+ErrorMessageTest,testNotProvideWithDatasource,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setServerName(String),0
+ErrorMessageTest,testNotProvideWithDatasource,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setDatabaseName(String),0
+ErrorMessageTest,testNotProvideWithDatasource,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setUser(String),0
+ErrorMessageTest,testNotProvideWithDatasource,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setPassword(String),0
+ErrorMessageTest,testNotProvideWithDatasource,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ErrorMessageTest,testNotProvideWithDatasource,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithDatasource,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD java.lang.String.split(String),2
+ErrorMessageTest,testNotProvideWithDatasource,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD java.lang.String.startsWith(String),2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithDatasource,THIRD java.lang.String.startsWith(String),2

@@ -1,0 +1,16 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrimitiveTest,testShortDeserializationLossy,"ASSERT org.junit.Assert.assertThrows(Class<JsonSyntaxException>, ThrowingRunnable)",2
+PrimitiveTest,testShortDeserializationLossy,"com.google.gson.Gson.fromJson(String, Class<Short>)",1
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortDeserializationLossy,"ASSERT org.junit.Assert.assertThrows(Class<JsonSyntaxException>, ThrowingRunnable)",2
+PrimitiveTest,testShortDeserializationLossy,"com.google.gson.Gson.fromJson(String, Class<Short>)",1
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortDeserializationLossy,"ASSERT org.junit.Assert.assertThrows(Class<JsonSyntaxException>, ThrowingRunnable)",2
+PrimitiveTest,testShortDeserializationLossy,"com.google.gson.Gson.fromJson(String, Class<Short>)",1
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+PrimitiveTest,testShortDeserializationLossy,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

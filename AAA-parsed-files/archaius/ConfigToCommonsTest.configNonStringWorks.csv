@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigToCommonsTest,configNonStringWorks,THIRD org.apache.commons.configuration.AbstractConfiguration.getBoolean(String),1
+ConfigToCommonsTest,configNonStringWorks,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

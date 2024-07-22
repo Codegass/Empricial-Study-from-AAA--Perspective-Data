@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,SET com.microsoft.sqlserver.jdbc.SQLServerConnection.setDatetimeParameterType(String),1
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,GET com.microsoft.sqlserver.jdbc.SQLServerConnection.getDatetimeParameterType(),2
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testSetDatetimeParameterTypeShouldAcceptDatetime,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object, String)",2

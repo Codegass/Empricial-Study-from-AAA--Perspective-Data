@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ProxyTest,confirmConfigurationSourceWorksWithProxy,NEW anonymous(),0
+ProxyTest,confirmConfigurationSourceWorksWithProxy,THIRD com.google.inject.Guice.createInjector(Module[]),0
+ProxyTest,confirmConfigurationSourceWorksWithProxy,"com.netflix.archaius.ConfigProxyFactory.newProxy(Class<ModuleTestConfig>, String)",1
+ProxyTest,confirmConfigurationSourceWorksWithProxy,THIRD com.google.inject.Injector.getInstance(Class<ModuleTestConfig>),2
+ProxyTest,confirmConfigurationSourceWorksWithProxy,TEST GET com.netflix.archaius.guice.ProxyTest.ModuleTestConfig.isLoaded(),2
+ProxyTest,confirmConfigurationSourceWorksWithProxy,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ProxyTest,confirmConfigurationSourceWorksWithProxy,TEST GET com.netflix.archaius.guice.ProxyTest.ModuleTestConfig.getProp1(),2
+ProxyTest,confirmConfigurationSourceWorksWithProxy,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ProxyTest,confirmConfigurationSourceWorksWithProxy,THIRD com.google.inject.Injector.getInstance(Class<Config>),0
+ProxyTest,confirmConfigurationSourceWorksWithProxy,NEW com.netflix.archaius.visitor.PrintStreamVisitor(),0
+ProxyTest,confirmConfigurationSourceWorksWithProxy,com.netflix.archaius.api.Config.accept(Visitor<Void>),2

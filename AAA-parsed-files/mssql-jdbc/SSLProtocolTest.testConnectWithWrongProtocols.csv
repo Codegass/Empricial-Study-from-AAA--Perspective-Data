@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SSLProtocolTest,testConnectWithWrongProtocols,TEST com.microsoft.sqlserver.jdbc.connection.SSLProtocolTest.testWithUnSupportedProtocols(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",1
+SSLProtocolTest,testConnectWithWrongProtocols,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SSLProtocolTest,testConnectWithWrongProtocols,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getBundle(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getString(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,"     ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean, String)",2
+SSLProtocolTest,testConnectWithWrongProtocols,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getBundle(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getString(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SSLProtocolTest,testConnectWithWrongProtocols,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getBundle(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getString(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,     THIRD java.text.Format.format(Object),0
+SSLProtocolTest,testConnectWithWrongProtocols,     THIRD GET java.lang.Throwable.getMessage(),0
+SSLProtocolTest,testConnectWithWrongProtocols,     THIRD java.lang.String.equals(Object),0
+SSLProtocolTest,testConnectWithWrongProtocols,"     ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SSLProtocolTest,testConnectWithWrongProtocols,     TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getBundle(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,          THIRD java.util.ResourceBundle.getString(String),0
+SSLProtocolTest,testConnectWithWrongProtocols,     THIRD GET java.lang.Throwable.getMessage(),0

@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testAbortBadParam,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLServerConnectionTest,testAbortBadParam,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLServerConnectionTest,testAbortBadParam,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLServerConnectionTest,testAbortBadParam,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SQLServerConnectionTest,testAbortBadParam,THIRD java.sql.Connection.abort(Executor),1
+SQLServerConnectionTest,testAbortBadParam,THIRD GET java.lang.Throwable.getMessage(),2
+SQLServerConnectionTest,testAbortBadParam,TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+SQLServerConnectionTest,testAbortBadParam,"     THIRD java.lang.String.replaceAll(String, String)",0
+SQLServerConnectionTest,testAbortBadParam,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testAbortBadParam,THIRD java.lang.String.matches(String),2
+SQLServerConnectionTest,testAbortBadParam,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

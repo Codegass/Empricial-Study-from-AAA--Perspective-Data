@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigInterfaceTest,getValue,"TEST com.netflix.archaius.test.ConfigInterfaceTest.getInstance(Map<String,String>)",0
+ConfigInterfaceTest,getValue,com.netflix.archaius.api.Config.getString(String),1
+ConfigInterfaceTest,getValue,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

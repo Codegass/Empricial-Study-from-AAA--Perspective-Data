@@ -1,0 +1,30 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerSpatialDatatypeTest,testGeometryCollection16,TEST com.microsoft.sqlserver.jdbc.datatypes.SQLServerSpatialDatatypeTest.hexStringToByteArray(String),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.length(),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,TEST com.microsoft.sqlserver.jdbc.datatypes.SQLServerSpatialDatatypeTest.hexStringToByteArray(String),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.length(),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,TEST com.microsoft.sqlserver.jdbc.datatypes.SQLServerSpatialDatatypeTest.hexStringToByteArray(String),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.length(),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     THIRD java.lang.String.charAt(int),0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     THIRD java.lang.Character.digit(char, int)",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"TEST com.microsoft.sqlserver.jdbc.datatypes.SQLServerSpatialDatatypeTest.validateGeometryGeography(String, byte[], byte[], byte[])",0
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     com.microsoft.sqlserver.jdbc.Geometry.deserialize(byte[]),1
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     com.microsoft.sqlserver.jdbc.Geography.deserialize(byte[]),1
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     com.microsoft.sqlserver.jdbc.Geometry.asTextZM(),1
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     com.microsoft.sqlserver.jdbc.Geography.asTextZM(),1
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     com.microsoft.sqlserver.jdbc.Geometry.STAsBinary(),1
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     ASSERT org.junit.Assert.assertArrayEquals(byte[], byte[])",2
+SQLServerSpatialDatatypeTest,testGeometryCollection16,     com.microsoft.sqlserver.jdbc.Geography.STAsBinary(),2
+SQLServerSpatialDatatypeTest,testGeometryCollection16,"     ASSERT org.junit.Assert.assertArrayEquals(byte[], byte[])",2

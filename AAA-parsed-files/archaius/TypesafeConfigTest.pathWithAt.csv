@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TypesafeConfigTest,pathWithAt,THIRD com.typesafe.config.ConfigFactory.parseString(String),0
+TypesafeConfigTest,pathWithAt,NEW com.netflix.archaius.typesafe.TypesafeConfig(Config),1
+TypesafeConfigTest,pathWithAt,com.netflix.archaius.api.Config.getString(String),2
+TypesafeConfigTest,pathWithAt,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+TypesafeConfigTest,pathWithAt,com.netflix.archaius.api.Config.containsKey(String),2
+TypesafeConfigTest,pathWithAt,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

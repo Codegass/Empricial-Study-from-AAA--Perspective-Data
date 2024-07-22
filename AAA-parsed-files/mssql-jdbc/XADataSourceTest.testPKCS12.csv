@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+XADataSourceTest,testPKCS12,THIRD java.lang.System.getProperty(String),0
+XADataSourceTest,testPKCS12,THIRD java.lang.String.startsWith(String),0
+XADataSourceTest,testPKCS12,ASSERT org.junit.Assume.assumeTrue(boolean),0
+XADataSourceTest,testPKCS12,NEW com.microsoft.sqlserver.jdbc.SQLServerXADataSource(),0
+XADataSourceTest,testPKCS12,THIRD java.lang.System.getProperty(String),0
+XADataSourceTest,testPKCS12,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setURL(String),0
+XADataSourceTest,testPKCS12,THIRD java.lang.System.getProperty(String),0
+XADataSourceTest,testPKCS12,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setTrustStorePassword(String),0
+XADataSourceTest,testPKCS12,GET com.microsoft.sqlserver.jdbc.SQLServerXADataSource.getXAConnection(),1
+XADataSourceTest,testPKCS12,THIRD javax.sql.PooledConnection.close(),1

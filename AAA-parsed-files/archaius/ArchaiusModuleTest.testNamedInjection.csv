@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArchaiusModuleTest,testNamedInjection,"THIRD java.util.Properties.setProperty(String, String)",0
+ArchaiusModuleTest,testNamedInjection,"THIRD java.util.Properties.setProperty(String, String)",0
+ArchaiusModuleTest,testNamedInjection,NEW anonymous(),0
+ArchaiusModuleTest,testNamedInjection,NEW anonymous(),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.Guice.createInjector(Module[]),0
+ArchaiusModuleTest,testNamedInjection,com.netflix.archaius.guice.ArchaiusModule.bindApplicationConfigurationOverride(),0
+ArchaiusModuleTest,testNamedInjection,com.netflix.archaius.config.MapConfig.from(Properties),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.binder.LinkedBindingBuilder<com.netflix.archaius.api.Config>.toInstance(Config),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.AbstractModule.bind(Class<Named>),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.name.Names.named(String),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.binder.AnnotatedBindingBuilder<com.netflix.archaius.guice.ArchaiusModuleTest.Named>.annotatedWith(Annotation),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.binder.LinkedBindingBuilder<com.netflix.archaius.guice.ArchaiusModuleTest.Named>.to(Class<? extends Named>),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.AbstractModule.bind(Class<Named>),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.name.Names.named(String),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.binder.AnnotatedBindingBuilder<com.netflix.archaius.guice.ArchaiusModuleTest.Named>.annotatedWith(Annotation),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.binder.LinkedBindingBuilder<com.netflix.archaius.guice.ArchaiusModuleTest.Named>.to(Class<? extends Named>),0
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.Injector.getInstance(Class<MyService>),1
+ArchaiusModuleTest,testNamedInjection,TEST GET com.netflix.archaius.guice.ArchaiusModuleTest.MyService.getValue(),2
+ArchaiusModuleTest,testNamedInjection,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ArchaiusModuleTest,testNamedInjection,THIRD com.google.inject.Injector.getInstance(Class<MyServiceConfig>),2
+ArchaiusModuleTest,testNamedInjection,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

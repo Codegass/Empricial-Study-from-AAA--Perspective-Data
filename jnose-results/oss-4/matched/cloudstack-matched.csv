@@ -1,0 +1,85 @@
+Test_case,Multiple AAA,Missing Assert,Assert Pre,Suppressed Exception,Obscure Assert,Multiple Act,Arrange&Quit,testSmellName
+MockServerTest.testIsMockServerCanUpgradeConnectionToSsl,,,1.0,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Exception Catching Throwing', 'Verbose Test', 'Eager Test']"
+ScaleVMCmdTest.testCreateSuccess,,,1.0,,,,,"['Exception Catching Throwing', 'Verbose Test']"
+NetworkTest.testDiscoverNetwork,1.0,,,,,,,['Unknown Test']
+CloudStackPluginTest.testDomrExec,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert']"
+DedicateGuestVlanRangesTest.testReleaseDedicatedGuestVlanRange,1.0,,,,,,,[]
+CallContextTest.testGetContextParameter,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+DedicateGuestVlanRangesTest.testDedicateGuestVlanRange,1.0,,,,,,,[]
+ConfigurationManagerTest.testDedicatePublicIpRange,1.0,,,,,,,['Unknown Test']
+NexentaUtilTest.testParseNexentaPluginUrl,1.0,,,,,,,"['Assertion Roulette', 'Sensitive Equality', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test']"
+Ovm3StorageProcessorTest.deleteCommandTest,1.0,,,,,,,['Unknown Test']
+NetUtilsTest.testisNetworkorBroadCastIP,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert']"
+NiciraNvpApiIT.testCRUDAcl,1.0,,,,,,,[]
+CABackgroundTaskTest.testAutoRenewalDisabled,1.0,,,,,,,[]
+QuotaServiceImplTest.testFindQuotaBalanceVO,1.0,,,,,,,['Assertion Roulette']
+HAProxyConfiguratorTest.testGenerateConfigurationLoadBalancerConfigCommand,1.0,,,,,,,[]
+QuotaEmailTemplateUpdateCmdTest.testQuotaEmailTemplateUpdateCmd,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert', 'Exception Catching Throwing']"
+DbUtilTest.getColumnName,1.0,,,,,,,[]
+NiciraNvpGuestNetworkGuruTest.testCanHandle,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Verbose Test']"
+CertServiceTest.runDeleteSslCertValid,,1.0,,,,,,['Verbose Test']
+DirectAgentTest.testDownloadTemplate,,1.0,,,,,,[]
+ConsoleProxyManagerTest.testNewCPVMCreation,,1.0,,,,,,['Unknown Test']
+QuotaServiceImplTest.testComputeAdjustedTime,,1.0,,,,,,['Unknown Test']
+SnapshotTest.deleteSnapshot,,1.0,,,,,,"['Assertion Roulette', 'Conditional Test Logic']"
+DbUtilTest.closeNull,,1.0,,,,,,[]
+InstanceIpModelTest.testCreateInstanceIp,,1.0,,,,,,"['Exception Catching Throwing', 'Eager Test', 'Verbose Test']"
+VolumeTestVmware.testDeleteDisk,,1.0,,,,,,[]
+Ovm3VirtualRoutingResourceTest.prepareCommandFailTest,,,,,,,,['Unknown Test']
+FirewallManagerTest.testApplyFWRules,,,,,,,,['IgnoredTest']
+RouterDeploymentDefinitionTest.testDeployVirtualRouter,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing', 'Verbose Test']"
+HAProxyConfiguratorTest.testGenerateConfigurationLoadBalancerProxyProtocolConfigCommand,,,,,,,,[]
+LibvirtComputingResourceTest.testCreateVMFromSpec,,,,,,,,"['Unknown Test', 'Resource Optimism']"
+NetworkHelperImplTest.testSendCommandsToRouter,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+HypervDirectConnectResourceTest.testGetVmStatsCommand,,,,,,,,[]
+StringUtilsTest.testCleanSecretkeyFromJsonObjectAtEnd,,,,,,,,['Assertion Roulette']
+RouterDeploymentDefinitionTest.testDeployVirtualRouterSkip,,,,,,,,"['Exception Catching Throwing', 'Eager Test']"
+TestProfiler.testProfilerNoStart,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+LibvirtComputingResourceTest.testNetworkUsageCommandNonVpc,,,,,,,,['Assertion Roulette']
+CreateNetworkOfferingTest.createVpcNtwkOff,,,,,,,,[]
+RouterDeploymentDefinitionTest.testUnlock,,,,,,,,[]
+RouterDeploymentDefinitionTest.testFindVirtualProvider,,,,,,,,['Eager Test']
+RouterDeploymentDefinitionTest.testSetupAccountOwner,,,,,,,,[]
+HypervDirectConnectResourceTest.testModifyStoragePoolCommand,,,,,,,,['Assertion Roulette']
+ParamGenericValidationWorkerTest.testHandleWithUnknownParams,,,,,,,,['Exception Catching Throwing']
+LinkDomainToLdapCmdTest.execute,,,,,,,,"['Eager Test', 'Sensitive Equality', 'Verbose Test']"
+QemuImgTest.testCreateSparseVolume,,,,,,,,"['IgnoredTest', 'Assertion Roulette', 'Mystery Guest', 'Eager Test', 'Resource Optimism']"
+DbUtilTest.getGlobalLockTimeout,,,,,,,,[]
+NetworkOrchestratorTest.testDontRemoveDhcpServiceFromDomainRouter,,,,,,,,['Unknown Test']
+InMemoryEventBusTest.testUnsubscribe,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+ConfigDriveBuilderTest.writeVendorAndNetworkEmptyJsonFileTestCreatingFolder,,,,,,,,"['Resource Optimism', 'Mystery Guest']"
+RegisterTemplateCmdByAdminTest.testZoneidListMinusOne,,,,,,,,['Assertion Roulette']
+NetworkHelperImplTest.testSendCommandsToRouterWithTrueResult,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+VirtualRoutingResourceTest.testSetPortForwardingRulesCommand,,,,,,,,"['Assertion Roulette', 'IgnoredTest', 'Magic Number Test']"
+RouterDeploymentDefinitionTest.testFindOfferingIdFromNetwork,,,,,,,,['Eager Test']
+ParamGenericValidationWorkerTest.testHandle,,,,,,,,"['Exception Catching Throwing', 'Verbose Test']"
+RouterDeploymentDefinitionTest.testFindSourceNatIPPublicNw,,,,,,,,['Assertion Roulette']
+SecurityGroupRulesCmdTest.testCompressStringifiedRules,,,,,,,,['Assertion Roulette']
+VirtualRouterElementTest.testGetRouters1,,,,,,,,"['Assertion Roulette', 'Magic Number Test']"
+XenTest.testGetRunningVmConfig,,,,,,,,"['Eager Test', 'Unknown Test']"
+VmwareResourceTest.testGenerateMacSequence,,,,,,,,['Assertion Roulette']
+VirtualMachineModelTest.testCreateVirtualMachine,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing', 'Verbose Test']"
+CertServiceTest.runUploadSslCertSelfSignedNoPassword,,,,,,,,"['Unknown Test', 'Resource Optimism', 'Verbose Test']"
+TestProfiler.testProfilerInMillis,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+VpcRouterDeploymentDefinitionTest.testDeployAllVirtualRoutersWithNoDeployedRouter,,,,,,,,[]
+ConfigDriveBuilderTest.buildConfigDriveTest,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+RouterDeploymentDefinitionTest.testGenerateDeploymentPlanBasicFailNoPod,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+RouterDeploymentDefinitionTest.testFindOfferingIdDefault,,,,,,,,['Eager Test']
+ImplicitPlannerTest.checkPreferredModePreferredHostAvailable,,,,,,,,[]
+NiciraNvpResourceTest.testConfigureStaticNatRulesOnLogicalRouterRemoveRules,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Verbose Test']"
+PaloAltoResourceTest.shutdownGuestNetwork,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Print Statement', 'Conditional Test Logic']"
+SetNetworkACLCommandTest.testNetworkAclRuleOrdering,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Conditional Test Logic']"
+RouterDeploymentDefinitionTest.testSetupAccountOwnerNotNetworkSystem,,,,,,,,[]
+RouterDeploymentDefinitionTest.testPlanDeploymentRoutersBasic,,,,,,,,['Eager Test']
+TemplateTest.registerTemplate,,,,,1.0,,,[]
+ApplicationLoadBalancerTest.searchForNonExistingLoadBalancer,,,,,1.0,,,[]
+ImplicitPlannerTest.checkStrictModeWithCurrentAccountVmsPresent,,,,,1.0,,,[]
+S3TemplateTest.registerTemplate,,,,,1.0,,,[]
+QemuImgTest.testCreateAndInfoWithOptions,,,,,,1.0,,"['IgnoredTest', 'Assertion Roulette', 'Mystery Guest', 'Eager Test', 'Resource Optimism']"
+VolumeServiceTest.createVolumeFromTemplate,,,,1.0,,,,['Exception Catching Throwing']
+TestHttp.testHttpclient,,,,1.0,,,,[]
+RouterDeploymentDefinitionTest.testCheckPreconditionsWrongState,,,,,,,,[]
+InternalLBVMServiceTest.startNonInternalLbVmVm,,,,,,,,[]
+ConfigDriveBuilderTest.writeFileTestwriteFileTestIOExceptionWhileWritingFile,,,,,,,,['Resource Optimism']
+InternalLBVMServiceTest.stopNonExistingVm,,,,,,,,[]
+BigSwitchBcfResourceTest.resourceConfigure,,,,,,,,"['Assertion Roulette', 'Eager Test']"

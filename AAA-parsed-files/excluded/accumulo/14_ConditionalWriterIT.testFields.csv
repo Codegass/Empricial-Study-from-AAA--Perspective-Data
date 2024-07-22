@@ -1,0 +1,120 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.Accumulo.newClient(),0
+ConditionalWriterIT,testFields,     TEST org.apache.accumulo.harness.SharedMiniClusterBase.getCluster(),0
+ConditionalWriterIT,testFields,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+ConditionalWriterIT,testFields,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+ConditionalWriterIT,testFields,"     NEW org.apache.accumulo.cluster.ClusterUser(String, String)",0
+ConditionalWriterIT,testFields,     TEST org.apache.accumulo.harness.TestingKdc.getClientPrincipal(int),0
+ConditionalWriterIT,testFields,org.apache.accumulo.cluster.ClusterUser.getPrincipal(),0
+ConditionalWriterIT,testFields,          org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+ConditionalWriterIT,testFields,          org.apache.accumulo.core.clientImpl.ClientInfo.from(Properties),0
+ConditionalWriterIT,testFields,     org.apache.accumulo.core.clientImpl.ClientInfo.saslEnabled(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.admin.SecurityOperations.createLocalUser(String, PasswordToken)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.cluster.ClusterUser.getPassword(),0
+ConditionalWriterIT,testFields,NEW org.apache.accumulo.core.client.security.tokens.PasswordToken(CharSequence),0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.admin.SecurityOperations.createLocalUser(String, PasswordToken)",0
+ConditionalWriterIT,testFields,NEW org.apache.accumulo.core.security.Authorizations(String[]),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.admin.SecurityOperations.changeUserAuthorizations(String, Authorizations)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.admin.SecurityOperations.grantSystemPermission(String, SystemPermission)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.Accumulo.newClient(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.properties(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+ConditionalWriterIT,testFields,org.apache.accumulo.cluster.ClusterUser.getToken(),0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.AccumuloClient.AuthenticationArgs.as(CharSequence, AuthenticationToken)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+ConditionalWriterIT,testFields,NEW org.apache.accumulo.core.client.ConditionalWriterConfig(),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriterConfig.setAuthorizations(Authorizations),0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.AccumuloClient.createConditionalWriter(String, ConditionalWriterConfig)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+ConditionalWriterIT,testFields,NEW org.apache.accumulo.core.security.ColumnVisibility(String),0
+ConditionalWriterIT,testFields,NEW org.apache.accumulo.core.security.ColumnVisibility(String),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,NEW org.apache.accumulo.core.data.Range(CharSequence),2
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.Scanner.setRange(Range),2
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.client.ScannerBase.fetchColumn(CharSequence, CharSequence)",2
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Value.toString(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Key.getTimestamp(),2
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setValue(CharSequence),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setValue(CharSequence),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setValue(CharSequence),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setTimestamp(long),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setValue(CharSequence),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setTimestamp(long),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setValue(CharSequence),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Value.toString(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.Condition(CharSequence, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setVisibility(ColumnVisibility),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setTimestamp(long),0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Condition.setValue(CharSequence),0
+ConditionalWriterIT,testFields,"NEW org.apache.accumulo.core.data.ConditionalMutation(CharSequence, Condition[])",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, ColumnVisibility, CharSequence)",0
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.write(ConditionalMutation),1
+ConditionalWriterIT,testFields,org.apache.accumulo.core.client.ConditionalWriter.Result.getStatus(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+ConditionalWriterIT,testFields,org.apache.accumulo.core.data.Value.toString(),2
+ConditionalWriterIT,testFields,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

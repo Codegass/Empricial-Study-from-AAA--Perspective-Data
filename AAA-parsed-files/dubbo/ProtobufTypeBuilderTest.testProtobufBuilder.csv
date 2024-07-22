@@ -1,0 +1,60 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,org.apache.dubbo.metadata.definition.ServiceDefinitionBuilder.buildFullDefinition(Class<?>),1
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.ServiceDefinition.getMethods(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.MethodDefinition.getParameterTypes(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.ServiceDefinition.getTypes(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getProperties(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Integer),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Integer, Matcher<? super Integer>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.is(Boolean),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(Boolean, Matcher<? super Boolean>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,GET org.apache.dubbo.metadata.definition.model.TypeDefinition.getType(),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.metadata.definition.protobuf,ProtobufTypeBuilderTest,testProtobufBuilder,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2

@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParameterMetaDataTest,noStoredProcTest,THIRD java.util.Arrays.asList(String[]),0
+ParameterMetaDataTest,noStoredProcTest,TEST com.microsoft.sqlserver.jdbc.fmtOnly.ParameterMetaDataTest.executeFmt(String),0
+ParameterMetaDataTest,noStoredProcTest,     com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),1
+ParameterMetaDataTest,noStoredProcTest,     THIRD  java.sql.Connection.prepareStatement(String),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD  java.sql.PreparedStatement.getParameterMetaData(String),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD   java.sql.ParameterMetaData.getParameterClassName(int),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD   java.sql.ParameterMetaData.getParameterMode(int),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD   java.sql.ParameterMetaData.getParameterType(int),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD   java.sql.ParameterMetaData.getParameterTypeName(int),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD   java.sql.ParameterMetaData.getScale(int),2
+ParameterMetaDataTest,noStoredProcTest,     THIRD   java.sql.ParameterMetaData.getPrecision(int),2
+ParameterMetaDataTest,noStoredProcTest,     ASSERT org.junit.Assert.fail(String),2
+ParameterMetaDataTest,noStoredProcTest,THIRD java.lang.Iterable<java.lang.String>.forEach(Consumer<? super String>),2

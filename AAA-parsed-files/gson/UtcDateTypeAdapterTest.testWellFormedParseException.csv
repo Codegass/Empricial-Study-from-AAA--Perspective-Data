@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UtcDateTypeAdapterTest,testWellFormedParseException,"com.google.gson.Gson.fromJson(String, Class<Date>)",1
+UtcDateTypeAdapterTest,testWellFormedParseException,ASSERT org.junit.Assert.fail(String),2
+UtcDateTypeAdapterTest,testWellFormedParseException,THIRD GET java.lang.Throwable.getMessage(),2
+UtcDateTypeAdapterTest,testWellFormedParseException,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

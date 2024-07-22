@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConnectionTest,testConnectWithIPAddressPreference,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+ConnectionTest,testConnectWithIPAddressPreference,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setURL(String),0
+ConnectionTest,testConnectWithIPAddressPreference,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setIPAddressPreference(String),0
+ConnectionTest,testConnectWithIPAddressPreference,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ConnectionTest,testConnectWithIPAddressPreference,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setIPAddressPreference(String),0
+ConnectionTest,testConnectWithIPAddressPreference,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ConnectionTest,testConnectWithIPAddressPreference,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setIPAddressPreference(String),0
+ConnectionTest,testConnectWithIPAddressPreference,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1

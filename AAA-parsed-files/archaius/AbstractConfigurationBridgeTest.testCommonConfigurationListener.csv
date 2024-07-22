@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,MOCK org.mockito.Mockito.mock(Class<ConfigurationListener>),0
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,THIRD GET com.netflix.config.ConfigurationManager.getConfigInstance(),0
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,THIRD org.apache.commons.configuration.event.EventSource.addConfigurationListener(ConfigurationListener),0
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,"THIRD com.google.inject.Key.get(Class<SettableConfig>, Class<? extends Annotation>)",0
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,THIRD com.google.inject.Injector.getInstance(Key<SettableConfig>),0
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",1
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,MOCK org.mockito.Mockito.times(int),2
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,"ASSERT org.mockito.Mockito.verify(ConfigurationListener, VerificationMode)",2
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,MOCK org.mockito.ArgumentMatchers.any(),2
+AbstractConfigurationBridgeTest,testCommonConfigurationListener,THIRD org.apache.commons.configuration.event.ConfigurationListener.configurationChanged(ConfigurationEvent),2

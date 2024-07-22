@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FirstScopePropertyValueResolverTest,test2Scopes,"TEST com.netflix.archaius.persisted2.FirstScopePropertyValueResolverTest.create(String, String[])",0
+FirstScopePropertyValueResolverTest,test2Scopes,"     THIRD org.apache.commons.lang3.StringUtils.split(String, String)",0
+FirstScopePropertyValueResolverTest,test2Scopes,     THIRD java.util.Arrays.asList(String[]),0
+FirstScopePropertyValueResolverTest,test2Scopes,"     THIRD java.util.HashMap<java.lang.String,java.util.Set<java.lang.String>>.put(String, Set<String>)",0
+FirstScopePropertyValueResolverTest,test2Scopes,"     NEW com.netflix.archaius.persisted2.ScopedValue(String, LinkedHashMap<String,Set<String>>)",0
+FirstScopePropertyValueResolverTest,test2Scopes,"TEST com.netflix.archaius.persisted2.FirstScopePropertyValueResolverTest.create(String, String[])",0
+FirstScopePropertyValueResolverTest,test2Scopes,"     THIRD org.apache.commons.lang3.StringUtils.split(String, String)",0
+FirstScopePropertyValueResolverTest,test2Scopes,     THIRD java.util.Arrays.asList(String[]),0
+FirstScopePropertyValueResolverTest,test2Scopes,"     THIRD java.util.HashMap<java.lang.String,java.util.Set<java.lang.String>>.put(String, Set<String>)",0
+FirstScopePropertyValueResolverTest,test2Scopes,"     NEW com.netflix.archaius.persisted2.ScopedValue(String, LinkedHashMap<String,Set<String>>)",0
+FirstScopePropertyValueResolverTest,test2Scopes,THIRD java.util.Arrays.asList(ScopedValue[]),0
+FirstScopePropertyValueResolverTest,test2Scopes,"com.netflix.archaius.persisted2.ScopePriorityPropertyValueResolver.resolve(String, List<ScopedValue>)",1
+FirstScopePropertyValueResolverTest,test2Scopes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

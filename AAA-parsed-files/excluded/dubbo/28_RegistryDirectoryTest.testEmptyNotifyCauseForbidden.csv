@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"          NEW org.apache.dubbo.registry.integration.RegistryDirectory(Class, URL)",0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          org.apache.dubbo.registry.integration.RegistryDirectory.setProtocol(Protocol),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          org.apache.dubbo.registry.integration.RegistryDirectory.setRegistry(Registry),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          org.apache.dubbo.rpc.cluster.RouterChain.buildChain(URL),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          org.apache.dubbo.registry.integration.RegistryDirectory.subscribe(URL),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          org.apache.dubbo.rpc.cluster.directory.AbstractDirectory.list(Invocation),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"          ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          org.apache.dubbo.registry.integration.RegistryDirectory.isAvailable(),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,          ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,NEW org.apache.dubbo.rpc.RpcInvocation(),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,org.apache.dubbo.rpc.cluster.directory.AbstractDirectory.list(Invocation),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,org.apache.dubbo.rpc.RpcException.getCode(),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,org.apache.dubbo.registry.integration.RegistryDirectory.isAvailable(),2
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,org.apache.dubbo.rpc.RpcInvocation.setMethodName(String),0
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,org.apache.dubbo.rpc.cluster.directory.AbstractDirectory.list(Invocation),2
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,org.apache.dubbo.registry.integration.RegistryDirectory.isAvailable(),2
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+RegistryDirectoryTest,testEmptyNotifyCauseForbidden,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

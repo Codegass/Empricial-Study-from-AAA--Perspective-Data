@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,nonExistentInteger,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<NoSuchElementException>, Executable)",2
+MapConfigTest,nonExistentInteger,com.netflix.archaius.config.AbstractConfig.getInteger(String),1

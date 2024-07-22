@@ -1,0 +1,15 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTypeAdapterTest,testDeserialize,com.google.gson.TypeAdapter.fromJson(String),1
+ObjectTypeAdapterTest,testDeserialize,"THIRD java.util.Map<,>.get(Object)",1
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ObjectTypeAdapterTest,testDeserialize,"THIRD java.util.Map<,>.get(Object)",2
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+ObjectTypeAdapterTest,testDeserialize,THIRD java.util.Arrays.asList(Double[]),2
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ObjectTypeAdapterTest,testDeserialize,"THIRD java.util.Map<,>.get(Object)",2
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+ObjectTypeAdapterTest,testDeserialize,"THIRD java.util.Collections.singletonMap(String, String)",2
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ObjectTypeAdapterTest,testDeserialize,"ASSERT com.google.common.truth.Truth.assertThat(Map<?,?>)",2
+ObjectTypeAdapterTest,testDeserialize,ASSERT com.google.common.truth.MapSubject.hasSize(int),2

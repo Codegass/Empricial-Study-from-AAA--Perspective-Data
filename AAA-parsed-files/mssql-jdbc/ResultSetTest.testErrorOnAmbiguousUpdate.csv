@@ -1,0 +1,26 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ResultSetTest,testErrorOnAmbiguousUpdate,TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,"     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+ResultSetTest,testErrorOnAmbiguousUpdate,"          THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+ResultSetTest,testErrorOnAmbiguousUpdate,TEST com.microsoft.sqlserver.jdbc.resultset.ResultSetTest.ambiguousUpdateRowTestSetup(Connection),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.sql.Connection.createStatement(),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.sql.Statement.execute(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.sql.Statement.execute(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.sql.Statement.execute(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.sql.Statement.execute(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,"com.microsoft.sqlserver.jdbc.SQLServerConnection.createStatement(int, int)",0
+ResultSetTest,testErrorOnAmbiguousUpdate,THIRD java.sql.Statement.executeQuery(String),1
+ResultSetTest,testErrorOnAmbiguousUpdate,THIRD java.sql.ResultSet.first(),0
+ResultSetTest,testErrorOnAmbiguousUpdate,"THIRD java.sql.ResultSet.updateString(int, String)",0
+ResultSetTest,testErrorOnAmbiguousUpdate,"THIRD java.sql.ResultSet.updateString(int, String)",0
+ResultSetTest,testErrorOnAmbiguousUpdate,THIRD java.sql.ResultSet.updateRow(),0
+ResultSetTest,testErrorOnAmbiguousUpdate,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.util.ResourceBundle.getBundle(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.util.ResourceBundle.getString(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ResultSetTest,testErrorOnAmbiguousUpdate,THIRD GET java.lang.Throwable.getMessage(),0
+ResultSetTest,testErrorOnAmbiguousUpdate,TEST com.microsoft.sqlserver.jdbc.TestUtils.formatErrorMsg(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,"     THIRD java.lang.String.replaceAll(String, String)",0
+ResultSetTest,testErrorOnAmbiguousUpdate,     THIRD java.util.ResourceBundle.getString(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,THIRD java.lang.String.matches(String),0
+ResultSetTest,testErrorOnAmbiguousUpdate,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

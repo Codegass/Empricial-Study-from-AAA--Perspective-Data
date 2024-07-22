@@ -1,0 +1,21 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,NEW org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd(),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.execute(),1
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,GET org.apache.cloudstack.api.ServerApiException.getErrorCode(),2
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,ASSERT junit.framework.TestCase.assertTrue(boolean),2
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,SET org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.setTemplateName(String),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,SET org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.setTemplateBody(String),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,SET org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.setTemplateSubject(String),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.execute(),1
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,GET org.apache.cloudstack.api.ServerApiException.getErrorCode(),2
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,ASSERT junit.framework.TestCase.assertTrue(boolean),2
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,SET org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.setTemplateName(String),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,MOCK org.mockito.Matchers.eq(QuotaEmailTemplateUpdateCmd),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,org.apache.cloudstack.api.response.QuotaResponseBuilder.updateQuotaEmailTemplate(QuotaEmailTemplateUpdateCmd),1
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,MOCK org.mockito.Mockito.when(Boolean),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,MOCK org.mockito.stubbing.OngoingStubbing<java.lang.Boolean>.thenReturn(Boolean),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,org.apache.cloudstack.api.command.QuotaEmailTemplateUpdateCmd.execute(),1
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,MOCK org.mockito.Mockito.times(int),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,"ASSERT org.mockito.Mockito.verify(QuotaResponseBuilder, VerificationMode)",2
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,MOCK org.mockito.Matchers.eq(QuotaEmailTemplateUpdateCmd),0
+org.apache.cloudstack.api.command,QuotaEmailTemplateUpdateCmdTest,testQuotaEmailTemplateUpdateCmd,org.apache.cloudstack.api.response.QuotaResponseBuilder.updateQuotaEmailTemplate(QuotaEmailTemplateUpdateCmd),0

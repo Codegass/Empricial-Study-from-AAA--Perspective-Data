@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigTest,getExistingProperty,com.netflix.archaius.api.Config.getProperty(String),1
+AbstractConfigTest,getExistingProperty,THIRD GET java.util.Optional<java.lang.Object>.get(),1
+AbstractConfigTest,getExistingProperty,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

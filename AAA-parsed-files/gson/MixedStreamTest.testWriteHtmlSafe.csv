@@ -1,0 +1,18 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MixedStreamTest,testWriteHtmlSafe,THIRD java.util.Arrays.asList(String[]),0
+MixedStreamTest,testWriteHtmlSafe,NEW anonymous(),0
+MixedStreamTest,testWriteHtmlSafe,GET com.google.gson.reflect.TypeToken.getType(),0
+MixedStreamTest,testWriteHtmlSafe,NEW com.google.gson.Gson(),0
+MixedStreamTest,testWriteHtmlSafe,NEW com.google.gson.stream.JsonWriter(Writer),0
+MixedStreamTest,testWriteHtmlSafe,"com.google.gson.Gson.toJson(Object, Type, JsonWriter)",1
+MixedStreamTest,testWriteHtmlSafe,THIRD java.io.StringWriter.toString(),2
+MixedStreamTest,testWriteHtmlSafe,ASSERT com.google.common.truth.Truth.assertThat(String),2
+MixedStreamTest,testWriteHtmlSafe,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+MixedStreamTest,testWriteHtmlSafe,NEW com.google.gson.GsonBuilder(),0
+MixedStreamTest,testWriteHtmlSafe,GET com.google.gson.GsonBuilder.disableHtmlEscaping(),0
+MixedStreamTest,testWriteHtmlSafe,com.google.gson.GsonBuilder.create(),0
+MixedStreamTest,testWriteHtmlSafe,NEW com.google.gson.stream.JsonWriter(Writer),0
+MixedStreamTest,testWriteHtmlSafe,"com.google.gson.Gson.toJson(Object, Type, JsonWriter)",1
+MixedStreamTest,testWriteHtmlSafe,THIRD java.io.StringWriter.toString(),2
+MixedStreamTest,testWriteHtmlSafe,ASSERT com.google.common.truth.Truth.assertThat(String),2
+MixedStreamTest,testWriteHtmlSafe,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

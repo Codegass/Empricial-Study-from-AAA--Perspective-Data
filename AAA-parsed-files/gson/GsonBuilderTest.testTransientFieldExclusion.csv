@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GsonBuilderTest,testTransientFieldExclusion,NEW com.google.gson.GsonBuilder(),0
+GsonBuilderTest,testTransientFieldExclusion,com.google.gson.GsonBuilder.excludeFieldsWithModifiers(int[]),0
+GsonBuilderTest,testTransientFieldExclusion,com.google.gson.GsonBuilder.create(),0
+GsonBuilderTest,testTransientFieldExclusion,NEW com.google.gson.GsonBuilderTest.HasTransients(),1
+GsonBuilderTest,testTransientFieldExclusion,com.google.gson.Gson.toJson(Object),2
+GsonBuilderTest,testTransientFieldExclusion,ASSERT com.google.common.truth.Truth.assertThat(String),2
+GsonBuilderTest,testTransientFieldExclusion,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

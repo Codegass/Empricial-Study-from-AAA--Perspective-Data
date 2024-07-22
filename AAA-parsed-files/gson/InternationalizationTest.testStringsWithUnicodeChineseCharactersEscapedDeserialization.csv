@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InternationalizationTest,testStringsWithUnicodeChineseCharactersEscapedDeserialization,"com.google.gson.Gson.fromJson(String, Class<String>)",1
+InternationalizationTest,testStringsWithUnicodeChineseCharactersEscapedDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+InternationalizationTest,testStringsWithUnicodeChineseCharactersEscapedDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StreamingTypeAdaptersTest,testSerializeMap,"THIRD java.util.Map<java.lang.String,java.lang.Double>.put(String, Double)",0
+StreamingTypeAdaptersTest,testSerializeMap,"THIRD java.util.Map<java.lang.String,java.lang.Double>.put(String, Double)",0
+StreamingTypeAdaptersTest,testSerializeMap,"com.google.gson.TypeAdapter.toJson(Map<String,Double>)",1
+StreamingTypeAdaptersTest,testSerializeMap,"THIRD java.lang.String.replace(char, char)",2
+StreamingTypeAdaptersTest,testSerializeMap,ASSERT com.google.common.truth.Truth.assertThat(String),2
+StreamingTypeAdaptersTest,testSerializeMap,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

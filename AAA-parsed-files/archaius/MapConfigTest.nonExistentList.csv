@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,nonExistentList,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<NoSuchElementException>, Executable)",2
+MapConfigTest,nonExistentList,com.netflix.archaius.config.AbstractConfig.getList(String),1

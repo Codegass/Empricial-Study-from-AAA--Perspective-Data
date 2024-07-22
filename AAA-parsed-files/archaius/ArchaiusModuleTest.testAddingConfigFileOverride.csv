@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArchaiusModuleTest,testAddingConfigFileOverride,NEW anonymous(),0
+ArchaiusModuleTest,testAddingConfigFileOverride,THIRD com.google.inject.Guice.createInjector(Module[]),0
+ArchaiusModuleTest,testAddingConfigFileOverride,com.netflix.archaius.guice.ArchaiusModule.bindApplicationConfigurationOverrideResource(String),0
+ArchaiusModuleTest,testAddingConfigFileOverride,THIRD com.google.inject.Injector.getInstance(Class<Config>),0
+ArchaiusModuleTest,testAddingConfigFileOverride,com.netflix.archaius.api.Config.getString(String),1
+ArchaiusModuleTest,testAddingConfigFileOverride,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ArchaiusModuleTest,testAddingConfigFileOverride,com.netflix.archaius.api.Config.getString(String),2
+ArchaiusModuleTest,testAddingConfigFileOverride,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+ArchaiusModuleTest,testAddingConfigFileOverride,com.netflix.archaius.api.Config.getString(String),2
+ArchaiusModuleTest,testAddingConfigFileOverride,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

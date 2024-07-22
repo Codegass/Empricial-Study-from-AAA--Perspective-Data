@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,numericInterpolationShouldWork,com.netflix.archaius.config.MapConfig.builder(),0
+MapConfigTest,numericInterpolationShouldWork,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+MapConfigTest,numericInterpolationShouldWork,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+MapConfigTest,numericInterpolationShouldWork,com.netflix.archaius.config.MapConfig.Builder.build(),1
+MapConfigTest,numericInterpolationShouldWork,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+MapConfigTest,numericInterpolationShouldWork,com.netflix.archaius.api.Config.getLong(String),2

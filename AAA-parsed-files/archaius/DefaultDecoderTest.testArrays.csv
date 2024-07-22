@@ -1,0 +1,19 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<String[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(Object[], Object[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<Integer[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(Object[], Object[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<int[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(int[], int[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<Integer[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(Object[], Object[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<int[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(int[], int[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<Long[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(Object[], Object[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<long[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(long[], long[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<Long[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(Object[], Object[])",2
+DefaultDecoderTest,testArrays,"com.netflix.archaius.AbstractRegistryDecoder.decode(Class<long[]>, String)",1
+DefaultDecoderTest,testArrays,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(long[], long[])",2

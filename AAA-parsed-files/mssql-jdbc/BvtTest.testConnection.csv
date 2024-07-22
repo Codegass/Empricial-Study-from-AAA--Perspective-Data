@@ -1,0 +1,2 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BvtTest,testConnection,NEW com.microsoft.sqlserver.testframework.DBConnection(String),0

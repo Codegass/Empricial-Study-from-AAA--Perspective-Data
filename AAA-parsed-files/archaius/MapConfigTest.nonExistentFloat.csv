@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,nonExistentFloat,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<NoSuchElementException>, Executable)",2
+MapConfigTest,nonExistentFloat,com.netflix.archaius.config.AbstractConfig.getFloat(String),1

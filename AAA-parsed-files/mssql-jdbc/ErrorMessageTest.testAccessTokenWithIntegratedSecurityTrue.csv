@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setServerName(String),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setDatabaseName(String),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setIntegratedSecurity(boolean),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setAccessToken(String),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,THIRD GET java.lang.Throwable.getMessage(),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,THIRD java.lang.String.startsWith(String),0
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ErrorMessageTest,testAccessTokenWithIntegratedSecurityTrue,THIRD GET java.lang.Throwable.getMessage(),0

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigToCommonsTest,confirmInterpolationWorks,THIRD org.apache.commons.configuration.AbstractConfiguration.getString(String),1
+ConfigToCommonsTest,confirmInterpolationWorks,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

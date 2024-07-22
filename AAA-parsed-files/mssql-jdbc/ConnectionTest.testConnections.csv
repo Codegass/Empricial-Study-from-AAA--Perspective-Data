@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConnectionTest,testConnections,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+ConnectionTest,testConnections,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setURL(String),0
+ConnectionTest,testConnections,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setKeyStoreAuthentication(String),0
+ConnectionTest,testConnections,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setKeyStorePrincipalId(String),0
+ConnectionTest,testConnections,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setKeyStoreSecret(String),0
+ConnectionTest,testConnections,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ConnectionTest,testConnections,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1

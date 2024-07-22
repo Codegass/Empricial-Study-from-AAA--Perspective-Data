@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultDecoderTest,testTypeConverterRegistry,com.netflix.archaius.AbstractRegistryDecoder.get(Type),1
+DefaultDecoderTest,testTypeConverterRegistry,THIRD GET java.util.Optional<com.netflix.archaius.api.TypeConverter<?>>.isPresent(),2
+DefaultDecoderTest,testTypeConverterRegistry,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+DefaultDecoderTest,testTypeConverterRegistry,com.netflix.archaius.AbstractRegistryDecoder.get(Type),1
+DefaultDecoderTest,testTypeConverterRegistry,THIRD GET java.util.Optional<com.netflix.archaius.api.TypeConverter<?>>.isPresent(),2
+DefaultDecoderTest,testTypeConverterRegistry,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

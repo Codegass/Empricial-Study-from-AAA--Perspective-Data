@@ -1,0 +1,78 @@
+Test_case,Multiple AAA,Missing Assert,Assert Pre,Suppressed Exception,Obscure Assert,Multiple Act,Arrange&Quit,testSmellName
+AbstractZookeeperTransporterTest.testRepeatConnect,,,1.0,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Magic Number Test']"
+AbstractRegistryTest.testSubscribe,,,1.0,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert', 'Exception Catching Throwing']"
+AbstractRegistryTest.testUnsubscribe,,,1.0,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert', 'Exception Catching Throwing']"
+RpcUtilsTest.testGetParameterTypes,1.0,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+ChannelBufferStreamTest.testAll,1.0,,,,,,,[]
+SystemConfigurationTest.testConvert,1.0,,,,,,,['Assertion Roulette']
+RpcInvocationTest.testAttachment,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+ApolloDynamicConfigurationTest.testGetRule,1.0,,,,,,,"['Assertion Roulette', 'Eager Test']"
+MockClusterInvokerTest.testMockInvokerFromOverride_Invoke_Fock_WithOutDefault,1.0,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing']"
+ServiceDiscoveryTest.testGetInstancesWithHealthy,1.0,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test']"
+ResultMergerTest.testFloatArrayMerger,1.0,,,,,,,[]
+ResultMergerTest.testBooleanArrayMerger,1.0,,,,,,,[]
+InvokerTelnetHandlerTest.testInvokeOverriddenMethodBySelect,1.0,,,,,,,[]
+ResultMergerTest.testListMerger,1.0,,,,,,,[]
+ReferenceConfigTest.testReferenceRetry,1.0,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing', 'Verbose Test']"
+RegistryDirectoryTest.test_Constructor_WithErrorParam,1.0,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing', 'Duplicate Assert']"
+ZookeeperRegistryTest.testStatusChecker,1.0,,,,,,,['Assertion Roulette']
+URLBuilderTest.shouldAddParameter,1.0,,,,,,,"['Assertion Roulette', 'Eager Test']"
+ReferenceCountExchangeClientTest.test_counter_error,1.0,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing', 'Duplicate Assert', 'Magic Number Test', 'Verbose Test', 'Eager Test', 'Sleepy Test']"
+MockClusterInvokerTest.testMockInvokerFromOverride_Invoke_Fock_WithDefault,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert', 'Verbose Test']"
+ResultMergerTest.testCharArrayMerger,1.0,,,,,,,[]
+ResultMergerTest.testMapArrayMerger,1.0,,,,,,,[]
+SystemConfigurationTest.testGetSysProperty,1.0,,,,,,,"['Assertion Roulette', 'Eager Test']"
+AbstractConfigTest.testRefreshParameters,1.0,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing', 'Duplicate Assert', 'Verbose Test']"
+AbstractRegistryTest.lookupTest,1.0,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing']"
+ConsulDynamicConfigurationTest.testGetConfig,1.0,,,,,,,"['Assertion Roulette', 'Duplicate Assert']"
+TelnetCodecTest.testDecode_Backspace,,,,,,,,['Unknown Test']
+ExchangeCodecTest.test_Encode_Error_Response,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+DubboTelnetDecodeTest.testDubboDecode,,,,,,,,[]
+ConfigTest.testSystemPropertyOverrideProperties,,,,,,,,[]
+DubboProtocolTest.testDubboProtocolMultiService,,,,,,,,['Assertion Roulette']
+ReferenceBeanBuilderTest.testBuild,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Verbose Test']"
+ExchangeCodecTest.test_Decode_Return_Request_Heartbeat_Object,,,,,,,,"['Assertion Roulette', 'Print Statement']"
+PortTelnetHandlerTest.testListClient,,,,,,,,"['Assertion Roulette', 'Print Statement', 'Sleepy Test']"
+ResultMergerTest.testArrayMergerIllegalArgumentException,,,,,,,,[]
+RoundRobinLoadBalanceTest.testSelectByWeight,,,,,,,,"['Exception Catching Throwing', 'Sleepy Test', 'Conditional Test Logic', 'Verbose Test']"
+TelnetCodecTest.testDecode_Person_WithEnter,,,,,,,,['Unknown Test']
+RandomLoadBalanceTest.testSelectByWeight,,,,,,,,"['Assertion Roulette', 'Print Statement', 'Conditional Test Logic']"
+DubboInvokerAvilableTest.test_Lazy_ChannelReadOnly,,,,,,,,[]
+ArgumentCallbackTest.TestCallbackNormal,,,,,,,,[]
+RpcFilterTest.testRpcFilter,,,,,,,,[]
+ReferenceCountExchangeClientTest.test_not_share_connect,,,,,,,,['Assertion Roulette']
+ExchangeCodecTest.test_Decode_Return_Request_Object,,,,,,,,"['Assertion Roulette', 'Print Statement']"
+Hessian2PersonOkTest.test_StringArray_withType,,,,,,,,[]
+DefaultFutureTest.timeoutSend,,,,,,,,"['Conditional Test Logic', 'Exception Catching Throwing', 'Print Statement', 'Eager Test', 'Sleepy Test']"
+Hessian2SerializationTest.test_floatArray_withType,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing', 'Magic Number Test']"
+ServiceDefinitionBuilderTest.testBuild,,,,,,,,"['Assertion Roulette', 'Magic Number Test']"
+ExchangeCodecTest.test_Decode_Return_Request_Event_String,,,,,,,,"['Assertion Roulette', 'Print Statement']"
+ConnectChannelHandlerTest.test_Received_Event_invoke_direct,,,,,,,,[]
+DubboTelnetDecodeTest.testTelnetDecode,,,,,,,,[]
+ExtensionLoader.test_getAdaptiveExtension_protocolKey,,,,,,,,[]
+MockClusterInvokerTest.testMockInvokerFromOverride_Invoke_check_boolean,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Sensitive Equality']"
+ExtensionLoader.test_getAdaptiveExtension_customizeAdaptiveKey,,,,,,,,[]
+ExchangeCodecTest.test_Encode_Response,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+Hessian2SerializationTest.test_intArray_withType,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing']"
+AppResponseTest.testAppResponseWithEmptyStackTraceException,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Conditional Test Logic']"
+RegistryProtocolTest.testNotifyOverride_notmatch,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+NacosMetadataReportTest.testStoreProvider,,,,,,,,['Assertion Roulette']
+MockClusterInvokerTest.testMockInvokerFromOverride_Invoke_force_throw,,,,,,,,"['Assertion Roulette', 'Exception Catching Throwing']"
+ReferenceCountExchangeClientTest.test_multi_destory,,,,,,,,"['Assertion Roulette', 'Magic Number Test']"
+ExchangeCodecTest.test_Header_Response_NoSerializationFlag,,,,,,,,"['Assertion Roulette', 'Print Statement', 'Magic Number Test']"
+ReferenceCountExchangeClientTest.test_mult_share_connect,,,,,,,,['Assertion Roulette']
+Hessian2SerializationTest.test_StringArray_withType,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing']"
+MultipleRegistry2S2RTest.testSubscription,,,,,,,,[]
+InternalThreadLocalTest.testOnRemove,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Magic Number Test']"
+MulticastRegistryTest.testSubscribe,,,,,,,,['Unknown Test']
+FailbackRegistryTest.testDoRetry_register,,,,,,,,"['Conditional Test Logic', 'Assertion Roulette', 'Magic Number Test', 'Verbose Test', 'Print Statement', 'Sleepy Test']"
+RestProtocolTest.testRpcContextFilter,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Verbose Test']"
+ApolloDynamicConfigurationTest.testGetInternalProperty,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Duplicate Assert']"
+RpcUtilsTest.testAttachInvocationIdIfAsync_forceAttache,,,,,,,,"['Assertion Roulette', 'Eager Test']"
+RegistryDirectoryTest.testNofityOverrideUrls_Provider,,,,,,,,"['Assertion Roulette', 'Conditional Test Logic']"
+AbstractProxyTest.testGetProxy,,,,,,,,[]
+AdaptiveClassCodeGeneratorTest.testGenerate,,,,,,,,"['Assertion Roulette', 'Eager Test', 'Exception Catching Throwing']"
+AbstractSerializationTest.test_MediaContent_badStream,,,,,1.0,,,[]
+AppResponseTest.testSetExceptionWithEmptyStackTraceException,,,,,,,1.0,"['Assertion Roulette', 'Eager Test', 'Magic Number Test', 'Conditional Test Logic']"
+ProtobufTypeBuilderTest.testProtobufBuilder,,,,,,,,"['Assertion Roulette', 'Magic Number Test', 'Conditional Test Logic', 'Verbose Test']"
+AbstractConfigTest.testEquals,,,,,,,,['Assertion Roulette']

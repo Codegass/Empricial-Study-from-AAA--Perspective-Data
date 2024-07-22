@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GraphAdapterBuilderTest,testSerialization,NEW com.google.gson.graph.GraphAdapterBuilderTest.Roshambo(String),0
+GraphAdapterBuilderTest,testSerialization,NEW com.google.gson.graph.GraphAdapterBuilderTest.Roshambo(String),0
+GraphAdapterBuilderTest,testSerialization,NEW com.google.gson.graph.GraphAdapterBuilderTest.Roshambo(String),0
+GraphAdapterBuilderTest,testSerialization,NEW com.google.gson.GsonBuilder(),0
+GraphAdapterBuilderTest,testSerialization,NEW com.google.gson.graph.GraphAdapterBuilder(),0
+GraphAdapterBuilderTest,testSerialization,com.google.gson.graph.GraphAdapterBuilder.addType(Type),0
+GraphAdapterBuilderTest,testSerialization,com.google.gson.graph.GraphAdapterBuilder.registerOn(GsonBuilder),0
+GraphAdapterBuilderTest,testSerialization,com.google.gson.GsonBuilder.create(),0
+GraphAdapterBuilderTest,testSerialization,com.google.gson.Gson.toJson(Object),1
+GraphAdapterBuilderTest,testSerialization,"THIRD java.lang.String.replace(char, char)",2
+GraphAdapterBuilderTest,testSerialization,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

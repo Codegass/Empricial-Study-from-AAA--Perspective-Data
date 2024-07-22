@@ -1,0 +1,87 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FateConcurrencyIT,changeTableStateTest,"     org.apache.accumulo.core.clientImpl.Tables.getTableId(ClientContext, String)",0
+FateConcurrencyIT,changeTableStateTest,"     org.apache.accumulo.core.clientImpl.Tables.getTableState(ClientContext, TableId)",0
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",0
+FateConcurrencyIT,changeTableStateTest,NEW org.apache.accumulo.test.functional.FateConcurrencyIT.OnLineCallable(String),0
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.OnlineOpTiming.runningTime(),0
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.getTableState(String),0
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",0
+FateConcurrencyIT,changeTableStateTest,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),1
+FateConcurrencyIT,changeTableStateTest,"org.apache.accumulo.core.client.admin.TableOperations.offline(String, boolean)",1
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.getTableState(String),2
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+FateConcurrencyIT,changeTableStateTest,NEW org.apache.accumulo.test.functional.FateConcurrencyIT.OnLineCallable(String),0
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.OnlineOpTiming.runningTime(),0
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.getTableState(String),2
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+FateConcurrencyIT,changeTableStateTest,     NEW org.apache.accumulo.test.functional.FateConcurrencyIT.SlowCompactionRunner(String),0
+FateConcurrencyIT,changeTableStateTest,          TEST org.apache.accumulo.test.functional.FateConcurrencyIT.defaultTimeoutSeconds(),0
+FateConcurrencyIT,changeTableStateTest,          TEST org.apache.accumulo.test.functional.FateConcurrencyIT.defaultTimeoutSeconds(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.admin.InstanceOperations.getTabletServers(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.admin.InstanceOperations.getActiveCompactions(String),0
+FateConcurrencyIT,changeTableStateTest,               NEW org.apache.accumulo.fate.AdminUtil<java.lang.String>(boolean),0
+FateConcurrencyIT,changeTableStateTest,"               org.apache.accumulo.core.clientImpl.Tables.getTableId(ClientContext, String)",0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.client.AccumuloClient.properties(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.clientImpl.ClientInfo.from(Properties),0
+FateConcurrencyIT,changeTableStateTest,               NEW org.apache.accumulo.server.zookeeper.ZooReaderWriterFactory(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.clientImpl.ClientInfo.getZooKeepers(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.clientImpl.ClientInfo.getZooKeepersSessionTimeOut(),0
+FateConcurrencyIT,changeTableStateTest,"               org.apache.accumulo.server.zookeeper.ZooReaderWriterFactory.getZooReaderWriter(String, int, String)",0
+FateConcurrencyIT,changeTableStateTest,"               NEW org.apache.accumulo.fate.ZooStore<java.lang.String>(String, IZooReaderWriter)",0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.zookeeper.ZooUtil.getRoot(String),0
+FateConcurrencyIT,changeTableStateTest,"               org.apache.accumulo.fate.AdminUtil.getStatus(ReadOnlyTStore<String>, IZooReader, String, Set<Long>, EnumSet<TStatus>)",0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.zookeeper.ZooUtil.getRoot(String),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.FateStatus.getTransactions(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.FateStatus.getTransactions(),0
+FateConcurrencyIT,changeTableStateTest,                    org.apache.accumulo.fate.AdminUtil.TransactionStatus.getTxid(),0
+FateConcurrencyIT,changeTableStateTest,                    org.apache.accumulo.fate.AdminUtil.TransactionStatus.getStatus(),0
+FateConcurrencyIT,changeTableStateTest,                    org.apache.accumulo.fate.AdminUtil.TransactionStatus.getTop(),0
+FateConcurrencyIT,changeTableStateTest,                    org.apache.accumulo.fate.AdminUtil.TransactionStatus.getDebug(),0
+FateConcurrencyIT,changeTableStateTest,                    org.apache.accumulo.fate.AdminUtil.TransactionStatus.getDebug(),0
+FateConcurrencyIT,changeTableStateTest,"     ASSERT org.junit.Assert.assertTrue(String, boolean)",0
+FateConcurrencyIT,changeTableStateTest,NEW org.apache.accumulo.test.functional.FateConcurrencyIT.OnLineCallable(String),0
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertTrue(String, boolean)",0
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.OnlineOpTiming.runningTime(),0
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.getTableState(String),2
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+FateConcurrencyIT,changeTableStateTest,     TEST org.apache.accumulo.test.functional.FateConcurrencyIT.defaultTimeoutSeconds(),0
+FateConcurrencyIT,changeTableStateTest,     TEST org.apache.accumulo.test.functional.FateConcurrencyIT.defaultTimeoutSeconds(),0
+FateConcurrencyIT,changeTableStateTest,     org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,     org.apache.accumulo.core.client.admin.InstanceOperations.getTabletServers(),0
+FateConcurrencyIT,changeTableStateTest,     org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,     org.apache.accumulo.core.client.admin.InstanceOperations.getActiveCompactions(String),0
+FateConcurrencyIT,changeTableStateTest,          NEW org.apache.accumulo.fate.AdminUtil<java.lang.String>(boolean),0
+FateConcurrencyIT,changeTableStateTest,"          org.apache.accumulo.core.clientImpl.Tables.getTableId(ClientContext, String)",0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.AccumuloClient.properties(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.clientImpl.ClientInfo.from(Properties),0
+FateConcurrencyIT,changeTableStateTest,          NEW org.apache.accumulo.server.zookeeper.ZooReaderWriterFactory(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.clientImpl.ClientInfo.getZooKeepers(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.clientImpl.ClientInfo.getZooKeepersSessionTimeOut(),0
+FateConcurrencyIT,changeTableStateTest,"          org.apache.accumulo.server.zookeeper.ZooReaderWriterFactory.getZooReaderWriter(String, int, String)",0
+FateConcurrencyIT,changeTableStateTest,"          NEW org.apache.accumulo.fate.ZooStore<java.lang.String>(String, IZooReaderWriter)",0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.fate.zookeeper.ZooUtil.getRoot(String),0
+FateConcurrencyIT,changeTableStateTest,"          org.apache.accumulo.fate.AdminUtil.getStatus(ReadOnlyTStore<String>, IZooReader, String, Set<Long>, EnumSet<TStatus>)",0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.fate.zookeeper.ZooUtil.getRoot(String),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.fate.AdminUtil.FateStatus.getTransactions(),0
+FateConcurrencyIT,changeTableStateTest,          org.apache.accumulo.fate.AdminUtil.FateStatus.getTransactions(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.TransactionStatus.getTxid(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.TransactionStatus.getStatus(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.TransactionStatus.getTop(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.TransactionStatus.getDebug(),0
+FateConcurrencyIT,changeTableStateTest,               org.apache.accumulo.fate.AdminUtil.TransactionStatus.getDebug(),0
+FateConcurrencyIT,changeTableStateTest,"ASSERT org.junit.Assert.assertTrue(String, boolean)",0
+FateConcurrencyIT,changeTableStateTest,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),1
+FateConcurrencyIT,changeTableStateTest,org.apache.accumulo.core.client.admin.TableOperations.cancelCompaction(String),1
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.OnlineOpTiming.runningTime(),2
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.OnlineOpTiming.runningTime(),2
+FateConcurrencyIT,changeTableStateTest,TEST org.apache.accumulo.test.functional.FateConcurrencyIT.OnlineOpTiming.runningTime(),2

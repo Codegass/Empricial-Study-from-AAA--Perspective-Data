@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,THIRD java.util.List<java.lang.Integer>.add(Integer),0
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,THIRD java.util.List<java.lang.Integer>.add(Integer),0
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,TEST com.google.gson.functional.ParameterizedTypesTest.arrayOf(List<Integer>[]),0
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,NEW anonymous(),0
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,GET com.google.gson.reflect.TypeToken.getType(),0
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,"NEW com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables<java.lang.Integer>(Integer, Integer[], List<Integer>, List<Integer>[], List<? extends Integer>, List<? extends Integer>[])",0
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ParameterizedTypesTest,testParameterizedTypeGenericArraysSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

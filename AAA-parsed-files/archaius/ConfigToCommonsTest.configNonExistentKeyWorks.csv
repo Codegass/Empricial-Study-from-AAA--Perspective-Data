@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigToCommonsTest,configNonExistentKeyWorks,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<NoSuchElementException>, Executable)",2
+ConfigToCommonsTest,configNonExistentKeyWorks,"THIRD org.apache.commons.configuration.AbstractConfiguration.getString(String, String)",1

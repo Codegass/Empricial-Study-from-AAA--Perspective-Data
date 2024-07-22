@@ -1,0 +1,13 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonStreamParserTest,testEmptyInput,NEW com.google.gson.JsonStreamParser(String),0
+JsonStreamParserTest,testEmptyInput,com.google.gson.JsonStreamParser.next(),1
+JsonStreamParserTest,testEmptyInput,"ASSERT org.junit.Assert.assertThrows(Class<JsonIOException>, ThrowingRunnable)",2
+JsonStreamParserTest,testEmptyInput,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+JsonStreamParserTest,testEmptyInput,ASSERT com.google.common.truth.ThrowableSubject.hasCauseThat(),2
+JsonStreamParserTest,testEmptyInput,ASSERT com.google.common.truth.Subject.isInstanceOf(Class<?>),2
+JsonStreamParserTest,testEmptyInput,NEW com.google.gson.JsonStreamParser(String),0
+JsonStreamParserTest,testEmptyInput,com.google.gson.JsonStreamParser.hasNext(),1
+JsonStreamParserTest,testEmptyInput,"ASSERT org.junit.Assert.assertThrows(Class<JsonIOException>, ThrowingRunnable)",2
+JsonStreamParserTest,testEmptyInput,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+JsonStreamParserTest,testEmptyInput,ASSERT com.google.common.truth.ThrowableSubject.hasCauseThat(),2
+JsonStreamParserTest,testEmptyInput,ASSERT com.google.common.truth.Subject.isInstanceOf(Class<?>),2

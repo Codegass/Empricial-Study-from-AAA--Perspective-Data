@@ -1,0 +1,27 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,MOCK org.mockito.Mockito.mock(Class<ConfigListener>),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,NEW com.netflix.archaius.config.DefaultLayeredConfig(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.Config.addListener(ConfigListener),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"com.netflix.archaius.api.config.LayeredConfig.addConfig(Layer, Config)",0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,MOCK org.mockito.Mockito.times(int),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,MOCK org.mockito.ArgumentMatchers.any(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.ConfigListener.onConfigUpdated(Config),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.Config.getProperty(String),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,THIRD GET java.util.Optional<java.lang.Object>.get(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.Config.getRawProperty(String),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,GET com.netflix.archaius.api.PropertySource.getName(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"com.netflix.archaius.api.config.LayeredConfig.removeConfig(Layer, String)",1
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.Config.getProperty(String),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,THIRD GET java.util.Optional<java.lang.Object>.isPresent(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.Config.getRawProperty(String),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,MOCK org.mockito.Mockito.times(int),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,MOCK org.mockito.ArgumentMatchers.any(),0
+DefaultLayeredConfigTest,validateApiWhenRemovingChild,com.netflix.archaius.api.ConfigListener.onConfigUpdated(Config),0

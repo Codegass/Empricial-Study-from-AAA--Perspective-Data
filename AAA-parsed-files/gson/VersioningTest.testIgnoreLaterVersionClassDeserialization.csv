@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+VersioningTest,testIgnoreLaterVersionClassDeserialization,TEST com.google.gson.functional.VersioningTest.gsonWithVersion(double),0
+VersioningTest,testIgnoreLaterVersionClassDeserialization,     NEW com.google.gson.GsonBuilder(),0
+VersioningTest,testIgnoreLaterVersionClassDeserialization,     com.google.gson.GsonBuilder.setVersion(double),0
+VersioningTest,testIgnoreLaterVersionClassDeserialization,     com.google.gson.GsonBuilder.create(),0
+VersioningTest,testIgnoreLaterVersionClassDeserialization,"com.google.gson.Gson.fromJson(String, Class<Version1_2>)",1
+VersioningTest,testIgnoreLaterVersionClassDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+VersioningTest,testIgnoreLaterVersionClassDeserialization,ASSERT com.google.common.truth.Subject.isNull(),2

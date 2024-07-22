@@ -1,0 +1,48 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+TimeoutTest,testConnectRetryTimeout,THIRD GET java.lang.System.currentTimeMillis(),0
+TimeoutTest,testConnectRetryTimeout,TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+TimeoutTest,testConnectRetryTimeout,"     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+TimeoutTest,testConnectRetryTimeout,"          THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+TimeoutTest,testConnectRetryTimeout,TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String),0
+TimeoutTest,testConnectRetryTimeout,"     TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String, int, boolean, boolean)",0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.System.getProperty(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.util.UUID.randomUUID(),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.util.UUID.toString(),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.append(String),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.StringBuilder.toString(),0
+TimeoutTest,testConnectRetryTimeout,          THIRD java.lang.String.length(),0
+TimeoutTest,testConnectRetryTimeout,"          THIRD java.lang.String.substring(int, int)",0
+TimeoutTest,testConnectRetryTimeout,"TEST com.microsoft.sqlserver.jdbc.TestUtils.addOrOverrideProperty(String, String, String)",0
+TimeoutTest,testConnectRetryTimeout,THIRD java.util.Random.nextInt(int),0
+TimeoutTest,testConnectRetryTimeout,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+TimeoutTest,testConnectRetryTimeout,     THIRD java.util.ResourceBundle.getBundle(String),0
+TimeoutTest,testConnectRetryTimeout,     THIRD java.util.ResourceBundle.getString(String),0
+TimeoutTest,testConnectRetryTimeout,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+TimeoutTest,testConnectRetryTimeout,THIRD GET java.lang.System.currentTimeMillis(),0
+TimeoutTest,testConnectRetryTimeout,THIRD GET java.lang.Throwable.getMessage(),0
+TimeoutTest,testConnectRetryTimeout,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+TimeoutTest,testConnectRetryTimeout,THIRD GET java.lang.Throwable.getMessage(),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.lang.String.toLowerCase(),2
+TimeoutTest,testConnectRetryTimeout,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+TimeoutTest,testConnectRetryTimeout,     THIRD java.util.ResourceBundle.getBundle(String),0
+TimeoutTest,testConnectRetryTimeout,     THIRD java.util.ResourceBundle.getString(String),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.lang.String.toLowerCase(),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.lang.String.contains(CharSequence),0
+TimeoutTest,testConnectRetryTimeout,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.isSqlAzure(),0
+TimeoutTest,testConnectRetryTimeout,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.isSqlAzureDW(),0
+TimeoutTest,testConnectRetryTimeout,THIRD GET java.lang.Throwable.getMessage(),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.lang.String.toLowerCase(),0
+TimeoutTest,testConnectRetryTimeout,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+TimeoutTest,testConnectRetryTimeout,     THIRD java.util.ResourceBundle.getBundle(String),0
+TimeoutTest,testConnectRetryTimeout,     THIRD java.util.ResourceBundle.getString(String),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.lang.String.toLowerCase(),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.lang.String.contains(CharSequence),0
+TimeoutTest,testConnectRetryTimeout,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+TimeoutTest,testConnectRetryTimeout,THIRD java.util.concurrent.TimeUnit.toMillis(long),0
+TimeoutTest,testConnectRetryTimeout,THIRD java.util.concurrent.TimeUnit.toMillis(long),2

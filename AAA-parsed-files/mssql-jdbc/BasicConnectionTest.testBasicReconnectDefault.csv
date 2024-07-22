@@ -1,0 +1,63 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BasicConnectionTest,testBasicReconnectDefault,TEST com.microsoft.sqlserver.jdbc.resiliency.BasicConnectionTest.basicReconnect(String),1
+BasicConnectionTest,testBasicReconnectDefault,     TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.getConnection(String),0
+BasicConnectionTest,testBasicReconnectDefault,          THIRD java.sql.DriverManager.getConnection(String),0
+BasicConnectionTest,testBasicReconnectDefault,          TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.minimizeIdleNetworkTracker(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD GET java.lang.Object.getClass(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD GET java.lang.Class<>.getDeclaredFields(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD GET java.lang.reflect.Field.getName(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD SET java.lang.reflect.Field.setAccessible(boolean),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.lang.reflect.Field.get(Object),0
+BasicConnectionTest,testBasicReconnectDefault,               TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.getConnectionFields(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD GET java.lang.Object.getClass(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD GET java.lang.Class<>.getName(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD GET java.lang.Class<>.getSuperclass(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD GET java.lang.Class<>.getDeclaredFields(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD GET java.lang.Class<>.getDeclaredFields(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD GET java.lang.reflect.Field.getName(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD SET java.lang.reflect.Field.setAccessible(boolean),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.lang.reflect.Field.get(Object),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD GET java.lang.Object.getClass(),0
+BasicConnectionTest,testBasicReconnectDefault,"               THIRD java.lang.Class<>.getDeclaredMethod(String, Class<?>[])",0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD SET java.lang.reflect.Method.setAccessible(boolean),0
+BasicConnectionTest,testBasicReconnectDefault,"               THIRD java.lang.reflect.Method.invoke(Object, Object[])",0
+BasicConnectionTest,testBasicReconnectDefault,               ASSERT org.junit.Assert.fail(String),2
+BasicConnectionTest,testBasicReconnectDefault,               THIRD GET java.lang.Throwable.getMessage(),0
+BasicConnectionTest,testBasicReconnectDefault,     THIRD java.sql.Connection.createStatement(),1
+BasicConnectionTest,testBasicReconnectDefault,"     TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.killConnection(Connection, String, int)",0
+BasicConnectionTest,testBasicReconnectDefault,          TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.getSessionId(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Connection.createStatement(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Statement.executeQuery(String),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.ResultSet.next(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.ResultSet.getInt(int),0
+BasicConnectionTest,testBasicReconnectDefault,"          TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.killConnection(int, String, Connection, int)",0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.DriverManager.getConnection(String),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Connection.createStatement(),0
+BasicConnectionTest,testBasicReconnectDefault,               TEST com.microsoft.sqlserver.jdbc.TestUtils.isAzureDW(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                    TEST com.microsoft.sqlserver.jdbc.TestUtils.isAzure(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                         GET com.microsoft.sqlserver.jdbc.SQLServerConnection.isAzure(),0
+BasicConnectionTest,testBasicReconnectDefault,                    GET com.microsoft.sqlserver.jdbc.SQLServerConnection.isAzureDW(),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Statement.execute(String),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Statement.execute(String),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Statement.execute(String),0
+BasicConnectionTest,testBasicReconnectDefault,               THIRD java.sql.Statement.execute(String),0
+BasicConnectionTest,testBasicReconnectDefault,               TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.isRecoveryAliveAndConnDead(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                    TEST com.microsoft.sqlserver.jdbc.resiliency.ResiliencyUtils.getConnectionFields(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                         THIRD GET java.lang.Object.getClass(),0
+BasicConnectionTest,testBasicReconnectDefault,                         THIRD GET java.lang.Class<>.getName(),0
+BasicConnectionTest,testBasicReconnectDefault,                         THIRD GET java.lang.Class<>.getSuperclass(),0
+BasicConnectionTest,testBasicReconnectDefault,                         THIRD GET java.lang.Class<>.getDeclaredFields(),0
+BasicConnectionTest,testBasicReconnectDefault,                         THIRD GET java.lang.Class<>.getDeclaredFields(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD GET java.lang.reflect.Field.getName(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD SET java.lang.reflect.Field.setAccessible(boolean),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD java.lang.reflect.Field.get(Object),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD java.lang.Throwable.printStackTrace(),0
+BasicConnectionTest,testBasicReconnectDefault,                    TEST com.microsoft.sqlserver.jdbc.TestUtils.isConnectionRecoveryNegotiated(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                         GET com.microsoft.sqlserver.jdbc.SQLServerConnection.getSessionRecovery(),0
+BasicConnectionTest,testBasicReconnectDefault,                         GET com.microsoft.sqlserver.jdbc.IdleConnectionResiliency.isConnectionRecoveryNegotiated(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD java.util.concurrent.TimeUnit.sleep(long),0
+BasicConnectionTest,testBasicReconnectDefault,                    TEST com.microsoft.sqlserver.jdbc.TestUtils.isConnectionDead(Connection),0
+BasicConnectionTest,testBasicReconnectDefault,                         GET com.microsoft.sqlserver.jdbc.SQLServerConnection.isConnectionDead(),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD java.util.concurrent.TimeUnit.sleep(long),0
+BasicConnectionTest,testBasicReconnectDefault,                    THIRD java.lang.Throwable.printStackTrace(),0
+BasicConnectionTest,testBasicReconnectDefault,     THIRD java.sql.Statement.executeQuery(String),1

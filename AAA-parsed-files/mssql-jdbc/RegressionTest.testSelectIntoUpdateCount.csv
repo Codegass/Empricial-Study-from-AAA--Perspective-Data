@@ -1,0 +1,60 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RegressionTest,testSelectIntoUpdateCount,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+RegressionTest,testSelectIntoUpdateCount,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+RegressionTest,testSelectIntoUpdateCount,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+RegressionTest,testSelectIntoUpdateCount,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+RegressionTest,testSelectIntoUpdateCount,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.isSqlAzure(),0
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,"     TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String, int, boolean, boolean)",0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.System.getProperty(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.util.UUID.randomUUID(),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.util.UUID.toString(),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.toString(),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.String.length(),0
+RegressionTest,testSelectIntoUpdateCount,"          THIRD java.lang.String.substring(int, int)",0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.Connection.createStatement(),0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.Statement.executeUpdate(String),0
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.Statement.executeUpdate(String),0
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.Statement.executeUpdate(String),0
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.Statement.executeUpdate(String),0
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.Connection.prepareStatement(String),0
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,"THIRD SET java.sql.PreparedStatement.setInt(int, int)",0
+RegressionTest,testSelectIntoUpdateCount,THIRD java.sql.PreparedStatement.executeUpdate(),1
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+RegressionTest,testSelectIntoUpdateCount,     THIRD java.util.ResourceBundle.getBundle(String),0
+RegressionTest,testSelectIntoUpdateCount,     THIRD java.util.ResourceBundle.getString(String),0
+RegressionTest,testSelectIntoUpdateCount,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int, String)",2
+RegressionTest,testSelectIntoUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+RegressionTest,testSelectIntoUpdateCount,"TEST com.microsoft.sqlserver.jdbc.TestUtils.dropTableIfExists(String, Statement)",0
+RegressionTest,testSelectIntoUpdateCount,"     TEST com.microsoft.sqlserver.jdbc.TestUtils.dropObjectIfExists(String, String, Statement)",0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.String.startsWith(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.String.endsWith(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.append(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.lang.StringBuilder.toString(),0
+RegressionTest,testSelectIntoUpdateCount,          TEST com.microsoft.sqlserver.jdbc.TestUtils.escapeSingleQuotes(String),0
+RegressionTest,testSelectIntoUpdateCount,"               THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+RegressionTest,testSelectIntoUpdateCount,          TEST com.microsoft.sqlserver.jdbc.TestUtils.escapeSingleQuotes(String),0
+RegressionTest,testSelectIntoUpdateCount,"               THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+RegressionTest,testSelectIntoUpdateCount,          THIRD java.sql.Statement.executeUpdate(String),0
+RegressionTest,testSelectIntoUpdateCount,          ASSERT org.junit.Assert.fail(String),2
+RegressionTest,testSelectIntoUpdateCount,          TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+RegressionTest,testSelectIntoUpdateCount,               THIRD java.util.ResourceBundle.getBundle(String),0
+RegressionTest,testSelectIntoUpdateCount,               THIRD java.util.ResourceBundle.getString(String),0
+RegressionTest,testSelectIntoUpdateCount,          TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+RegressionTest,testSelectIntoUpdateCount,               THIRD java.util.ResourceBundle.getBundle(String),0
+RegressionTest,testSelectIntoUpdateCount,               THIRD java.util.ResourceBundle.getString(String),0
+RegressionTest,testSelectIntoUpdateCount,          THIRD GET java.lang.Throwable.getMessage(),2

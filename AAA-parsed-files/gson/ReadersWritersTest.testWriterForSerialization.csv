@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReadersWritersTest,testWriterForSerialization,NEW com.google.gson.common.TestTypes.BagOfPrimitives(),0
+ReadersWritersTest,testWriterForSerialization,"com.google.gson.Gson.toJson(Object, Appendable)",1
+ReadersWritersTest,testWriterForSerialization,THIRD java.lang.Object.toString(),2
+ReadersWritersTest,testWriterForSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ReadersWritersTest,testWriterForSerialization,TEST GET com.google.gson.common.TestTypes.BagOfPrimitives.getExpectedJson(),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(long),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(int),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(boolean),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.append(String),2
+ReadersWritersTest,testWriterForSerialization,     THIRD java.lang.StringBuilder.toString(),2
+ReadersWritersTest,testWriterForSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

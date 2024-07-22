@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLVariantResultSetTest,testCastThenGetNumeric,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+SQLVariantResultSetTest,testCastThenGetNumeric,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+SQLVariantResultSetTest,testCastThenGetNumeric,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+SQLVariantResultSetTest,testCastThenGetNumeric,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+SQLVariantResultSetTest,testCastThenGetNumeric,THIRD java.sql.Connection.createStatement(),0
+SQLVariantResultSetTest,testCastThenGetNumeric,THIRD java.sql.Statement.executeQuery(String),0
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.next(),1
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getBoolean(String),1
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getShort(String),1
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getInt(String),1
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getFloat(String),1
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(float, float)",2
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getLong(String),1
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(long, long)",2
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getDouble(String),1
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(double, double)",2
+SQLVariantResultSetTest,testCastThenGetNumeric,com.microsoft.sqlserver.jdbc.SQLServerResultSet.getBigDecimal(String),2
+SQLVariantResultSetTest,testCastThenGetNumeric,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

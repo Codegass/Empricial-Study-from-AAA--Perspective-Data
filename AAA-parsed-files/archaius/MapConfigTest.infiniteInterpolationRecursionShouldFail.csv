@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,infiniteInterpolationRecursionShouldFail,com.netflix.archaius.config.MapConfig.builder(),0
+MapConfigTest,infiniteInterpolationRecursionShouldFail,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+MapConfigTest,infiniteInterpolationRecursionShouldFail,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+MapConfigTest,infiniteInterpolationRecursionShouldFail,com.netflix.archaius.config.MapConfig.Builder.build(),1
+MapConfigTest,infiniteInterpolationRecursionShouldFail,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<IllegalStateException>, Executable)",2
+MapConfigTest,infiniteInterpolationRecursionShouldFail,com.netflix.archaius.api.Config.getString(String),2

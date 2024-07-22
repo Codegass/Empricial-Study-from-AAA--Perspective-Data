@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayTest,testMultidimensionalArraysDeserialization,"com.google.gson.Gson.fromJson(String, Class<String[][]>)",1
+ArrayTest,testMultidimensionalArraysDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testMultidimensionalArraysDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ArrayTest,testMultidimensionalArraysDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testMultidimensionalArraysDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

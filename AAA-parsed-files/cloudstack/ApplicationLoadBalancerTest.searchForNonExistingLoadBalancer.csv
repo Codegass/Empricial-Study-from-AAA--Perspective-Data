@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ApplicationLoadBalancerTest,searchForNonExistingLoadBalancer,NEW boolean,0
+ApplicationLoadBalancerTest,searchForNonExistingLoadBalancer,NEW ApplicationLoadBalancerRule,0
+ApplicationLoadBalancerTest,searchForNonExistingLoadBalancer,org.apache.cloudstack.network.lb.ApplicationLoadBalancerManagerImpl.getApplicationLoadBalancer(long),1
+ApplicationLoadBalancerTest,searchForNonExistingLoadBalancer,ASSERT org.junit.Assert.assertTrue(boolean),2

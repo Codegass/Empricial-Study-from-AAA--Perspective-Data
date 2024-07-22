@@ -1,0 +1,16 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.valueOf(String),0
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URLBuilder.from(URL),0
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,"org.apache.dubbo.common.URLBuilder.addParameter(String, String)",1
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,"org.apache.dubbo.common.URLBuilder.addParameter(String, int)",1
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,"org.apache.dubbo.common.URLBuilder.addParameter(String, int)",1
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URLBuilder.build(),1
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.getParameter(String),2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.getParameter(String),2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,org.apache.dubbo.common.URL.getParameter(String),2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,ASSERT org.hamcrest.CoreMatchers.equalTo(String),2
+org.apache.dubbo.common,URLBuilderTest,shouldAddParameter,"ASSERT org.hamcrest.MatcherAssert.assertThat(String, Matcher<? super String>)",2

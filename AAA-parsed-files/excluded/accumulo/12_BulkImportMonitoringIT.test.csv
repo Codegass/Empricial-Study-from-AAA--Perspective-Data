@@ -1,0 +1,50 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BulkImportMonitoringIT,test,TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClusterControl(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterControl.start(ServerType),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.Accumulo.newClient(),0
+BulkImportMonitoringIT,test,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+BulkImportMonitoringIT,test,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.conf.Property.getKey(),0
+BulkImportMonitoringIT,test,"org.apache.accumulo.core.client.admin.TableOperations.setProperty(String, String, String)",0
+BulkImportMonitoringIT,test,NEW org.apache.hadoop.io.Text(String),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BulkImportMonitoringIT,test,"org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",0
+BulkImportMonitoringIT,test,TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getMasterMonitorInfo(),0
+BulkImportMonitoringIT,test,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+BulkImportMonitoringIT,test,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+BulkImportMonitoringIT,test,"ASSERT org.junit.Assert.assertEquals(long, long)",0
+BulkImportMonitoringIT,test,TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getFileSystem(),0
+BulkImportMonitoringIT,test,TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getTemporaryPath(),0
+BulkImportMonitoringIT,test,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+BulkImportMonitoringIT,test,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+BulkImportMonitoringIT,test,"NEW org.apache.hadoop.fs.Path(Path, String)",0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.file.FileOperations.getInstance(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.file.FileOperations.newWriterBuilder(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.crypto.CryptoServiceFactory.newDefaultInstance(),0
+BulkImportMonitoringIT,test,"org.apache.accumulo.core.file.FileOperations.WriterBuilder.forFile(String, FileSystem, Configuration, CryptoService)",0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.conf.DefaultConfiguration.getInstance(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.file.FileOperations.WriterTableConfiguration.withTableConfiguration(AccumuloConfiguration),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.file.FileOperations.WriterBuilder.build(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.file.FileSKVWriter.startDefaultLocalityGroup(),0
+BulkImportMonitoringIT,test,NEW org.apache.accumulo.core.data.Key(CharSequence),0
+BulkImportMonitoringIT,test,NEW org.apache.accumulo.core.data.Value(byte[]),0
+BulkImportMonitoringIT,test,"org.apache.accumulo.core.file.FileSKVWriter.append(Key, Value)",0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.file.FileSKVWriter.close(),0
+BulkImportMonitoringIT,test,"NEW org.apache.accumulo.core.util.Pair<java.lang.String,java.lang.String>(String, String)",0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.util.Pair.getFirst(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.util.Pair.getSecond(),0
+BulkImportMonitoringIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+BulkImportMonitoringIT,test,"org.apache.accumulo.core.client.admin.TableOperations.importDirectory(String, String, String, boolean)",1
+BulkImportMonitoringIT,test,TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),2
+BulkImportMonitoringIT,test,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getMasterMonitorInfo(),2
+BulkImportMonitoringIT,test,ASSERT org.junit.Assert.assertTrue(boolean),2
+BulkImportMonitoringIT,test,ASSERT org.junit.Assert.assertTrue(boolean),2

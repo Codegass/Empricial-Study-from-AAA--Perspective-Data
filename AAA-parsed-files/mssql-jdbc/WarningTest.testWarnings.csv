@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+WarningTest,testWarnings,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+WarningTest,testWarnings,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+WarningTest,testWarnings,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+WarningTest,testWarnings,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+WarningTest,testWarnings,THIRD GET java.sql.Connection.getClientInfo(),0
+WarningTest,testWarnings,THIRD SET java.sql.Connection.setClientInfo(Properties),0
+WarningTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+WarningTest,testWarnings,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object, String)",2
+WarningTest,testWarnings,"THIRD java.util.Properties.put(Object, Object)",0
+WarningTest,testWarnings,THIRD SET java.sql.Connection.setClientInfo(Properties),0
+WarningTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+WarningTest,testWarnings,THIRD java.util.Arrays.asList(String[]),0
+WarningTest,testWarnings,THIRD java.lang.Throwable.toString(),0
+WarningTest,testWarnings,THIRD java.lang.String.contains(CharSequence),0
+WarningTest,testWarnings,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+WarningTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getBundle(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getString(String),0
+WarningTest,testWarnings,THIRD java.lang.Throwable.toString(),0
+WarningTest,testWarnings,THIRD GET java.sql.SQLWarning.getNextWarning(),0
+WarningTest,testWarnings,THIRD java.sql.Connection.clearWarnings(),0
+WarningTest,testWarnings,"THIRD SET java.sql.Connection.setClientInfo(String, String)",0
+WarningTest,testWarnings,THIRD GET java.sql.Connection.getWarnings(),0
+WarningTest,testWarnings,THIRD java.lang.Throwable.toString(),0
+WarningTest,testWarnings,THIRD java.lang.String.contains(CharSequence),0
+WarningTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getBundle(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getString(String),0
+WarningTest,testWarnings,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+WarningTest,testWarnings,THIRD GET java.sql.SQLWarning.getNextWarning(),0
+WarningTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getBundle(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getString(String),0
+WarningTest,testWarnings,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object, String)",2
+WarningTest,testWarnings,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+WarningTest,testWarnings,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getBundle(String),0
+WarningTest,testWarnings,     THIRD java.util.ResourceBundle.getString(String),0
+WarningTest,testWarnings,THIRD GET java.lang.Throwable.getMessage(),0

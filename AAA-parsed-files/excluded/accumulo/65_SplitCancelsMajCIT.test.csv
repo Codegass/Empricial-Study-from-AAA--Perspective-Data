@@ -1,0 +1,26 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SplitCancelsMajCIT,test,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.Accumulo.newClient(),0
+SplitCancelsMajCIT,test,     TEST org.apache.accumulo.harness.SharedMiniClusterBase.getCluster(),0
+SplitCancelsMajCIT,test,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+SplitCancelsMajCIT,test,"NEW org.apache.accumulo.core.client.IteratorSetting(int, Class<? extends SortedKeyValueIterator<Key,Value>>)",0
+SplitCancelsMajCIT,test,"     org.apache.accumulo.core.client.IteratorSetting.addOption(String, String)",0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SplitCancelsMajCIT,test,"org.apache.accumulo.core.client.admin.TableOperations.attachIterator(String, IteratorSetting, EnumSet<IteratorScope>)",0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+SplitCancelsMajCIT,test,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+SplitCancelsMajCIT,test,NEW org.apache.accumulo.core.data.Value(),0
+SplitCancelsMajCIT,test,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, Value)",0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.BatchWriter.flush(),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SplitCancelsMajCIT,test,"org.apache.accumulo.core.client.admin.TableOperations.compact(String, Text, Text, boolean, boolean)",1
+SplitCancelsMajCIT,test,"org.apache.accumulo.fate.util.UtilWaitThread.sleepUninterruptibly(long, TimeUnit)",0
+SplitCancelsMajCIT,test,NEW org.apache.hadoop.io.Text(String),0
+SplitCancelsMajCIT,test,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+SplitCancelsMajCIT,test,"org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",1
+SplitCancelsMajCIT,test,ASSERT org.junit.Assert.assertTrue(boolean),2

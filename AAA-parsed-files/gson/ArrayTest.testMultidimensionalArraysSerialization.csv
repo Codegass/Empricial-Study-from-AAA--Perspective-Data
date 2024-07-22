@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayTest,testMultidimensionalArraysSerialization,com.google.gson.Gson.toJson(Object),1
+ArrayTest,testMultidimensionalArraysSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testMultidimensionalArraysSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2
+ArrayTest,testMultidimensionalArraysSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testMultidimensionalArraysSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2

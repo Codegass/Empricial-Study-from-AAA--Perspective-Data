@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonWriterTest,testWriterCloseIsIdempotent,NEW com.google.gson.stream.JsonWriter(Writer),0
+JsonWriterTest,testWriterCloseIsIdempotent,com.google.gson.stream.JsonWriter.beginArray(),1
+JsonWriterTest,testWriterCloseIsIdempotent,com.google.gson.stream.JsonWriter.endArray(),2
+JsonWriterTest,testWriterCloseIsIdempotent,com.google.gson.stream.JsonWriter.close(),2
+JsonWriterTest,testWriterCloseIsIdempotent,com.google.gson.stream.JsonWriter.close(),2

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrimitiveTest,testDeserializeJsonObjectAsFloatPrimitive,"ASSERT org.junit.Assert.assertThrows(Class<JsonSyntaxException>, ThrowingRunnable)",2
+PrimitiveTest,testDeserializeJsonObjectAsFloatPrimitive,"com.google.gson.Gson.fromJson(String, Class<Float>)",1

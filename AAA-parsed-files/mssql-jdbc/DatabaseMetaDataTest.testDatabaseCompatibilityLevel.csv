@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,THIRD GET java.sql.Connection.getMetaData(),1
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,GET com.microsoft.sqlserver.jdbc.SQLServerDatabaseMetaData.getDatabaseCompatibilityLevel(),2
+DatabaseMetaDataTest,testDatabaseCompatibilityLevel,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

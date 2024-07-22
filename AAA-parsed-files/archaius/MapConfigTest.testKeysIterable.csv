@@ -1,0 +1,19 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,testKeysIterable,com.netflix.archaius.config.MapConfig.builder(),0
+MapConfigTest,testKeysIterable,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+MapConfigTest,testKeysIterable,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+MapConfigTest,testKeysIterable,com.netflix.archaius.config.MapConfig.Builder.build(),0
+MapConfigTest,testKeysIterable,com.netflix.archaius.api.Config.keys(),1
+MapConfigTest,testKeysIterable,TEST com.netflix.archaius.TestUtils.size(Iterable<String>),2
+MapConfigTest,testKeysIterable,     THIRD java.util.Collection<>.size(),2
+MapConfigTest,testKeysIterable,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MapConfigTest,testKeysIterable,TEST com.netflix.archaius.TestUtils.set(String[]),2
+MapConfigTest,testKeysIterable,     THIRD java.util.Arrays.asList(T[]),2
+MapConfigTest,testKeysIterable,     THIRD java.util.Collections.unmodifiableSet(Set<? extends T>),2
+MapConfigTest,testKeysIterable,TEST com.netflix.archaius.TestUtils.set(Iterable<String>),2
+MapConfigTest,testKeysIterable,     THIRD java.lang.Iterable<T>.iterator(),2
+MapConfigTest,testKeysIterable,     TEST com.netflix.archaius.TestUtils.set(Iterator<T>),2
+MapConfigTest,testKeysIterable,          java.util.Set<T>.add(T),2
+MapConfigTest,testKeysIterable,          THIRD java.util.Iterator<T>.forEachRemaining(Consumer<? super T>),2
+MapConfigTest,testKeysIterable,          THIRD java.util.Collections.unmodifiableSet(Set<? extends T>),2
+MapConfigTest,testKeysIterable,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerDriverTest,testConnectionDriver,NEW com.microsoft.sqlserver.jdbc.SQLServerDriver(),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.StringBuffer.append(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.StringBuffer.toString(),0
+SQLServerDriverTest,testConnectionDriver,"com.microsoft.sqlserver.jdbc.SQLServerDriver.getPropertyInfo(String, Properties)",1
+SQLServerDriverTest,testConnectionDriver,THIRD java.util.logging.Logger.fine(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.util.logging.Logger.fine(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.Boolean.valueOf(boolean),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.Boolean.toString(),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.util.logging.Logger.fine(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.util.logging.Logger.fine(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.StringBuffer.append(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.StringBuffer.append(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.StringBuffer.toString(),0
+SQLServerDriverTest,testConnectionDriver,"com.microsoft.sqlserver.jdbc.SQLServerDriver.getPropertyInfo(String, Properties)",1
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.Boolean.toString(),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerDriverTest,testConnectionDriver,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerDriverTest,testConnectionDriver,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerDriverTest,testConnectionDriver,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,THIRD java.lang.String.equalsIgnoreCase(String),0
+SQLServerDriverTest,testConnectionDriver,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerDriverTest,testConnectionDriver,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerDriverTest,testConnectionDriver,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayTest,testArrayElementsAreArrays,NEW com.google.gson.Gson(),0
+ArrayTest,testArrayElementsAreArrays,com.google.gson.Gson.toJson(Object),1
+ArrayTest,testArrayElementsAreArrays,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testArrayElementsAreArrays,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

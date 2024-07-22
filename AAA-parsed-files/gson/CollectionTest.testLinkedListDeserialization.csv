@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CollectionTest,testLinkedListDeserialization,NEW anonymous(),0
+CollectionTest,testLinkedListDeserialization,GET com.google.gson.reflect.TypeToken.getType(),0
+CollectionTest,testLinkedListDeserialization,"com.google.gson.Gson.fromJson(String, Type)",1
+CollectionTest,testLinkedListDeserialization,THIRD java.util.List<java.lang.String>.get(int),2
+CollectionTest,testLinkedListDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+CollectionTest,testLinkedListDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+CollectionTest,testLinkedListDeserialization,THIRD java.util.List<java.lang.String>.get(int),2
+CollectionTest,testLinkedListDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+CollectionTest,testLinkedListDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

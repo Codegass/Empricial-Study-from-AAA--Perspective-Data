@@ -1,0 +1,38 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.mock(Class<DeployDestination>),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.mock(Class<DeployDestination>),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.spy(RouterDeploymentDefinition),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.doNothing(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.stubbing.Stubber.when(RouterDeploymentDefinition),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.checkPreconditions(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.doReturn(Object),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.stubbing.Stubber.when(RouterDeploymentDefinition),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.findDestinations(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.doNothing(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.stubbing.Stubber.when(RouterDeploymentDefinition),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.planDeploymentRouters(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.doNothing(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.stubbing.Stubber.when(RouterDeploymentDefinition),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.generateDeploymentPlan(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.doReturn(Object),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.stubbing.Stubber.when(RouterDeploymentDefinition),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,GET org.cloud.network.router.deployment.RouterDeploymentDefinition.getNumberOfRoutersToDeploy(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.findOrDeployVirtualRouter(),1
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,"ASSERT org.mockito.Mockito.verify(RouterDeploymentDefinition, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.lock(),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,"ASSERT org.mockito.Mockito.verify(RouterDeploymentDefinition, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.checkPreconditions(),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,"ASSERT org.mockito.Mockito.verify(RouterDeploymentDefinition, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.findDestinations(),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,"ASSERT org.mockito.Mockito.verify(RouterDeploymentDefinition, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.generateDeploymentPlan(),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,"ASSERT org.mockito.Mockito.verify(RouterDeploymentDefinition, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.executeDeployment(),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,"ASSERT org.mockito.Mockito.verify(RouterDeploymentDefinition, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testDeployVirtualRouterSkip,org.cloud.network.router.deployment.RouterDeploymentDefinition.unlock(),2

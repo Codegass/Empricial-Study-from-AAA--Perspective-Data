@@ -1,0 +1,28 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,"NEW com.google.gson.common.TestTypes.BagOfPrimitives(long, int, boolean, String)",0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,"NEW com.google.gson.common.TestTypes.BagOfPrimitives(long, int, boolean, String)",0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,THIRD java.util.List<com.google.gson.common.TestTypes.BagOfPrimitives>.add(BagOfPrimitives),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,THIRD java.util.List<com.google.gson.common.TestTypes.BagOfPrimitives>.add(BagOfPrimitives),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,com.google.gson.Gson.toJson(Object),1
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,ASSERT com.google.common.truth.StringSubject.startsWith(String),2
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,ASSERT com.google.common.truth.StringSubject.endsWith(String),2
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,TEST GET com.google.gson.common.TestTypes.BagOfPrimitives.getExpectedJson(),2
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(long),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(int),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(boolean),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.append(String),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,     THIRD java.lang.StringBuilder.toString(),0
+CollectionTest,testCollectionOfBagOfPrimitivesSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2

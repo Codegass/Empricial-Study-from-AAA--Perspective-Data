@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JavaVersionTest,testGetMajorJavaVersion,GET com.google.gson.internal.JavaVersion.getMajorJavaVersion(),1
+JavaVersionTest,testGetMajorJavaVersion,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+JavaVersionTest,testGetMajorJavaVersion,ASSERT com.google.common.truth.ComparableSubject<java.lang.Integer>.isAtLeast(Integer),2

@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,THIRD GET java.sql.Connection.getMetaData(),1
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,THIRD java.sql.Wrapper.isWrapperFor(Class<?>),2
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,THIRD java.sql.Wrapper.unwrap(Class<DatabaseMetaData>),2
+DatabaseMetaDataTest,testDatabaseMetaDataWrapper,"ASSERT org.junit.jupiter.api.Assertions.assertSame(Object, Object)",2

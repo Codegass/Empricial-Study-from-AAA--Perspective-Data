@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigToCommonsTest,test,NEW org.apache.commons.configuration.PropertiesConfiguration(),0
+ConfigToCommonsTest,test,THIRD SET org.apache.commons.configuration.AbstractConfiguration.setDelimiterParsingDisabled(boolean),1
+ConfigToCommonsTest,test,"THIRD SET org.apache.commons.configuration.AbstractFileConfiguration.setProperty(String, Object)",1

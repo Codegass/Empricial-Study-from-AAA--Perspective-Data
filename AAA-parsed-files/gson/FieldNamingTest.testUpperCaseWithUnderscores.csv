@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FieldNamingTest,testUpperCaseWithUnderscores,TEST com.google.gson.functional.FieldNamingTest.getGsonWithNamingPolicy(FieldNamingPolicy),0
+FieldNamingTest,testUpperCaseWithUnderscores,     NEW com.google.gson.GsonBuilder(),0
+FieldNamingTest,testUpperCaseWithUnderscores,     com.google.gson.GsonBuilder.setFieldNamingPolicy(FieldNamingPolicy),0
+FieldNamingTest,testUpperCaseWithUnderscores,     com.google.gson.GsonBuilder.create(),0
+FieldNamingTest,testUpperCaseWithUnderscores,NEW com.google.gson.functional.FieldNamingTest.TestNames(),1
+FieldNamingTest,testUpperCaseWithUnderscores,com.google.gson.Gson.toJson(Object),2
+FieldNamingTest,testUpperCaseWithUnderscores,"THIRD java.lang.String.replace(char, char)",2
+FieldNamingTest,testUpperCaseWithUnderscores,ASSERT com.google.common.truth.Truth.assertThat(String),2
+FieldNamingTest,testUpperCaseWithUnderscores,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NullObjectAndFieldTest,testNullWrappedPrimitiveMemberSerialization,com.google.gson.GsonBuilder.serializeNulls(),0
+NullObjectAndFieldTest,testNullWrappedPrimitiveMemberSerialization,com.google.gson.GsonBuilder.create(),0
+NullObjectAndFieldTest,testNullWrappedPrimitiveMemberSerialization,NEW com.google.gson.functional.NullObjectAndFieldTest.ClassWithNullWrappedPrimitive(),0
+NullObjectAndFieldTest,testNullWrappedPrimitiveMemberSerialization,com.google.gson.Gson.toJson(Object),1
+NullObjectAndFieldTest,testNullWrappedPrimitiveMemberSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+NullObjectAndFieldTest,testNullWrappedPrimitiveMemberSerialization,ASSERT com.google.common.truth.StringSubject.contains(CharSequence),2

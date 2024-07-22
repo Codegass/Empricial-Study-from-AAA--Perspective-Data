@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,com.netflix.archaius.config.DefaultCompositeConfig.builder(),0
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,com.netflix.archaius.config.DefaultCompositeConfig.Builder.build(),0
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,THIRD java.lang.System.gc(),1
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,THIRD GET java.lang.ref.Reference<com.netflix.archaius.api.Config>.get(),2
+CompositeConfigTest,unusedCompositeConfigIsGarbageCollected,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2

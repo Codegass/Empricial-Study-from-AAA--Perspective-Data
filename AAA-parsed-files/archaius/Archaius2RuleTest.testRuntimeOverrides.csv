@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+Archaius2RuleTest,testRuntimeOverrides,"TEST SET com.netflix.archaius.test.Archaius2TestConfig.setProperty(String, String)",0
+Archaius2RuleTest,testRuntimeOverrides,"     TEST SET com.netflix.archaius.test.TestCompositeConfig.setProperty(String, T)",1
+Archaius2RuleTest,testRuntimeOverrides,          TEST com.netflix.archaius.test.TestCompositeConfig.getSettableConfig(String),2
+Archaius2RuleTest,testRuntimeOverrides,"          SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, T)",2
+Archaius2RuleTest,testRuntimeOverrides,TEST com.netflix.archaius.test.Archaius2TestConfig.getRawProperty(String),2
+Archaius2RuleTest,testRuntimeOverrides,     com.netflix.archaius.config.AbstractDependentConfig.getRawProperty(String),2
+Archaius2RuleTest,testRuntimeOverrides,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

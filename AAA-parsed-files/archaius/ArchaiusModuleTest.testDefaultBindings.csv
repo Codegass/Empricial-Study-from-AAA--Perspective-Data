@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArchaiusModuleTest,testDefaultBindings,NEW com.netflix.archaius.guice.ArchaiusModule(),0
+ArchaiusModuleTest,testDefaultBindings,THIRD com.google.inject.Guice.createInjector(Module[]),0
+ArchaiusModuleTest,testDefaultBindings,"THIRD com.google.inject.Key.get(Class<SettableConfig>, Class<? extends Annotation>)",0
+ArchaiusModuleTest,testDefaultBindings,THIRD com.google.inject.Injector.getInstance(Key<SettableConfig>),0
+ArchaiusModuleTest,testDefaultBindings,"THIRD com.google.inject.Key.get(Class<CompositeConfig>, Class<? extends Annotation>)",0
+ArchaiusModuleTest,testDefaultBindings,THIRD com.google.inject.Injector.getInstance(Key<CompositeConfig>),0
+ArchaiusModuleTest,testDefaultBindings,THIRD com.google.inject.Injector.getInstance(Class<Config>),0

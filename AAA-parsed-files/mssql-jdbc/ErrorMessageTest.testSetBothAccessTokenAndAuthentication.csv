@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setServerName(String),0
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setDatabaseName(String),0
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,THIRD java.lang.Enum<com.microsoft.sqlserver.jdbc.fedauth.FedauthCommon.SqlAuthentication>.toString(),0
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setAuthentication(String),0
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setAccessToken(String),0
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,THIRD java.lang.String.startsWith(String),2
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ErrorMessageTest,testSetBothAccessTokenAndAuthentication,THIRD GET java.lang.Throwable.getMessage(),2

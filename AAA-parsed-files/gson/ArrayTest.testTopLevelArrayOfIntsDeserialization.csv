@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayTest,testTopLevelArrayOfIntsDeserialization,"com.google.gson.Gson.fromJson(String, Class<int[]>)",1
+ArrayTest,testTopLevelArrayOfIntsDeserialization,ASSERT com.google.common.truth.Truth.assertThat(int[]),2
+ArrayTest,testTopLevelArrayOfIntsDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

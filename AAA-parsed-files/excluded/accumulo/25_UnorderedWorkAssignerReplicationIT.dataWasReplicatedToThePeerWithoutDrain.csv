@@ -1,0 +1,97 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     ASSERT org.junit.Assert.assertTrue(boolean),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     ASSERT org.junit.Assert.assertTrue(boolean),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"NEW org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl(File, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.setNumTservers(int),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.setInstanceName(String),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getConfig(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.getSiteConfig(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"     ASSERT org.junit.Assert.assertNotNull(String, Object)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"     ASSERT org.junit.Assert.assertNotNull(String, Object)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"     org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.setSiteConfig(Map<String,String>)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.getSiteConfig(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"     org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.setSiteConfig(Map<String,String>)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.miniclusterImpl.MiniAccumuloConfigImpl.setProperty(Property, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,NEW org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl(MiniAccumuloConfigImpl),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.start(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.Accumulo.newClient(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,NEW org.apache.accumulo.core.client.security.tokens.PasswordToken(CharSequence),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.createAccumuloClient(String, AuthenticationToken)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,NEW org.apache.accumulo.core.client.security.tokens.PasswordToken(CharSequence),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.SecurityOperations.createLocalUser(String, PasswordToken)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getInstanceName(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getZooKeepers(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.tserver.replication.AccumuloReplicaSystem.buildConfiguration(String, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.server.replication.ReplicaSystemFactory.getPeerConfigurationValue(Class<? extends ReplicaSystem>, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.InstanceOperations.setProperty(String, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.InstanceOperations.setProperty(String, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.InstanceOperations.setProperty(String, String)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,ASSERT org.junit.Assert.assertNotNull(Object),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.conf.Property.getKey(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,NEW org.apache.accumulo.core.client.admin.NewTableConfiguration(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.NewTableConfiguration.setProperties(Map<String,String>)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.TableOperations.create(String, NewTableConfiguration)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.admin.TableOperations.tableIdMap(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,ASSERT org.junit.Assert.assertNotNull(Object),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.SecurityOperations.grantTablePermission(String, String, TablePermission)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.replicationOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.admin.ReplicationOperations.referencedFiles(String),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getProcesses(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.killProcess(ServerType, ProcessReference)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.exec(Class<?>, String[])",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.ScannerBase.iterator(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.data.Key.toStringNoTruncate(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.data.Value.get(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.server.replication.proto.Replication.Status.parseFrom(byte[]),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.protobuf.ProtobufUtil.toString(GeneratedMessage),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.AccumuloClient.replicationOperations(),0
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.admin.ReplicationOperations.drain(String, Set<String>)",1
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.ScannerBase.iterator(),2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.core.client.ScannerBase.iterator(),2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"org.apache.accumulo.core.data.Key.compareTo(Key, PartialKey)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,"ASSERT org.junit.Assert.assertFalse(String, boolean)",2
+UnorderedWorkAssignerReplicationIT,dataWasReplicatedToThePeerWithoutDrain,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.stop(),2

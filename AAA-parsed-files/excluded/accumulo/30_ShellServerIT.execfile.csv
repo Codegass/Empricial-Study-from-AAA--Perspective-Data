@@ -1,0 +1,21 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.clear(),0
+ShellServerIT,execfile,"               org.apache.accumulo.shell.Shell.execCommand(String, boolean, boolean)",1
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.ErrorMessageCallback.getErrorMessage(),2
+ShellServerIT,execfile,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,execfile,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.ErrorMessageCallback.getErrorMessage(),2
+ShellServerIT,execfile,"               ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ShellServerIT,execfile,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellServerIT,execfile,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,execfile,               org.apache.accumulo.shell.Shell.resetExitCode(),2

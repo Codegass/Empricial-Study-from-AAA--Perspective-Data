@@ -1,0 +1,79 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DataTypesTest,testGetLocalDateTimePriorGregorian,TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"     TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String, int, boolean, boolean)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.System.getProperty(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.util.UUID.randomUUID(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.util.UUID.toString(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.toString(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.String.length(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"          THIRD java.lang.String.substring(int, int)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.Connection.createStatement(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.Connection.prepareStatement(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"TEST com.microsoft.sqlserver.jdbc.TestUtils.dropTableIfExists(String, Statement)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"     TEST com.microsoft.sqlserver.jdbc.TestUtils.dropObjectIfExists(String, String, Statement)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.String.startsWith(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.String.endsWith(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.toString(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestUtils.escapeSingleQuotes(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"               THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestUtils.escapeSingleQuotes(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"               THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.sql.Statement.executeUpdate(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          ASSERT org.junit.Assert.fail(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getBundle(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getString(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getBundle(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getString(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD GET java.lang.Throwable.getMessage(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"THIRD java.time.LocalDateTime.of(int, int, int, int, int)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.Statement.execute(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"THIRD SET java.sql.PreparedStatement.setObject(int, Object)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.PreparedStatement.executeUpdate(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.Statement.executeQuery(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.ResultSet.next(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.ResultSet.getString(int),1
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.lang.String.equals(Object),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,ASSERT org.junit.Assert.assertTrue(boolean),2
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.Statement.executeQuery(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.sql.ResultSet.next(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"THIRD java.sql.ResultSet.getObject(int, Class<LocalDateTime>)",1
+DataTypesTest,testGetLocalDateTimePriorGregorian,THIRD java.time.LocalDateTime.equals(Object),2
+DataTypesTest,testGetLocalDateTimePriorGregorian,ASSERT org.junit.Assert.assertTrue(boolean),2
+DataTypesTest,testGetLocalDateTimePriorGregorian,"TEST com.microsoft.sqlserver.jdbc.TestUtils.dropTableIfExists(String, Statement)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"     TEST com.microsoft.sqlserver.jdbc.TestUtils.dropObjectIfExists(String, String, Statement)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.String.startsWith(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.String.endsWith(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.append(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.lang.StringBuilder.toString(),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestUtils.escapeSingleQuotes(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"               THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestUtils.escapeSingleQuotes(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,"               THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD java.sql.Statement.executeUpdate(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          ASSERT org.junit.Assert.fail(String),2
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getBundle(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getString(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getBundle(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,               THIRD java.util.ResourceBundle.getString(String),0
+DataTypesTest,testGetLocalDateTimePriorGregorian,          THIRD GET java.lang.Throwable.getMessage(),0

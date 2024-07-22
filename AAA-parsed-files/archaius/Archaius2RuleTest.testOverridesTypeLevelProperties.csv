@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+Archaius2RuleTest,testOverridesTypeLevelProperties,TEST com.netflix.archaius.test.Archaius2TestConfig.getString(String),1
+Archaius2RuleTest,testOverridesTypeLevelProperties,     com.netflix.archaius.config.AbstractConfig.getString(String),0
+Archaius2RuleTest,testOverridesTypeLevelProperties,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

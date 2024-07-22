@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTest,testNullObjectFieldsDeserialization,"com.google.gson.Gson.fromJson(String, Class<ClassWithObjects>)",1
+ObjectTest,testNullObjectFieldsDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+ObjectTest,testNullObjectFieldsDeserialization,ASSERT com.google.common.truth.Subject.isNull(),2

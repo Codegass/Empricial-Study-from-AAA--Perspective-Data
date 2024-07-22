@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConnectionWrapper43Test,SQLServerConnection43Test,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ConnectionWrapper43Test,SQLServerConnection43Test,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+ConnectionWrapper43Test,SQLServerConnection43Test,THIRD java.sql.Connection.close(),2

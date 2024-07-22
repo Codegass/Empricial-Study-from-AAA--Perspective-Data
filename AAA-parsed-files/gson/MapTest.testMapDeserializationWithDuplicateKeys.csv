@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapTest,testMapDeserializationWithDuplicateKeys,NEW anonymous(),0
+MapTest,testMapDeserializationWithDuplicateKeys,GET com.google.gson.reflect.TypeToken.getType(),0
+MapTest,testMapDeserializationWithDuplicateKeys,"com.google.gson.Gson.fromJson(String, Type)",1
+MapTest,testMapDeserializationWithDuplicateKeys,ASSERT org.junit.Assert.fail(),2

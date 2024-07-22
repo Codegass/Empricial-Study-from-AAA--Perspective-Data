@@ -1,0 +1,142 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.AccumuloCluster.getClusterControl(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.ClusterControl.startAllServers(ServerType),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.client.Accumulo.newClient(),0
+ReadWriteIT,sunnyDay,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+ReadWriteIT,sunnyDay,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+ReadWriteIT,sunnyDay,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+ReadWriteIT,sunnyDay,     TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+ReadWriteIT,sunnyDay,     org.apache.accumulo.cluster.AccumuloCluster.getClientProperties(),0
+ReadWriteIT,sunnyDay,     org.apache.accumulo.core.clientImpl.ClientInfo.from(Properties),0
+ReadWriteIT,sunnyDay,          org.apache.accumulo.core.clientImpl.ClientInfo.getProperties(),0
+ReadWriteIT,sunnyDay,"          NEW org.apache.accumulo.test.TestIngest.IngestParams(Properties, String, int)",0
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.clientImpl.ClientContext.getHadoopConf(),0
+ReadWriteIT,sunnyDay,                    TEST org.apache.accumulo.test.TestIngest.generateValues(int),0
+ReadWriteIT,sunnyDay,                              NEW org.apache.hadoop.io.Text(String),0
+ReadWriteIT,sunnyDay,                         org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ReadWriteIT,sunnyDay,                         org.apache.accumulo.core.client.admin.TableOperations.exists(String),0
+ReadWriteIT,sunnyDay,                         org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ReadWriteIT,sunnyDay,                         org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+ReadWriteIT,sunnyDay,                         org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+ReadWriteIT,sunnyDay,"                         org.apache.accumulo.core.client.admin.TableOperations.addSplits(String, SortedSet<Text>)",0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.file.FileOperations.getInstance(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.file.FileOperations.newWriterBuilder(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.clientImpl.ClientContext.getHadoopConf(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.crypto.CryptoServiceFactory.newDefaultInstance(),0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.file.FileOperations.WriterBuilder.forFile(String, FileSystem, Configuration, CryptoService)",0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.conf.DefaultConfiguration.getInstance(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.file.FileOperations.WriterTableConfiguration.withTableConfiguration(AccumuloConfiguration),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.file.FileOperations.WriterBuilder.build(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.file.FileSKVWriter.startDefaultLocalityGroup(),1
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.conf.ClientProperty.getValue(Properties),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.client.admin.SecurityOperations.changeUserAuthorizations(String, Authorizations)",0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.security.ColumnVisibility.getExpression(),0
+ReadWriteIT,sunnyDay,                    NEW org.apache.hadoop.io.Text(byte[]),0
+ReadWriteIT,sunnyDay,"                         org.apache.accumulo.core.util.FastFormat.toZeroPaddedString(long, int, int, byte[])",0
+ReadWriteIT,sunnyDay,                         NEW org.apache.hadoop.io.Text(byte[]),0
+ReadWriteIT,sunnyDay,                    NEW org.apache.accumulo.core.data.Mutation(Text),0
+ReadWriteIT,sunnyDay,                    NEW org.apache.hadoop.io.Text(String),0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.util.FastFormat.toZeroPaddedString(long, int, int, byte[])",0
+ReadWriteIT,sunnyDay,                    NEW org.apache.hadoop.io.Text(byte[]),0
+ReadWriteIT,sunnyDay,"                    NEW org.apache.accumulo.core.data.Key(Text, Text, Text, Text)",0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.setTimestamp(long),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.setTimestamp(long),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.setDeleted(boolean),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.setDeleted(boolean),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.getSize(),0
+ReadWriteIT,sunnyDay,                    NEW org.apache.accumulo.core.data.Value(byte[]),0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.file.FileSKVWriter.append(Key, Value)",1
+ReadWriteIT,sunnyDay,                         TEST org.apache.accumulo.test.TestIngest.toPrintableChars(byte[]),0
+ReadWriteIT,sunnyDay,                    NEW org.apache.accumulo.core.data.Value(byte[]),0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.file.FileSKVWriter.append(Key, Value)",1
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Value.getSize(),0
+ReadWriteIT,sunnyDay,"                    NEW org.apache.accumulo.core.data.Key(Text, Text, Text, Text)",0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.getSize(),0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.data.Mutation.putDelete(Text, Text, ColumnVisibility, long)",0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.data.Mutation.putDelete(Text, Text, ColumnVisibility)",0
+ReadWriteIT,sunnyDay,"                    TEST org.apache.accumulo.test.TestIngest.genRandomValue(Random, byte[], int, int, int)",0
+ReadWriteIT,sunnyDay,"                    NEW org.apache.accumulo.core.data.Value(byte[], boolean)",0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.data.Mutation.put(Text, Text, ColumnVisibility, long, Value)",0
+ReadWriteIT,sunnyDay,"                    NEW org.apache.accumulo.core.data.Value(byte[], boolean)",0
+ReadWriteIT,sunnyDay,"                    org.apache.accumulo.core.data.Mutation.put(Text, Text, ColumnVisibility, Value)",0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),1
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.file.FileSKVWriter.close(),1
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.BatchWriter.close(),1
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.MutationsRejectedException.getSecurityErrorCodes(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.MutationsRejectedException.getSecurityErrorCodes(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.MutationsRejectedException.getConstraintViolationSummaries(),0
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.client.MutationsRejectedException.getConstraintViolationSummaries(),0
+ReadWriteIT,sunnyDay,TEST org.apache.accumulo.harness.AccumuloClusterHarness.getClientInfo(),0
+ReadWriteIT,sunnyDay,          org.apache.accumulo.core.clientImpl.ClientInfo.getProperties(),2
+ReadWriteIT,sunnyDay,"          NEW org.apache.accumulo.test.VerifyIngest.VerifyParams(Properties, String, int)",2
+ReadWriteIT,sunnyDay,               TEST org.apache.accumulo.test.TestIngest.generateValues(int),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.security.Authorizations(String[]),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.conf.ClientProperty.getValue(Properties),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.client.AccumuloClient.securityOperations(),2
+ReadWriteIT,sunnyDay,"               org.apache.accumulo.core.client.admin.SecurityOperations.changeUserAuthorizations(String, Authorizations)",2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.data.Key(Text),2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,"               org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.client.Scanner.setBatchSize(int),2
+ReadWriteIT,sunnyDay,"               NEW org.apache.accumulo.core.data.Key(Text, Text, Text)",2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Key.followingKey(PartialKey),2
+ReadWriteIT,sunnyDay,"               NEW org.apache.accumulo.core.data.Range(Key, Key)",2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.client.Scanner.setRange(Range),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.client.ScannerBase.iterator(),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Value.get(),2
+ReadWriteIT,sunnyDay,                    TEST org.apache.accumulo.test.TestIngest.toPrintableChars(byte[]),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.data.Value(byte[]),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Value.compareTo(byte[]),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.data.Value(byte[]),2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.data.Key(Text),2
+ReadWriteIT,sunnyDay,"               org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+ReadWriteIT,sunnyDay,"               NEW org.apache.accumulo.core.data.Range(Key, Key)",2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.client.Scanner.setRange(Range),2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,               NEW org.apache.hadoop.io.Text(String),2
+ReadWriteIT,sunnyDay,"               org.apache.accumulo.core.client.ScannerBase.fetchColumn(Text, Text)",2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Key.getLength(),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Value.getSize(),2
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.getRow(),2
+ReadWriteIT,sunnyDay,                    org.apache.accumulo.core.data.Key.getColumnQualifier(),2
+ReadWriteIT,sunnyDay,"               TEST org.apache.accumulo.test.TestIngest.genRandomValue(Random, byte[], int, int, int)",2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Value.compareTo(byte[]),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Value.get(),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Key.getTimestamp(),2
+ReadWriteIT,sunnyDay,               org.apache.accumulo.core.data.Key.getTimestamp(),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.client.AccumuloException(String),2
+ReadWriteIT,sunnyDay,               NEW org.apache.accumulo.core.client.AccumuloException(String),2
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.util.MonitorUtil.getLocation(ClientContext),0
+ReadWriteIT,sunnyDay,TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+ReadWriteIT,sunnyDay,TEST org.apache.accumulo.harness.AccumuloClusterHarness.getCluster(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.AccumuloCluster.getSiteConfiguration(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.conf.Property.getKey(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.conf.AccumuloConfiguration.get(String),0
+ReadWriteIT,sunnyDay,NEW org.apache.accumulo.test.functional.ReadWriteIT.TestTrustManager(),0
+ReadWriteIT,sunnyDay,NEW org.apache.accumulo.test.functional.ReadWriteIT.TestHostnameVerifier(),0
+ReadWriteIT,sunnyDay,TEST org.apache.accumulo.test.functional.FunctionalTestUtils.readAll(InputStream),0
+ReadWriteIT,sunnyDay,ASSERT org.junit.Assert.assertTrue(boolean),2
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.AccumuloCluster.getClusterControl(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.ClusterControl.adminStopAll(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.client.AccumuloClient.properties(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.clientImpl.ClientInfo.from(Properties),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.clientImpl.ClientInfo.getZooKeepers(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.clientImpl.ClientInfo.getZooKeepersSessionTimeOut(),0
+ReadWriteIT,sunnyDay,"NEW org.apache.accumulo.fate.zookeeper.ZooReader(String, int)",0
+ReadWriteIT,sunnyDay,"NEW org.apache.accumulo.fate.zookeeper.ZooCache(ZooReader, Watcher)",0
+ReadWriteIT,sunnyDay,"org.apache.accumulo.fate.zookeeper.ZooLock.getLockData(ZooCache, String, ZcStat)",0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.client.AccumuloClient.instanceOperations(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.core.client.admin.InstanceOperations.getInstanceID(),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.fate.zookeeper.ZooUtil.getRoot(String),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.ClusterControl.stopAllServers(ServerType),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.ClusterControl.stopAllServers(ServerType),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.ClusterControl.stopAllServers(ServerType),0
+ReadWriteIT,sunnyDay,org.apache.accumulo.cluster.AccumuloCluster.start(),0

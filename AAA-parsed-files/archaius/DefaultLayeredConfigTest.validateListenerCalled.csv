@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultLayeredConfigTest,validateListenerCalled,MOCK org.mockito.Mockito.mock(Class<ConfigListener>),0
+DefaultLayeredConfigTest,validateListenerCalled,NEW com.netflix.archaius.config.DefaultLayeredConfig(),0
+DefaultLayeredConfigTest,validateListenerCalled,com.netflix.archaius.api.Config.addListener(ConfigListener),0
+DefaultLayeredConfigTest,validateListenerCalled,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+DefaultLayeredConfigTest,validateListenerCalled,"com.netflix.archaius.api.config.LayeredConfig.addConfig(Layer, Config)",1
+DefaultLayeredConfigTest,validateListenerCalled,MOCK org.mockito.Mockito.times(int),2
+DefaultLayeredConfigTest,validateListenerCalled,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+DefaultLayeredConfigTest,validateListenerCalled,MOCK org.mockito.ArgumentMatchers.any(),2
+DefaultLayeredConfigTest,validateListenerCalled,com.netflix.archaius.api.ConfigListener.onConfigUpdated(Config),2

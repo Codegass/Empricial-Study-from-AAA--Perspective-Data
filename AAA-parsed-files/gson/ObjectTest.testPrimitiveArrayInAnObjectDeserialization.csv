@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,"com.google.gson.Gson.fromJson(String, Class<PrimitiveArray>)",1
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,TEST GET com.google.gson.common.TestTypes.PrimitiveArray.getExpectedJson(),2
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,     THIRD java.lang.StringBuilder.append(String),0
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,     THIRD java.lang.StringBuilder.append(String),0
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,     THIRD java.lang.StringBuilder.append(long),0
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,     THIRD java.lang.StringBuilder.append(String),0
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,     THIRD java.lang.StringBuilder.toString(),0
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ObjectTest,testPrimitiveArrayInAnObjectDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

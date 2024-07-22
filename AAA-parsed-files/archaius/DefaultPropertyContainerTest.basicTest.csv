@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultPropertyContainerTest,basicTest,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+DefaultPropertyContainerTest,basicTest,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+DefaultPropertyContainerTest,basicTest,com.netflix.archaius.DefaultPropertyFactory.getProperty(String),0
+DefaultPropertyContainerTest,basicTest,com.netflix.archaius.api.PropertyContainer.asString(String),0
+DefaultPropertyContainerTest,basicTest,GET com.netflix.archaius.api.Property.get(),1
+DefaultPropertyContainerTest,basicTest,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DefaultPropertyContainerTest,basicTest,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+DefaultPropertyContainerTest,basicTest,GET com.netflix.archaius.api.Property.get(),1
+DefaultPropertyContainerTest,basicTest,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DefaultPropertyContainerTest,basicTest,GET com.netflix.archaius.api.Property.get(),1
+DefaultPropertyContainerTest,basicTest,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

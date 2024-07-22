@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),1
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isFalse(),2
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isFalse(),2
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isFalse(),2
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isFalse(),2
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isFalse(),2
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isTrue(),2
+FieldAttributesTest,testModifiers,com.google.gson.FieldAttributes.hasModifier(int),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.Truth.assertThat(Boolean),2
+FieldAttributesTest,testModifiers,ASSERT com.google.common.truth.BooleanSubject.isTrue(),2

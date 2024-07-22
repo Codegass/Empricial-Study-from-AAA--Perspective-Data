@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InterpolationTest,nonStringInterpolation,com.netflix.archaius.config.MapConfig.builder(),0
+InterpolationTest,nonStringInterpolation,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+InterpolationTest,nonStringInterpolation,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+InterpolationTest,nonStringInterpolation,com.netflix.archaius.config.MapConfig.Builder.build(),0
+InterpolationTest,nonStringInterpolation,com.netflix.archaius.config.AbstractConfig.getInteger(String),1
+InterpolationTest,nonStringInterpolation,THIRD java.lang.Integer.intValue(),2
+InterpolationTest,nonStringInterpolation,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonReaderTest,testVeryLongUnterminatedString,"THIRD java.util.Arrays.fill(char[], char)",0
+JsonReaderTest,testVeryLongUnterminatedString,TEST com.google.gson.stream.JsonReaderTest.reader(String),0
+JsonReaderTest,testVeryLongUnterminatedString,NEW com.google.gson.stream.JsonReader(Reader),0
+JsonReaderTest,testVeryLongUnterminatedString,SET com.google.gson.stream.JsonReader.setStrictness(Strictness),0
+JsonReaderTest,testVeryLongUnterminatedString,com.google.gson.stream.JsonReader.beginArray(),1
+JsonReaderTest,testVeryLongUnterminatedString,com.google.gson.stream.JsonReader.nextString(),2
+JsonReaderTest,testVeryLongUnterminatedString,ASSERT com.google.common.truth.Truth.assertThat(String),2
+JsonReaderTest,testVeryLongUnterminatedString,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+JsonReaderTest,testVeryLongUnterminatedString,com.google.gson.stream.JsonReader.peek(),2
+JsonReaderTest,testVeryLongUnterminatedString,ASSERT org.junit.Assert.fail(),2

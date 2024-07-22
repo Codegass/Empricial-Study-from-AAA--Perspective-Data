@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CustomTrustManagerTest,testWithTrustManagerConstructorArg,THIRD GET java.lang.Class<com.microsoft.sqlserver.jdbc.ssl.trustmanager.TrustManagerWithConstructorArg>.getName(),0
+CustomTrustManagerTest,testWithTrustManagerConstructorArg,TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+CustomTrustManagerTest,testWithTrustManagerConstructorArg,"     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+CustomTrustManagerTest,testWithTrustManagerConstructorArg,"          THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+CustomTrustManagerTest,testWithTrustManagerConstructorArg,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

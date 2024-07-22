@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+StreamingTypeAdaptersTest,testSerialize2dArray,NEW anonymous(),0
+StreamingTypeAdaptersTest,testSerialize2dArray,com.google.gson.Gson.getAdapter(TypeToken<double[][]>),0
+StreamingTypeAdaptersTest,testSerialize2dArray,com.google.gson.TypeAdapter.toJson(double[][]),1
+StreamingTypeAdaptersTest,testSerialize2dArray,ASSERT com.google.common.truth.Truth.assertThat(String),2
+StreamingTypeAdaptersTest,testSerialize2dArray,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PropertyTest,customMappingWithDefault,com.netflix.archaius.config.MapConfig.builder(),0
+PropertyTest,customMappingWithDefault,com.netflix.archaius.config.MapConfig.Builder.build(),0
+PropertyTest,customMappingWithDefault,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+PropertyTest,customMappingWithDefault,com.netflix.archaius.api.PropertyFactory.getProperty(String),1
+PropertyTest,customMappingWithDefault,java.lang.Integer.parseInt(String),2
+PropertyTest,customMappingWithDefault,"com.netflix.archaius.api.PropertyContainer.asType(Function<String,Integer>, String)",2
+PropertyTest,customMappingWithDefault,GET com.netflix.archaius.api.Property.get(),2
+PropertyTest,customMappingWithDefault,THIRD java.lang.Integer.intValue(),2
+PropertyTest,customMappingWithDefault,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

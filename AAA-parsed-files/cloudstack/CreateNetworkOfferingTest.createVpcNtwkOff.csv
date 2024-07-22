@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CreateNetworkOfferingTest,createVpcNtwkOff,NEW HashMap(),0
+CreateNetworkOfferingTest,createVpcNtwkOff,NEW HashSet(),0
+CreateNetworkOfferingTest,createVpcNtwkOff, java.util.Set<E>.add(),0
+CreateNetworkOfferingTest,createVpcNtwkOff," java.util.Map<K, V>.put()",0
+CreateNetworkOfferingTest,createVpcNtwkOff," java.util.Map<K, V>.put()",0
+CreateNetworkOfferingTest,createVpcNtwkOff," java.util.Map<K, V>.put()",0
+CreateNetworkOfferingTest,createVpcNtwkOff," java.util.Map<K, V>.put()",0
+CreateNetworkOfferingTest,createVpcNtwkOff," java.util.Map<K, V>.put()",0
+CreateNetworkOfferingTest,createVpcNtwkOff," java.util.Map<K, V>.put()",0
+CreateNetworkOfferingTest,createVpcNtwkOff,"com.cloud.configuration.ConfigurationManager.createNetworkOffering(String, String, TrafficType, String, boolean, Availability, Integer, Map<Service,Set<Provider>>, boolean, GuestType, boolean, Long, boolean, Map<Service,Map<Capability,String>>, boolean, boolean, Map<Detail,String>, boolean, Integer, boolean, Boolean, List<Long>, List<Long>)",1
+CreateNetworkOfferingTest,createVpcNtwkOff,ASSERT org.junit.Assert.assertNull(boolean),2

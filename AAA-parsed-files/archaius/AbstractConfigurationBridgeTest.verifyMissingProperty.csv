@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AbstractConfigurationBridgeTest,verifyMissingProperty,THIRD GET com.netflix.config.ConfigurationManager.getConfigInstance(),0
+AbstractConfigurationBridgeTest,verifyMissingProperty,"THIRD org.apache.commons.configuration.AbstractConfiguration.getBoolean(String, Boolean)",1
+AbstractConfigurationBridgeTest,verifyMissingProperty,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2

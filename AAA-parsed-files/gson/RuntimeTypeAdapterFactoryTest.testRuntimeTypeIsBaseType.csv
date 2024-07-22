@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,com.google.gson.typeadapters.RuntimeTypeAdapterFactory.of(Class<BillingInstrument>),0
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,com.google.gson.typeadapters.RuntimeTypeAdapterFactory.registerSubtype(Class<? extends BillingInstrument>),0
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,NEW com.google.gson.GsonBuilder(),0
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,com.google.gson.GsonBuilder.registerTypeAdapterFactory(TypeAdapterFactory),0
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,com.google.gson.GsonBuilder.create(),0
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,NEW com.google.gson.typeadapters.RuntimeTypeAdapterFactoryTest.BillingInstrument(String),0
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,"com.google.gson.Gson.toJson(Object, Type)",1
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,"com.google.gson.Gson.fromJson(String, Class<BillingInstrument>)",2
+RuntimeTypeAdapterFactoryTest,testRuntimeTypeIsBaseType,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

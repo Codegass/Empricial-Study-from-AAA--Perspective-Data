@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigManagerTest,testBasicReplacement,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+ConfigManagerTest,testBasicReplacement,NEW com.netflix.archaius.config.DefaultCompositeConfig(),0
+ConfigManagerTest,testBasicReplacement,"com.netflix.archaius.api.config.CompositeConfig.addConfig(String, Config)",0
+ConfigManagerTest,testBasicReplacement,"com.netflix.archaius.api.config.CompositeConfig.addConfig(String, Config)",0
+ConfigManagerTest,testBasicReplacement,com.netflix.archaius.config.MapConfig.builder(),0
+ConfigManagerTest,testBasicReplacement,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+ConfigManagerTest,testBasicReplacement,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+ConfigManagerTest,testBasicReplacement,"com.netflix.archaius.config.MapConfig.Builder.put(String, Integer)",0
+ConfigManagerTest,testBasicReplacement,com.netflix.archaius.config.MapConfig.Builder.build(),0
+ConfigManagerTest,testBasicReplacement,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+ConfigManagerTest,testBasicReplacement,com.netflix.archaius.api.PropertyFactory.getProperty(String),0
+ConfigManagerTest,testBasicReplacement,com.netflix.archaius.api.PropertyContainer.asString(String),0
+ConfigManagerTest,testBasicReplacement,NEW anonymous(),0
+ConfigManagerTest,testBasicReplacement,com.netflix.archaius.api.Property.addListener(PropertyListener<String>),0
+ConfigManagerTest,testBasicReplacement,THIRD java.io.PrintStream.println(String),1
+ConfigManagerTest,testBasicReplacement,"SET com.netflix.archaius.config.DefaultSettableConfig.setProperty(String, String)",1

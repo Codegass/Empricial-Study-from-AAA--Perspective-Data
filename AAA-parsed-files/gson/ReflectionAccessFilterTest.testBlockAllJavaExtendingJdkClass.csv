@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,NEW com.google.gson.GsonBuilder(),0
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,com.google.gson.GsonBuilder.addReflectionAccessFilter(ReflectionAccessFilter),0
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,com.google.gson.GsonBuilder.create(),0
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,NEW com.google.gson.functional.ReflectionAccessFilterTest.ClassExtendingJdkClass(),0
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,com.google.gson.Gson.toJson(Object),1
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,ASSERT org.junit.Assert.fail(),2
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,ASSERT com.google.common.truth.Truth.assertThat(Throwable),2
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,ASSERT com.google.common.truth.ThrowableSubject.hasMessageThat(),2
+ReflectionAccessFilterTest,testBlockAllJavaExtendingJdkClass,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

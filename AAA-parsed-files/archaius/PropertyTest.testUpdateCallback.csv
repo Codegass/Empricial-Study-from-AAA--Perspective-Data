@@ -1,0 +1,30 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PropertyTest,testUpdateCallback,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+PropertyTest,testUpdateCallback,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+PropertyTest,testUpdateCallback,com.netflix.archaius.DefaultPropertyFactory.from(Config),0
+PropertyTest,testUpdateCallback,com.netflix.archaius.DefaultPropertyFactory.getProperty(String),0
+PropertyTest,testUpdateCallback,com.netflix.archaius.api.PropertyContainer.asInteger(Integer),0
+PropertyTest,testUpdateCallback,NEW anonymous(),0
+PropertyTest,testUpdateCallback,com.netflix.archaius.api.Property.addListener(PropertyListener<Integer>),1
+PropertyTest,testUpdateCallback,THIRD SET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.set(Integer),0
+PropertyTest,testUpdateCallback,GET com.netflix.archaius.api.Property.get(),0
+PropertyTest,testUpdateCallback,THIRD SET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.set(Integer),0
+PropertyTest,testUpdateCallback,THIRD GET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.get(),0
+PropertyTest,testUpdateCallback,THIRD java.lang.Integer.intValue(),0
+PropertyTest,testUpdateCallback,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,testUpdateCallback,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, Integer)",1
+PropertyTest,testUpdateCallback,THIRD GET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.get(),0
+PropertyTest,testUpdateCallback,THIRD java.lang.Integer.intValue(),0
+PropertyTest,testUpdateCallback,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,testUpdateCallback,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, Integer)",1
+PropertyTest,testUpdateCallback,THIRD GET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.get(),0
+PropertyTest,testUpdateCallback,THIRD java.lang.Integer.intValue(),0
+PropertyTest,testUpdateCallback,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,testUpdateCallback,com.netflix.archaius.api.config.SettableConfig.clearProperty(String),1
+PropertyTest,testUpdateCallback,THIRD GET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.get(),0
+PropertyTest,testUpdateCallback,THIRD java.lang.Integer.intValue(),0
+PropertyTest,testUpdateCallback,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+PropertyTest,testUpdateCallback,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",1
+PropertyTest,testUpdateCallback,THIRD GET java.util.concurrent.atomic.AtomicReference<java.lang.Integer>.get(),0
+PropertyTest,testUpdateCallback,THIRD java.lang.Integer.intValue(),0
+PropertyTest,testUpdateCallback,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2

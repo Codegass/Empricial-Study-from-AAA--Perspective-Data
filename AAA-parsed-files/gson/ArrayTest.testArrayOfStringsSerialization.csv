@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayTest,testArrayOfStringsSerialization,com.google.gson.Gson.toJson(Object),1
+ArrayTest,testArrayOfStringsSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testArrayOfStringsSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

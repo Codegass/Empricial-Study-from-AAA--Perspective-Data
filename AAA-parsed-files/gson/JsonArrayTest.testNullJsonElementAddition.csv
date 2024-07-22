@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonArrayTest,testNullJsonElementAddition,NEW com.google.gson.JsonArray(),0
+JsonArrayTest,testNullJsonElementAddition,com.google.gson.JsonArray.add(JsonElement),1
+JsonArrayTest,testNullJsonElementAddition,com.google.gson.JsonArray.get(int),2
+JsonArrayTest,testNullJsonElementAddition,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+JsonArrayTest,testNullJsonElementAddition,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

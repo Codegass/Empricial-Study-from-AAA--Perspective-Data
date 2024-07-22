@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testJdbcDataSourceMethod,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),1
+SQLServerConnectionTest,testJdbcDataSourceMethod,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getParentLogger(),0
+SQLServerConnectionTest,testJdbcDataSourceMethod,THIRD GET java.util.logging.Logger.getName(),0
+SQLServerConnectionTest,testJdbcDataSourceMethod,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testJdbcDataSourceMethod,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testJdbcDataSourceMethod,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testJdbcDataSourceMethod,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object, String)",2

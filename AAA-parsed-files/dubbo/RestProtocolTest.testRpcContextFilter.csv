@@ -1,0 +1,37 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,NEW org.apache.dubbo.rpc.protocol.rest.DemoServiceImpl(),0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"TEST org.apache.dubbo.rpc.protocol.rest.RestProtocolTest.registerProvider(URL, Object, Class<?>)",0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,     org.apache.dubbo.rpc.model.ServiceRepository.registerService(Class<?>),0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,     GET org.apache.dubbo.common.URL.getServiceKey(),0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"     org.apache.dubbo.rpc.model.ServiceRepository.registerProvider(String, Object, ServiceDescriptor, ServiceConfigBase<?>, ServiceMetadata)",0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.common.URL.addParameter(String, String)",0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.ProxyFactory.getInvoker(DemoService, Class<DemoService>, URL)",0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.Protocol.export(Invoker<DemoService>),0
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.Protocol.refer(Class<DemoService>, URL)",1
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.ProxyFactory.getProxy(Invoker<DemoService>),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,GET org.apache.dubbo.rpc.RpcContext.getContext(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,GET org.apache.dubbo.rpc.RpcContext.getContext(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,GET org.apache.dubbo.rpc.RpcContext.getContext(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,GET org.apache.dubbo.rpc.RpcContext.getContext(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,GET org.apache.dubbo.rpc.RpcContext.getContext(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"org.apache.dubbo.rpc.RpcContext.setAttachment(String, String)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"TEST org.apache.dubbo.rpc.protocol.rest.DemoService.hello(Integer, Integer)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,ASSERT org.hamcrest.CoreMatchers.is(Integer),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"ASSERT org.hamcrest.MatcherAssert.assertThat(Integer, Matcher<? super Integer>)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,TEST GET org.apache.dubbo.rpc.protocol.rest.DemoServiceImpl.getAttachments(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,ASSERT org.hamcrest.CoreMatchers.nullValue(),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"ASSERT org.hamcrest.MatcherAssert.assertThat(Object, Matcher<? super Object>)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,ASSERT org.hamcrest.CoreMatchers.equalTo(Object),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"ASSERT org.hamcrest.MatcherAssert.assertThat(Object, Matcher<? super Object>)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,ASSERT org.hamcrest.CoreMatchers.equalTo(Object),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"ASSERT org.hamcrest.MatcherAssert.assertThat(Object, Matcher<? super Object>)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,ASSERT org.hamcrest.CoreMatchers.equalTo(Object),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"ASSERT org.hamcrest.MatcherAssert.assertThat(Object, Matcher<? super Object>)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,ASSERT org.hamcrest.CoreMatchers.equalTo(Object),2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,"ASSERT org.hamcrest.MatcherAssert.assertThat(Object, Matcher<? super Object>)",2
+org.apache.dubbo.rpc.protocol.rest,RestProtocolTest,testRpcContextFilter,org.apache.dubbo.rpc.Exporter.unexport(),2

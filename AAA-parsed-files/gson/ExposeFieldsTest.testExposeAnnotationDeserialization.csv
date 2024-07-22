@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ExposeFieldsTest,testExposeAnnotationDeserialization,"com.google.gson.Gson.fromJson(String, Class<ClassWithExposedFields>)",1
+ExposeFieldsTest,testExposeAnnotationDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+ExposeFieldsTest,testExposeAnnotationDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ExposeFieldsTest,testExposeAnnotationDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+ExposeFieldsTest,testExposeAnnotationDeserialization,ASSERT com.google.common.truth.Subject.isNull(),2
+ExposeFieldsTest,testExposeAnnotationDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Double),2
+ExposeFieldsTest,testExposeAnnotationDeserialization,ASSERT com.google.common.truth.DoubleSubject.isNotEqualTo(Object),2

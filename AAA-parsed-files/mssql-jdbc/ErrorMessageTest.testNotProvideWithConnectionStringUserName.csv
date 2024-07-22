@@ -1,0 +1,12 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD java.sql.DriverManager.getConnection(String),1
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,ASSERT org.junit.jupiter.api.Assertions.fail(String),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD java.lang.String.split(String),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,"ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD java.lang.String.startsWith(String),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testNotProvideWithConnectionStringUserName,THIRD java.lang.String.startsWith(String),2

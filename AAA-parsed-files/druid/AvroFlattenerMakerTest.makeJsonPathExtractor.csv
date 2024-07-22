@@ -1,0 +1,80 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.newBuilder(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setTimestamp(long),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setEventType(CharSequence),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setId(long),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeOtherId(long),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setIsValid(boolean),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeFloat(float),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeInt(int),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeLong(long),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeIntArray(List<Integer>),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeStringArray(List<CharSequence>),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,"     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeIntValueMap(Map<CharSequence,Integer>)",0
+AvroFlattenerMakerTest,makeJsonPathExtractor,"     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeStringValueMap(Map<CharSequence,CharSequence>)",0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeUnion(CharSequence),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeFixed(MyFixed),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeBytes(ByteBuffer),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeNull(Void),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeEnum(MyEnum),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeRecord(MySubRecord),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.setSomeRecordArray(List<MyNestedRecord>),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,     org.apache.druid.data.input.SomeAvroDatum.Builder.build(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,"NEW org.apache.druid.data.input.avro.AvroFlattenerMaker(boolean, boolean)",0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getTimestamp(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getEventType(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getId(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeOtherId(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getIsValid(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeIntArray(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeStringArray(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeIntValueMap(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeStringValueMap(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeUnion(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeNull(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeFixed(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeBytes(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeEnum(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeRecord(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeLong(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeInt(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeFloat(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.SomeAvroDatum.getSomeRecordArray(),0
+AvroFlattenerMakerTest,makeJsonPathExtractor,org.apache.druid.data.input.avro.AvroFlattenerMaker.makeJsonPathExtractor(String),1
+AvroFlattenerMakerTest,makeJsonPathExtractor,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2

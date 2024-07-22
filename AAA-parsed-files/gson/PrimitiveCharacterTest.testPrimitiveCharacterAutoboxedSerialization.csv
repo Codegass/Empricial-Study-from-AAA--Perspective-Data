@@ -1,0 +1,10 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,com.google.gson.Gson.toJson(Object),1
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveCharacterTest,testPrimitiveCharacterAutoboxedSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

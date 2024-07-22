@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParameterMetaDataTest,compareStoredProcTest,THIRD java.util.Arrays.asList(String[]),0
+ParameterMetaDataTest,compareStoredProcTest,TEST com.microsoft.sqlserver.jdbc.fmtOnly.ParameterMetaDataTest.compareFmtAndSp(String),0
+ParameterMetaDataTest,compareStoredProcTest,     THIRD  java.sql.PreparedStatement(String),1
+ParameterMetaDataTest,compareStoredProcTest,     THIRD  java.sql.PreparedStatement(String),1
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,"     ASSERT org.junit.jupiter.api.Assertions.assertEquals(String, String)",2
+ParameterMetaDataTest,compareStoredProcTest,THIRD java.lang.Iterable<java.lang.String>.forEach(Consumer<? super String>),2

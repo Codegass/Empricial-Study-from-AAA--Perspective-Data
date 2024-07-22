@@ -1,0 +1,26 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+CompositeConfigTest,testKeysIterable,NEW com.netflix.archaius.config.DefaultCompositeConfig(),0
+CompositeConfigTest,testKeysIterable,com.netflix.archaius.config.MapConfig.builder(),0
+CompositeConfigTest,testKeysIterable,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+CompositeConfigTest,testKeysIterable,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+CompositeConfigTest,testKeysIterable,com.netflix.archaius.config.MapConfig.Builder.build(),0
+CompositeConfigTest,testKeysIterable,"com.netflix.archaius.api.config.CompositeConfig.addConfig(String, Config)",0
+CompositeConfigTest,testKeysIterable,com.netflix.archaius.config.MapConfig.builder(),0
+CompositeConfigTest,testKeysIterable,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+CompositeConfigTest,testKeysIterable,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+CompositeConfigTest,testKeysIterable,com.netflix.archaius.config.MapConfig.Builder.build(),0
+CompositeConfigTest,testKeysIterable,"com.netflix.archaius.api.config.CompositeConfig.addConfig(String, Config)",0
+CompositeConfigTest,testKeysIterable,com.netflix.archaius.api.Config.keys(),1
+CompositeConfigTest,testKeysIterable,TEST com.netflix.archaius.TestUtils.size(Iterable<String>),2
+CompositeConfigTest,testKeysIterable,     THIRD java.util.Collection<>.size(),2
+CompositeConfigTest,testKeysIterable,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+CompositeConfigTest,testKeysIterable,TEST com.netflix.archaius.TestUtils.set(String[]),2
+CompositeConfigTest,testKeysIterable,     THIRD java.util.Arrays.asList(T[]),2
+CompositeConfigTest,testKeysIterable,     THIRD java.util.Collections.unmodifiableSet(Set<? extends T>),2
+CompositeConfigTest,testKeysIterable,TEST com.netflix.archaius.TestUtils.set(Iterable<String>),2
+CompositeConfigTest,testKeysIterable,     THIRD java.lang.Iterable<T>.iterator(),2
+CompositeConfigTest,testKeysIterable,     TEST com.netflix.archaius.TestUtils.set(Iterator<T>),2
+CompositeConfigTest,testKeysIterable,          java.util.Set<T>.add(T),2
+CompositeConfigTest,testKeysIterable,          THIRD java.util.Iterator<T>.forEachRemaining(Consumer<? super T>),2
+CompositeConfigTest,testKeysIterable,          THIRD java.util.Collections.unmodifiableSet(Set<? extends T>),2
+CompositeConfigTest,testKeysIterable,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

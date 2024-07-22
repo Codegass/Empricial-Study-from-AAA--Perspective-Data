@@ -1,0 +1,22 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,NEW com.google.gson.GsonBuilder(),0
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,com.google.gson.GsonBuilder.create(),0
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,"com.google.gson.Gson.fromJson(String, Class<Calendar>)",1
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,THIRD java.util.Calendar.get(int),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,THIRD java.util.Calendar.get(int),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,THIRD java.util.Calendar.get(int),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,THIRD java.util.Calendar.get(int),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,THIRD java.util.Calendar.get(int),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,THIRD java.util.Calendar.get(int),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+DefaultTypeAdaptersTest,testDefaultCalendarDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

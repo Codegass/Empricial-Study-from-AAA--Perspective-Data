@@ -1,0 +1,43 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.now(),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.truncatedTo(TemporalUnit),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD GET java.time.OffsetDateTime.getOffset(),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD GET java.time.ZoneOffset.getTotalSeconds(),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.ZoneOffset.ofTotalSeconds(int),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.withOffsetSameLocal(ZoneOffset),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.ZoneId.systemDefault(),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.atZoneSameInstant(ZoneId),0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.ZonedDateTime.toLocalDateTime(),0
+DataTypesTest,testGetLocalDateTimeTypes,TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+DataTypesTest,testGetLocalDateTimeTypes,"     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+DataTypesTest,testGetLocalDateTimeTypes,"          THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+DataTypesTest,testGetLocalDateTimeTypes,com.microsoft.sqlserver.jdbc.SQLServerConnection.prepareStatement(String),0
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD SET java.sql.PreparedStatement.setObject(int, Object)",0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.sql.PreparedStatement.executeQuery(),1
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.sql.ResultSet.next(),0
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<OffsetDateTime>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<LocalDateTime>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.LocalDateTime.toLocalDate(),0
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<LocalDate>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.LocalDateTime.toLocalTime(),0
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<LocalTime>)",0
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,SET com.microsoft.sqlserver.jdbc.SQLServerConnection.setIgnoreOffsetOnDateTimeOffsetConversion(boolean),0
+DataTypesTest,testGetLocalDateTimeTypes,com.microsoft.sqlserver.jdbc.SQLServerConnection.prepareStatement(String),0
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD SET java.sql.PreparedStatement.setObject(int, Object)",0
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.sql.PreparedStatement.executeQuery(),1
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.sql.ResultSet.next(),0
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<OffsetDateTime>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.toLocalDateTime(),2
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<LocalDateTime>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.toLocalDate(),2
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<LocalDate>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+DataTypesTest,testGetLocalDateTimeTypes,THIRD java.time.OffsetDateTime.toLocalTime(),2
+DataTypesTest,testGetLocalDateTimeTypes,"THIRD java.sql.ResultSet.getObject(int, Class<LocalTime>)",2
+DataTypesTest,testGetLocalDateTimeTypes,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

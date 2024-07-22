@@ -1,0 +1,14 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+BatchExecutionTest,testBatchUpdateCount,TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+BatchExecutionTest,testBatchUpdateCount,"     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+BatchExecutionTest,testBatchUpdateCount,"          THIRD java.sql.DriverManager.getConnection(String, Properties)",0
+BatchExecutionTest,testBatchUpdateCount,com.microsoft.sqlserver.jdbc.SQLServerConnection.prepareStatement(String),0
+BatchExecutionTest,testBatchUpdateCount,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+BatchExecutionTest,testBatchUpdateCount,"SET com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.setInt(int, int)",0
+BatchExecutionTest,testBatchUpdateCount,"SET com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.setInt(int, int)",0
+BatchExecutionTest,testBatchUpdateCount,com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.addBatch(),0
+BatchExecutionTest,testBatchUpdateCount,com.microsoft.sqlserver.jdbc.SQLServerPreparedStatement.executeBatch(),1
+BatchExecutionTest,testBatchUpdateCount,THIRD GET java.sql.BatchUpdateException.getLargeUpdateCounts(),2
+BatchExecutionTest,testBatchUpdateCount,"ASSERT org.junit.jupiter.api.Assertions.assertArrayEquals(long[], long[], String)",2
+BatchExecutionTest,testBatchUpdateCount,THIRD GET java.sql.BatchUpdateException.getLargeUpdateCounts(),2
+BatchExecutionTest,testBatchUpdateCount,THIRD java.util.Arrays.toString(long[]),2

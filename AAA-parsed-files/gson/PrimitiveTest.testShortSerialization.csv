@@ -1,0 +1,24 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,THIRD java.lang.Short.toString(short),0
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,THIRD java.lang.Short.toString(short),0
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+PrimitiveTest,testShortSerialization,"com.google.gson.Gson.toJson(Object, Type)",1
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrimitiveTest,testShortSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

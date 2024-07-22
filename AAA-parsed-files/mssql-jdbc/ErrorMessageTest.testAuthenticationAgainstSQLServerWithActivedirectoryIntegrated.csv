@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,ASSERT org.junit.Assume.assumeTrue(boolean),0
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,"THIRD java.util.Properties.put(Object, Object)",0
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,THIRD java.lang.Enum<com.microsoft.sqlserver.jdbc.fedauth.FedauthCommon.SqlAuthentication>.toString(),0
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,"THIRD java.util.Properties.put(Object, Object)",0
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,"THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,THIRD GET java.lang.Throwable.getMessage(),2
+ErrorMessageTest,testAuthenticationAgainstSQLServerWithActivedirectoryIntegrated,ASSERT org.junit.jupiter.api.Assertions.fail(String),2

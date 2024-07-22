@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GsonBuilderTest,testRegisterTypeAdapterForCoreType,NEW com.google.gson.GsonBuilder(),0
+GsonBuilderTest,testRegisterTypeAdapterForCoreType,"com.google.gson.GsonBuilder.registerTypeAdapter(Type, Object)",1

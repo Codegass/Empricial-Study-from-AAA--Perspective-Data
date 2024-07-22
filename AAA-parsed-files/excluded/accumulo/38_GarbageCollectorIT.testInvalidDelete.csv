@@ -1,0 +1,56 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GarbageCollectorIT,testInvalidDelete,     TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+GarbageCollectorIT,testInvalidDelete,     TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+GarbageCollectorIT,testInvalidDelete,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getProcesses(),0
+GarbageCollectorIT,testInvalidDelete,"     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.killProcess(ServerType, ProcessReference)",0
+GarbageCollectorIT,testInvalidDelete,          TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+GarbageCollectorIT,testInvalidDelete,          org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getServerContext(),0
+GarbageCollectorIT,testInvalidDelete,     org.apache.accumulo.core.clientImpl.ClientContext.getZooKeeperRoot(),0
+GarbageCollectorIT,testInvalidDelete,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getZooKeepers(),0
+GarbageCollectorIT,testInvalidDelete,"     NEW org.apache.accumulo.fate.zookeeper.ZooReaderWriter(String, int, String)",0
+GarbageCollectorIT,testInvalidDelete,"     org.apache.accumulo.fate.zookeeper.ZooLock.deleteLock(IZooReaderWriter, String)",0
+GarbageCollectorIT,testInvalidDelete,     TEST org.apache.accumulo.test.functional.ConfigurableMacBase.getCluster(),0
+GarbageCollectorIT,testInvalidDelete,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getProcesses(),0
+GarbageCollectorIT,testInvalidDelete,     ASSERT org.junit.Assert.assertNull(Object),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.Accumulo.newClient(),0
+GarbageCollectorIT,testInvalidDelete,     org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.getClientProperties(),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.PropertyOptions.from(Properties),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.ClientFactory.build(),0
+GarbageCollectorIT,testInvalidDelete,TEST org.apache.accumulo.harness.AccumuloITBase.getUniqueNames(int),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.admin.TableOperations.create(String),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+GarbageCollectorIT,testInvalidDelete,NEW org.apache.accumulo.core.data.Mutation(CharSequence),0
+GarbageCollectorIT,testInvalidDelete,"org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.tableOperations(),0
+GarbageCollectorIT,testInvalidDelete,"org.apache.accumulo.core.client.admin.TableOperations.flush(String, Text, Text, boolean)",0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.securityOperations(),0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.whoami(),0
+GarbageCollectorIT,testInvalidDelete,"org.apache.accumulo.core.client.admin.SecurityOperations.grantTablePermission(String, String, TablePermission)",0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.AccumuloClient.createBatchWriter(String),0
+GarbageCollectorIT,testInvalidDelete,     NEW org.apache.hadoop.io.Text(String),0
+GarbageCollectorIT,testInvalidDelete,     org.apache.accumulo.core.metadata.schema.MetadataSchema.DeletesSection.getRowPrefix(),0
+GarbageCollectorIT,testInvalidDelete,     NEW org.apache.accumulo.core.data.Mutation(Text),0
+GarbageCollectorIT,testInvalidDelete,"     org.apache.accumulo.core.data.Mutation.put(CharSequence, CharSequence, CharSequence)",0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+GarbageCollectorIT,testInvalidDelete,"TEST org.apache.accumulo.test.functional.GarbageCollectorIT.createDelMutation(String, String, String, String)",0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+GarbageCollectorIT,testInvalidDelete,"TEST org.apache.accumulo.test.functional.GarbageCollectorIT.createDelMutation(String, String, String, String)",0
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.BatchWriter.addMutation(Mutation),0
+GarbageCollectorIT,testInvalidDelete,"org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.exec(Class<?>, String[])",1
+GarbageCollectorIT,testInvalidDelete,"org.apache.accumulo.fate.util.UtilWaitThread.sleepUninterruptibly(long, TimeUnit)",2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.ProcessInfo.readStdOut(),2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.miniclusterImpl.MiniAccumuloClusterImpl.ProcessInfo.getProcess(),2
+GarbageCollectorIT,testInvalidDelete,"org.apache.accumulo.core.client.AccumuloClient.createScanner(String, Authorizations)",2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.client.ScannerBase.iterator(),2
+GarbageCollectorIT,testInvalidDelete,ASSERT org.junit.Assert.assertTrue(boolean),2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.data.Key.getRow(),2
+GarbageCollectorIT,testInvalidDelete,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.data.Key.getColumnFamily(),2
+GarbageCollectorIT,testInvalidDelete,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.data.Key.getColumnQualifier(),2
+GarbageCollectorIT,testInvalidDelete,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GarbageCollectorIT,testInvalidDelete,org.apache.accumulo.core.data.Value.toString(),2
+GarbageCollectorIT,testInvalidDelete,"ASSERT org.junit.Assert.assertEquals(Object, Object)",2
+GarbageCollectorIT,testInvalidDelete,ASSERT org.junit.Assert.assertFalse(boolean),2

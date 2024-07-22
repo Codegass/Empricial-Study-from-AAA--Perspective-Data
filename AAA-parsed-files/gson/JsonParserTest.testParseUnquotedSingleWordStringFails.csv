@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonParserTest,testParseUnquotedSingleWordStringFails,com.google.gson.JsonParser.parseString(String),1
+JsonParserTest,testParseUnquotedSingleWordStringFails,GET com.google.gson.JsonElement.getAsString(),1
+JsonParserTest,testParseUnquotedSingleWordStringFails,ASSERT com.google.common.truth.Truth.assertThat(String),2
+JsonParserTest,testParseUnquotedSingleWordStringFails,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

@@ -1,0 +1,33 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+DatabaseMetaDataTest,testDriverVersion,TEST GET com.microsoft.sqlserver.jdbc.TestUtils.getCurrentClassPath(),0
+DatabaseMetaDataTest,testDriverVersion,     NEW anonymous(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.lang.Object.getClass(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.lang.Class<>.getEnclosingClass(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.lang.Class<>.getName(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD java.lang.Class.forName(String),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.lang.Class<>.getProtectionDomain(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.security.ProtectionDomain.getCodeSource(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.security.CodeSource.getLocation(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.net.URL.getPath(),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.net.URI.getPath(),0
+DatabaseMetaDataTest,testDriverVersion,     ASSERT org.junit.Assert.fail(String),2
+DatabaseMetaDataTest,testDriverVersion,     THIRD GET java.lang.Throwable.getMessage(),0
+DatabaseMetaDataTest,testDriverVersion,"THIRD java.lang.String.replace(CharSequence, CharSequence)",0
+DatabaseMetaDataTest,testDriverVersion,THIRD GET java.util.jar.Manifest.getMainAttributes(),0
+DatabaseMetaDataTest,testDriverVersion,THIRD java.util.jar.Attributes.getValue(String),0
+DatabaseMetaDataTest,testDriverVersion,TEST GET com.microsoft.sqlserver.testframework.AbstractTest.getConnection(),0
+DatabaseMetaDataTest,testDriverVersion,     TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String),0
+DatabaseMetaDataTest,testDriverVersion,"          TEST com.microsoft.sqlserver.testframework.PrepUtil.getConnection(String, Properties)",0
+DatabaseMetaDataTest,testDriverVersion,"               THIRD java.sql.DriverManager.getConnection(String, Properties)",1
+DatabaseMetaDataTest,testDriverVersion,THIRD GET java.sql.Connection.getMetaData(),1
+DatabaseMetaDataTest,testDriverVersion,THIRD GET java.sql.DatabaseMetaData.getDriverVersion(),0
+DatabaseMetaDataTest,testDriverVersion,"THIRD java.lang.String.replaceAll(String, String)",0
+DatabaseMetaDataTest,testDriverVersion,"THIRD java.lang.String.replaceAll(String, String)",0
+DatabaseMetaDataTest,testDriverVersion,"THIRD java.lang.String.substring(int, int)",0
+DatabaseMetaDataTest,testDriverVersion,"THIRD java.lang.String.substring(int, int)",0
+DatabaseMetaDataTest,testDriverVersion,THIRD java.lang.Integer.valueOf(String),0
+DatabaseMetaDataTest,testDriverVersion,THIRD java.lang.Integer.valueOf(String),0
+DatabaseMetaDataTest,testDriverVersion,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD java.util.ResourceBundle.getBundle(String),0
+DatabaseMetaDataTest,testDriverVersion,     THIRD java.util.ResourceBundle.getString(String),0
+DatabaseMetaDataTest,testDriverVersion,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrimitiveTest,testDeserializingBigDecimalAsBigIntegerFails,"ASSERT org.junit.Assert.assertThrows(Class<JsonSyntaxException>, ThrowingRunnable)",2
+PrimitiveTest,testDeserializingBigDecimalAsBigIntegerFails,"com.google.gson.Gson.fromJson(String, Class<BigInteger>)",1

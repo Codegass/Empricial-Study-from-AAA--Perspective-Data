@@ -1,0 +1,32 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.clear(),0
+ShellServerIT,extensions,"               org.apache.accumulo.shell.Shell.execCommand(String, boolean, boolean)",1
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.ErrorMessageCallback.getErrorMessage(),2
+ShellServerIT,extensions,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,extensions,"               ASSERT org.junit.Assert.assertEquals(String, long, long)",2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.ErrorMessageCallback.getErrorMessage(),2
+ShellServerIT,extensions,"               ASSERT org.junit.Assert.assertTrue(String, boolean)",2
+ShellServerIT,extensions,               org.apache.accumulo.shell.Shell.getExitCode(),2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,"               ASSERT org.junit.Assert.assertEquals(String, Object, Object)",2
+ShellServerIT,extensions,               TEST org.apache.accumulo.test.ShellServerIT.TestOutputStream.get(),2
+ShellServerIT,extensions,               org.apache.accumulo.shell.Shell.resetExitCode(),2
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1
+ShellServerIT,extensions,          TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String),1
+ShellServerIT,extensions,"          TEST org.apache.accumulo.test.ShellServerIT.TestShell.assertGoodExit(String, boolean, ErrorMessageCallback)",2
+ShellServerIT,extensions,"          TEST org.apache.accumulo.test.ShellServerIT.TestShell.assertBadExit(String, boolean, ErrorMessageCallback)",2
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean)",1
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1
+ShellServerIT,extensions,"TEST org.apache.accumulo.test.ShellServerIT.TestShell.exec(String, boolean, String, boolean)",1

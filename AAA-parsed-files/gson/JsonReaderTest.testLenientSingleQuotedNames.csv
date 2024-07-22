@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonReaderTest,testLenientSingleQuotedNames,TEST com.google.gson.stream.JsonReaderTest.reader(String),0
+JsonReaderTest,testLenientSingleQuotedNames,NEW com.google.gson.stream.JsonReader(Reader),0
+JsonReaderTest,testLenientSingleQuotedNames,SET com.google.gson.stream.JsonReader.setStrictness(Strictness),0
+JsonReaderTest,testLenientSingleQuotedNames,com.google.gson.stream.JsonReader.beginObject(),1
+JsonReaderTest,testLenientSingleQuotedNames,com.google.gson.stream.JsonReader.nextName(),2
+JsonReaderTest,testLenientSingleQuotedNames,ASSERT com.google.common.truth.Truth.assertThat(String),2
+JsonReaderTest,testLenientSingleQuotedNames,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

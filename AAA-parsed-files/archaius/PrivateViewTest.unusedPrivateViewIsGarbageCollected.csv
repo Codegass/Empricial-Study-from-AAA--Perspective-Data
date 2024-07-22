@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrivateViewTest,unusedPrivateViewIsGarbageCollected,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+PrivateViewTest,unusedPrivateViewIsGarbageCollected,GET com.netflix.archaius.api.Config.getPrivateView(),0
+PrivateViewTest,unusedPrivateViewIsGarbageCollected,THIRD java.lang.System.gc(),1
+PrivateViewTest,unusedPrivateViewIsGarbageCollected,THIRD GET java.lang.ref.Reference<com.netflix.archaius.api.Config>.get(),2
+PrivateViewTest,unusedPrivateViewIsGarbageCollected,ASSERT org.junit.jupiter.api.Assertions.assertNull(Object),2

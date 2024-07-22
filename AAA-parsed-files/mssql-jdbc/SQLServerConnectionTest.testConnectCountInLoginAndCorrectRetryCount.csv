@@ -1,0 +1,40 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setURL(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setLoginTimeout(int),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setConnectRetryCount(int),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setConnectRetryInterval(int),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,"     TEST com.microsoft.sqlserver.jdbc.RandomUtil.getIdentifier(String, int, boolean, boolean)",0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.System.getProperty(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.util.UUID.randomUUID(),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.util.UUID.toString(),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.append(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.StringBuilder.toString(),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,          THIRD java.lang.String.length(),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,"          THIRD java.lang.String.substring(int, int)",0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,SET com.microsoft.sqlserver.jdbc.SQLServerDataSource.setDatabaseName(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,THIRD GET java.lang.System.currentTimeMillis(),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getConnection(),1
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,THIRD GET java.lang.Throwable.getMessage(),2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,THIRD java.lang.String.contains(CharSequence),2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,THIRD GET java.lang.Throwable.getMessage(),2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,THIRD GET java.lang.System.currentTimeMillis(),2
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,     THIRD java.util.ResourceBundle.getBundle(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,     THIRD java.util.ResourceBundle.getString(String),0
+SQLServerConnectionTest,testConnectCountInLoginAndCorrectRetryCount,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

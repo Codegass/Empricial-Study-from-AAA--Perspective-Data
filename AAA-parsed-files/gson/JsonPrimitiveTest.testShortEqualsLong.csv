@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonPrimitiveTest,testShortEqualsLong,NEW com.google.gson.JsonPrimitive(Number),0
+JsonPrimitiveTest,testShortEqualsLong,NEW com.google.gson.JsonPrimitive(Number),0
+JsonPrimitiveTest,testShortEqualsLong,ASSERT com.google.common.truth.Truth.assertThat(Object),2
+JsonPrimitiveTest,testShortEqualsLong,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+JsonPrimitiveTest,testShortEqualsLong,com.google.gson.JsonPrimitive.hashCode(),2
+JsonPrimitiveTest,testShortEqualsLong,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+JsonPrimitiveTest,testShortEqualsLong,com.google.gson.JsonPrimitive.hashCode(),2
+JsonPrimitiveTest,testShortEqualsLong,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

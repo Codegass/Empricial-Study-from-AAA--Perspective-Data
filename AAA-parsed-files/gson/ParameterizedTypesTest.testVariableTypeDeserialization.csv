@@ -1,0 +1,62 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ParameterizedTypesTest,testVariableTypeDeserialization,NEW anonymous(),0
+ParameterizedTypesTest,testVariableTypeDeserialization,GET com.google.gson.reflect.TypeToken.getType(),0
+ParameterizedTypesTest,testVariableTypeDeserialization,"NEW com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables<java.lang.Integer>(Integer, Integer[], List<Integer>, List<Integer>[], List<? extends Integer>, List<? extends Integer>[])",0
+ParameterizedTypesTest,testVariableTypeDeserialization,"com.google.gson.Gson.toJson(Object, Type)",1
+ParameterizedTypesTest,testVariableTypeDeserialization,"com.google.gson.Gson.fromJson(String, Type)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,TEST GET com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.getExpectedJson(),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.toString(T),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.Object.toString(),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.util.Arrays.asList(T[]),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"     TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"          TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"     TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"          TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"     TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, List<? extends T>[])",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"          TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"     TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"          TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"     TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, List<? extends T>[])",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,"          TEST com.google.gson.functional.ParameterizedTypesTest.ObjectWithTypeVariables.appendObjectsToBuilder(StringBuilder, Iterable<? extends T>)",2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,          THIRD java.lang.StringBuilder.append(String),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.append(char),2
+ParameterizedTypesTest,testVariableTypeDeserialization,     THIRD java.lang.StringBuilder.toString(),2
+ParameterizedTypesTest,testVariableTypeDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

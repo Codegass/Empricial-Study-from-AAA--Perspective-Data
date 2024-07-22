@@ -1,0 +1,9 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+GsonTest,testNewJsonReader_Custom,NEW com.google.gson.GsonBuilder(),0
+GsonTest,testNewJsonReader_Custom,com.google.gson.GsonBuilder.setLenient(),0
+GsonTest,testNewJsonReader_Custom,com.google.gson.GsonBuilder.create(),0
+GsonTest,testNewJsonReader_Custom,com.google.gson.Gson.newJsonReader(Reader),1
+GsonTest,testNewJsonReader_Custom,com.google.gson.stream.JsonReader.nextString(),2
+GsonTest,testNewJsonReader_Custom,ASSERT com.google.common.truth.Truth.assertThat(String),2
+GsonTest,testNewJsonReader_Custom,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+GsonTest,testNewJsonReader_Custom,com.google.gson.stream.JsonReader.close(),2

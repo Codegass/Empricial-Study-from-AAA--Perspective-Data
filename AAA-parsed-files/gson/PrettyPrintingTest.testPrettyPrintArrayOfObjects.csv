@@ -1,0 +1,5 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrettyPrintingTest,testPrettyPrintArrayOfObjects,NEW com.google.gson.common.TestTypes.ArrayOfObjects(),0
+PrettyPrintingTest,testPrettyPrintArrayOfObjects,com.google.gson.Gson.toJson(Object),1
+PrettyPrintingTest,testPrettyPrintArrayOfObjects,ASSERT com.google.common.truth.Truth.assertThat(String),2
+PrettyPrintingTest,testPrettyPrintArrayOfObjects,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

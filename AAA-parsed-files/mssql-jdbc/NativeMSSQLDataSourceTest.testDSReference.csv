@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+NativeMSSQLDataSourceTest,testDSReference,NEW com.microsoft.sqlserver.jdbc.SQLServerDataSource(),0
+NativeMSSQLDataSourceTest,testDSReference,GET com.microsoft.sqlserver.jdbc.SQLServerDataSource.getReference(),1
+NativeMSSQLDataSourceTest,testDSReference,THIRD GET javax.naming.Reference.getClassName(),2
+NativeMSSQLDataSourceTest,testDSReference,THIRD java.lang.String.equals(Object),2
+NativeMSSQLDataSourceTest,testDSReference,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2

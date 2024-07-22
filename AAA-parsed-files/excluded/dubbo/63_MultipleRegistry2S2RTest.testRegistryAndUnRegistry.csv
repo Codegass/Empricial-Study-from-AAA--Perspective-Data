@@ -1,0 +1,23 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,org.apache.dubbo.common.URL.valueOf(String),0
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,org.apache.dubbo.registry.multiple.MultipleRegistry.register(URL),1
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,org.apache.dubbo.remoting.zookeeper.ZookeeperClient.getChildren(String),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,org.apache.dubbo.common.URL.toFullString(),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"     NEW redis.clients.jedis.Jedis(String, int)",2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"     NEW org.apache.dubbo.rpc.RpcException(String, Throwable)",2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,ASSERT org.junit.jupiter.api.Assertions.assertNotNull(Object),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,NEW anonymous(),0
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"org.apache.dubbo.registry.multiple.MultipleRegistry.subscribe(URL, NotifyListener)",0
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",0
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,org.apache.dubbo.registry.multiple.MultipleRegistry.unregister(URL),1
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,     java.util.Objects.nonNull(Object),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,     org.apache.dubbo.registry.multiple.MultipleRegistryTestUtil.isValidCategory(URL),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,     org.apache.dubbo.registry.multiple.MultipleRegistryTestUtil.isNotCompatibleFor26x(URL),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,     org.apache.dubbo.common.utils.UrlUtils.isConfigurator(URL),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,     org.apache.dubbo.common.utils.UrlUtils.isRoute(URL),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,     org.apache.dubbo.common.utils.UrlUtils.isProvider(URL),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(int, int)",2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,org.apache.dubbo.common.URL.getProtocol(),2
+MultipleRegistry2S2RTest,testRegistryAndUnRegistry,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

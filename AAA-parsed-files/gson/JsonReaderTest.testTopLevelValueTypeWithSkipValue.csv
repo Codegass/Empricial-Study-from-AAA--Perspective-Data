@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+JsonReaderTest,testTopLevelValueTypeWithSkipValue,TEST com.google.gson.stream.JsonReaderTest.reader(String),0
+JsonReaderTest,testTopLevelValueTypeWithSkipValue,NEW com.google.gson.stream.JsonReader(Reader),0
+JsonReaderTest,testTopLevelValueTypeWithSkipValue,com.google.gson.stream.JsonReader.skipValue(),1
+JsonReaderTest,testTopLevelValueTypeWithSkipValue,com.google.gson.stream.JsonReader.peek(),2
+JsonReaderTest,testTopLevelValueTypeWithSkipValue,ASSERT com.google.common.truth.Truth.assertThat(JsonToken),2
+JsonReaderTest,testTopLevelValueTypeWithSkipValue,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

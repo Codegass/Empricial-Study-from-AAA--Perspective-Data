@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerDriverTest,testDriverDM,THIRD java.sql.DriverManager.getDriver(String),1
+SQLServerDriverTest,testDriverDM,THIRD java.lang.Class.forName(String),2
+SQLServerDriverTest,testDriverDM,THIRD GET java.lang.Object.getClass(),2
+SQLServerDriverTest,testDriverDM,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testDriverDM,     THIRD java.util.ResourceBundle.getBundle(String),2
+SQLServerDriverTest,testDriverDM,     THIRD java.util.ResourceBundle.getString(String),2
+SQLServerDriverTest,testDriverDM,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object, String)",2

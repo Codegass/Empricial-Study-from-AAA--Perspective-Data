@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ConfigToCommonsTest,testIsEmptyAPI,GET com.netflix.archaius.bridge.ConfigToCommonsAdapter.isEmpty(),1
+ConfigToCommonsTest,testIsEmptyAPI,ASSERT org.junit.jupiter.api.Assertions.assertFalse(boolean),2

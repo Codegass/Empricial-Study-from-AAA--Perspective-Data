@@ -1,0 +1,8 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ObjectTest,testJsonInSingleQuotesDeserialization,"com.google.gson.Gson.fromJson(String, Class<BagOfPrimitives>)",1
+ObjectTest,testJsonInSingleQuotesDeserialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ObjectTest,testJsonInSingleQuotesDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ObjectTest,testJsonInSingleQuotesDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Integer),2
+ObjectTest,testJsonInSingleQuotesDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2
+ObjectTest,testJsonInSingleQuotesDeserialization,ASSERT com.google.common.truth.Truth.assertThat(Long),2
+ObjectTest,testJsonInSingleQuotesDeserialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

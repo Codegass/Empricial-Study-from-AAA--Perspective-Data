@@ -1,0 +1,34 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,NEW com.netflix.archaius.config.DefaultSettableConfig(),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.config.DefaultCompositeConfig.builder(),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.config.DefaultCompositeConfig.Builder.build(),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.Config.getPrefixedView(String),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.Mockito.mock(Class<ConfigListener>),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.Config.addListener(ConfigListener),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.Config.getString(String),0
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.Mockito.times(int),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.ArgumentMatchers.any(),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.ConfigListener.onConfigAdded(Config),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"SET com.netflix.archaius.api.config.SettableConfig.setProperty(String, String)",1
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.Mockito.times(int),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.ArgumentMatchers.any(),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.ConfigListener.onConfigUpdated(Config),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.Config.getString(String),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.config.MapConfig.builder(),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.config.MapConfig.Builder.build(),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"com.netflix.archaius.api.config.CompositeConfig.addConfig(String, Config)",1
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.Mockito.times(int),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.ArgumentMatchers.any(),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.ConfigListener.onConfigAdded(Config),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.Mockito.times(int),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,"ASSERT org.mockito.Mockito.verify(ConfigListener, VerificationMode)",2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,MOCK org.mockito.ArgumentMatchers.any(),2
+PrefixedViewTest,confirmNotifactionOnSettableConfigChange,com.netflix.archaius.api.ConfigListener.onConfigUpdated(Config),2

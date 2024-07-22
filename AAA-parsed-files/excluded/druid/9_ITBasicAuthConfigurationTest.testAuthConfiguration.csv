@@ -1,0 +1,115 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.auth.BasicCredentials(String, String)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.CredentialedHttpClient(Credentials, HttpClient)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.auth.BasicCredentials(String, String)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.CredentialedHttpClient(Credentials, HttpClient)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.auth.BasicCredentials(String, String)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.CredentialedHttpClient(Credentials, HttpClient)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               org.apache.druid.java.util.http.client.Request.setContent(String, byte[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,               org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               org.apache.druid.java.util.common.logger.Logger.error(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"               org.apache.druid.java.util.common.logger.Logger.error(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getIndexerUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getBrokerUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getHistoricalUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getRouterUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkNodeAccess(HttpClient),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.server.security.Resource(String, ResourceType)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.server.security.ResourceAction(Resource, Action)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     NEW org.apache.druid.security.basic.authentication.entity.BasicAuthenticatorCredentialUpdate(String, Integer)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkNodeAccess(HttpClient),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,          org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,          ASSERT org.testng.Assert.assertNotNull(Object),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,          ASSERT org.testng.Assert.assertTrue(boolean),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,          org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,          ASSERT org.testng.Assert.assertNotNull(Object),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,          ASSERT org.testng.Assert.assertTrue(boolean),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getIndexerUrl(),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkLoadStatusSingle(HttpClient, String)",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getBrokerUrl(),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkLoadStatusSingle(HttpClient, String)",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getHistoricalUrl(),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkLoadStatusSingle(HttpClient, String)",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getRouterUrl(),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkLoadStatusSingle(HttpClient, String)",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          NEW org.apache.druid.java.util.http.client.Request(HttpMethod, URL)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          org.apache.druid.java.util.http.client.Request.setContent(String, byte[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          org.apache.druid.java.util.http.client.HttpClient.go(Request, HttpResponseHandler<StatusResponseHolder,StatusResponseHolder>)",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,          org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,          org.apache.druid.java.util.http.client.response.StatusResponseHolder.getStatus(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,          org.apache.druid.java.util.http.client.response.StatusResponseHolder.getContent(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          org.apache.druid.java.util.common.StringUtils.format(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          NEW org.apache.druid.java.util.common.ISE(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          org.apache.druid.java.util.common.logger.Logger.error(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"          org.apache.druid.java.util.common.logger.Logger.error(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.security.basic.authentication.entity.BasicAuthenticatorCredentialUpdate(String, Integer)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.auth.BasicCredentials(String, String)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"NEW org.apache.druid.java.util.http.client.CredentialedHttpClient(Credentials, HttpClient)",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.checkNodeAccess(HttpClient),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.testing.IntegrationTestingConfig.getBrokerUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.testing.IntegrationTestingConfig.getRouterUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,     ASSERT org.testng.Assert.assertTrue(boolean),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.testAvaticaQuery(String),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     ASSERT org.testng.Assert.assertEquals(String, String)",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,     ASSERT org.testng.Assert.fail(String),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,TEST org.apache.druid.tests.security.ITBasicAuthConfigurationTest.testAvaticaAuthFailure(String),2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"org.apache.druid.java.util.common.logger.Logger.info(String, Object[])",2
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getCoordinatorUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getIndexerUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getBrokerUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getHistoricalUrl(),0
+ITBasicAuthConfigurationTest,testAuthConfiguration,"     TEST org.apache.druid.testing.utils.HttpUtil.makeRequest(HttpClient, HttpMethod, String, byte[])",1
+ITBasicAuthConfigurationTest,testAuthConfiguration,     TEST org.apache.druid.testing.IntegrationTestingConfig.getRouterUrl(),0

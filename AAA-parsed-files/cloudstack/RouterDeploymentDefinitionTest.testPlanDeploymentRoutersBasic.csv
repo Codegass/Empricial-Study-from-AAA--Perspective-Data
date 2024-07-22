@@ -1,0 +1,12 @@
+testPackage,testClassName,testMethodName,potentialTargetQualifiedName,AAA
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,GET com.cloud.dc.DataCenter.getNetworkType(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,MOCK org.mockito.Mockito.when(NetworkType),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,MOCK org.mockito.stubbing.OngoingStubbing<com.cloud.dc.DataCenter.NetworkType>.thenReturn(NetworkType),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,GET com.cloud.deploy.DeployDestination.getPod(),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,MOCK org.mockito.Mockito.when(Pod),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,MOCK org.mockito.stubbing.OngoingStubbing<com.cloud.dc.Pod>.thenReturn(Pod),0
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,org.cloud.network.router.deployment.RouterDeploymentDefinition.planDeploymentRouters(),1
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,MOCK org.mockito.Mockito.times(int),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,"ASSERT org.mockito.Mockito.verify(DomainRouterDao, VerificationMode)",2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,GET com.cloud.network.dao.NetworkVO.getId(),2
+org.cloud.network.router.deployment,RouterDeploymentDefinitionTest,testPlanDeploymentRoutersBasic,"com.cloud.vm.dao.DomainRouterDao.listByNetworkAndPodAndRole(long, long, Role)",2

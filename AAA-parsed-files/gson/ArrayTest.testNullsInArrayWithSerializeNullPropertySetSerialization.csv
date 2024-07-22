@@ -1,0 +1,7 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+ArrayTest,testNullsInArrayWithSerializeNullPropertySetSerialization,NEW com.google.gson.GsonBuilder(),0
+ArrayTest,testNullsInArrayWithSerializeNullPropertySetSerialization,com.google.gson.GsonBuilder.serializeNulls(),0
+ArrayTest,testNullsInArrayWithSerializeNullPropertySetSerialization,com.google.gson.GsonBuilder.create(),0
+ArrayTest,testNullsInArrayWithSerializeNullPropertySetSerialization,com.google.gson.Gson.toJson(Object),1
+ArrayTest,testNullsInArrayWithSerializeNullPropertySetSerialization,ASSERT com.google.common.truth.Truth.assertThat(String),2
+ArrayTest,testNullsInArrayWithSerializeNullPropertySetSerialization,ASSERT com.google.common.truth.Subject.isEqualTo(Object),2

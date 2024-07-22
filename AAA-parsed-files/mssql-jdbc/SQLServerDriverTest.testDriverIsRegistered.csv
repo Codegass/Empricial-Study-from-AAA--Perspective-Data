@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerDriverTest,testDriverIsRegistered,GET com.microsoft.sqlserver.jdbc.SQLServerDriver.isRegistered(),1
+SQLServerDriverTest,testDriverIsRegistered,TEST com.microsoft.sqlserver.jdbc.TestResource.getResource(String),2
+SQLServerDriverTest,testDriverIsRegistered,     THIRD java.util.ResourceBundle.getBundle(String),2
+SQLServerDriverTest,testDriverIsRegistered,     THIRD java.util.ResourceBundle.getString(String),2
+SQLServerDriverTest,testDriverIsRegistered,"ASSERT org.junit.jupiter.api.Assertions.assertTrue(boolean, String)",2

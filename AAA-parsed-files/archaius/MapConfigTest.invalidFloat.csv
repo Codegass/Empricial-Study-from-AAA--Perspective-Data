@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,invalidFloat,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<ParseException>, Executable)",2
+MapConfigTest,invalidFloat,com.netflix.archaius.config.AbstractConfig.getFloat(String),1

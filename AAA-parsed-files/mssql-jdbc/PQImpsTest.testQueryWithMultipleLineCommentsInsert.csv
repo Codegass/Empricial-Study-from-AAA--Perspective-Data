@@ -1,0 +1,6 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PQImpsTest,testQueryWithMultipleLineCommentsInsert,THIRD java.sql.Connection.prepareStatement(String),0
+PQImpsTest,testQueryWithMultipleLineCommentsInsert,TEST com.microsoft.sqlserver.testframework.AbstractSQLGenerator.escapeIdentifier(String),0
+PQImpsTest,testQueryWithMultipleLineCommentsInsert,THIRD GET java.sql.PreparedStatement.getParameterMetaData(),1
+PQImpsTest,testQueryWithMultipleLineCommentsInsert,THIRD GET java.lang.Throwable.getMessage(),2
+PQImpsTest,testQueryWithMultipleLineCommentsInsert,ASSERT org.junit.jupiter.api.Assertions.fail(String),2

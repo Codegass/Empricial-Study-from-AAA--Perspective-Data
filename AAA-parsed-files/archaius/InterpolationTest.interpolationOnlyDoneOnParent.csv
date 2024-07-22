@@ -1,0 +1,17 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.config.MapConfig.builder(),0
+InterpolationTest,interpolationOnlyDoneOnParent,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.config.MapConfig.Builder.build(),0
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.config.MapConfig.builder(),0
+InterpolationTest,interpolationOnlyDoneOnParent,"com.netflix.archaius.config.MapConfig.Builder.put(String, String)",0
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.config.MapConfig.Builder.build(),0
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.config.DefaultCompositeConfig.builder(),0
+InterpolationTest,interpolationOnlyDoneOnParent,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+InterpolationTest,interpolationOnlyDoneOnParent,"com.netflix.archaius.config.DefaultCompositeConfig.Builder.withConfig(String, Config)",0
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.config.DefaultCompositeConfig.Builder.build(),0
+InterpolationTest,interpolationOnlyDoneOnParent,com.netflix.archaius.api.Config.getString(String),1
+InterpolationTest,interpolationOnlyDoneOnParent,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+InterpolationTest,interpolationOnlyDoneOnParent,"com.netflix.archaius.config.AbstractConfig.getString(String, String)",2
+InterpolationTest,interpolationOnlyDoneOnParent,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2
+InterpolationTest,interpolationOnlyDoneOnParent,"com.netflix.archaius.config.AbstractConfig.getString(String, String)",2
+InterpolationTest,interpolationOnlyDoneOnParent,"ASSERT org.junit.jupiter.api.Assertions.assertEquals(Object, Object)",2

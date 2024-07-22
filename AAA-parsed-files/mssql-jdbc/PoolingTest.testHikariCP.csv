@@ -1,0 +1,11 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+PoolingTest,testHikariCP,NEW com.zaxxer.hikari.HikariConfig(),0
+PoolingTest,testHikariCP,THIRD SET com.zaxxer.hikari.HikariConfig.setJdbcUrl(String),0
+PoolingTest,testHikariCP,NEW com.zaxxer.hikari.HikariDataSource(HikariConfig),0
+PoolingTest,testHikariCP,TEST com.microsoft.sqlserver.jdbc.connection.PoolingTest.connect(DataSource),0
+PoolingTest,testHikariCP,     THIRD GET javax.sql.DataSource.getConnection(),1
+PoolingTest,testHikariCP,     THIRD java.sql.Connection.prepareStatement(String),1
+PoolingTest,testHikariCP,     THIRD java.sql.PreparedStatement.executeQuery(),1
+PoolingTest,testHikariCP,     THIRD java.sql.ResultSet.next(),0
+PoolingTest,testHikariCP,     THIRD java.sql.ResultSet.getString(int),0
+PoolingTest,testHikariCP,THIRD com.zaxxer.hikari.HikariDataSource.close(),0

@@ -1,0 +1,4 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+SQLServerDriverTest,testJDBCCompliant,NEW com.microsoft.sqlserver.jdbc.SQLServerDriver(),0
+SQLServerDriverTest,testJDBCCompliant,com.microsoft.sqlserver.jdbc.SQLServerDriver.jdbcCompliant(),1
+SQLServerDriverTest.testJDBCCompliant,testJDBCCompliant,ASSERT assert,2

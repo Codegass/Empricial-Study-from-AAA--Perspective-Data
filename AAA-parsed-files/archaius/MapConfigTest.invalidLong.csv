@@ -1,0 +1,3 @@
+testClassName,testMethodName,potentialTargetQualifiedName,AAA
+MapConfigTest,invalidLong,"ASSERT org.junit.jupiter.api.Assertions.assertThrows(Class<ParseException>, Executable)",1
+MapConfigTest,invalidLong,com.netflix.archaius.config.AbstractConfig.getLong(String),2
