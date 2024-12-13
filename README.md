@@ -1,7 +1,11 @@
 # Unit Test Empirical Study from AAA Perspective
 
+This repository contains the research data and analysis for our paper:
+
+**"How Do Developers Structure Unit Test Cases? An Empirical Analysis of the AAA Pattern in Open Source Projects"**
+
 ## Project Overview
-This repository contains the research data for our empirical study on unit testing practices, analyzed from the Arrange-Act-Assert (AAA) perspective. We examined 735 real-world unit test cases from seven open-source Java projects, investigating adherence to the AAA pattern, common deviations, and design issues within the A blocks.
+This repository contains the related research data for our empirical study on unit testing practices, analyzed from the Arrange-Act-Assert (AAA) perspective. We examined 735 real-world unit test cases from seven open-source Java projects, investigating adherence to the AAA pattern, common deviations, and design issues within the A blocks.
 
 Our study utilized a custom parser for AAA analysis and the JNose tool for detecting test smells. We then conducted a comparative analysis between the AAA problems identified through our approach and the test smells detected by JNose. This comparison aimed to highlight the unique strengths of AAA analysis in identifying root causes of issues in test design and guiding necessary improvements.
 
@@ -58,7 +62,8 @@ Our study approach involved four key steps:
 1. Inspection and AAA Tagging:
    - Manually tagged statements in each test case as Arrange, Act, or Assert.
    - Used a custom Java parser based on Eclipse JDT to generate tag-sheets.
-   - Two independent taggers performed the analysis, with cross-validation and group discussions for disagreements.
+   - Three independent taggers performed the analysis, with cross-validation and group discussions for disagreements.
+   - Detailed tagging guidelines are available in `AAA-parsed-files/Tagging-Guide.md`. It is drafted by the first tagger and reviewed in the group disscussions. The second and third taggers used the guidelines to tag the test cases. They didn't attend the group discussions.
 
 2. AAA Structure Examination:
    - Used regex matching to identify test cases following the AAA pattern.
@@ -77,6 +82,33 @@ Our study approach involved four key steps:
    - Collected and analyzed developer feedback on the proposed improvements.
 
 This methodology allowed us to comprehensively analyze the AAA structure in real-world test cases, compare it with classic test smell detection, and validate the practical value of our findings through developer feedback.
+
+## Unit Testing Culture Survey
+
+As part of our research discussed in Section III of our paper, we conducted a comprehensive survey to understand the unit testing culture within the open-source software (OSS) community. The survey results are available in `Unit Testing Culture Survey.csv`.
+
+The survey was structured into five key sections:
+
+1. **General Information** (Q1-Q3)
+   - Developer background and experience in software development
+
+2. **Unit Testing Experience** (Q4-Q10)
+   - Personal practices and experiences with unit testing
+   - Common challenges and approaches
+
+3. **Unit Testing Framework** (Q11-Q22)
+   - Usage and familiarity with Java testing frameworks (JUnit, TestNG)
+   - Framework preferences and reasoning
+
+4. **Testing Culture in Projects** (Q23-Q31)
+   - Insights into OSS project testing practices
+   - Team dynamics and testing requirements
+
+5. **AAA Theory** (Q32-Q35)
+   - Understanding and application of the Arrange-Act-Assert pattern
+   - Implementation challenges and best practices
+
+The survey was designed to take approximately 15 minutes to complete, focusing on gathering detailed insights about testing practices and challenges in the OSS community.
 
 ## Results
 Detailed results and analysis of the study can be found in the `Overall Data with Tagging Results.xlsx` file. This file contains our data analysis process and the final research outcomes.
